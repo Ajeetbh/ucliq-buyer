@@ -2,12 +2,12 @@ import React from "react";
 import { Carousel } from "react-bootstrap";
 import "../style/secondsection.css";
 
-const Service = () => {
+const FourthSection = () => {
   return (
     <>
       <div className="container">
         <div>
-          <h1>10000+ Buyers/ 5000+ sellers</h1>
+          <h1>Become a Seller/Buyer</h1>
         </div>
         <div>
           <div className="container-fluid">
@@ -52,4 +52,4 @@ const Service = () => {
   );
 };
 
-export default Service;
+export default FourthSection;
