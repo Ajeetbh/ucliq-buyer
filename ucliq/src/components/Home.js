@@ -1,23 +1,38 @@
-import React from 'react'
-import image from '../images/rbbanner2.webp'
-import '../style/home.css'
+import React from "react";
+import About from "./About";
+import Contact from "./Contact";
+import Footer from "./Footer";
+import Header from "./Header";
+import SectionSecond from "./SectionSecond";
+import Service from "./Service";
+// import image from "../images/rbbanner2.webp";
+// import "../style/home.css";
 
 const Home = () => {
   return (
-    <div className='home'>
-      <div className='homeInfo'>
-        <h1>Discover, connect and transact with top quality food suppliers in your area.</h1>
-        <p>Introducing Redbasil's digital marketplace for restaurants and hotels. Get started now by downloading the marketplace app.</p>
-        <div className='button'>
-            <span>Download Android App</span>
-            <span>Download iPhone App</span>
-        </div>
-      </div>
-      <div className='homeImage'>
-        <img src={image} alt="image1"/>
-      </div>
-    </div>
-  )
-}
+    <>
+      {/* section one */}
+      <section>
+        <Header />
+      </section>
+      <section>
+        <SectionSecond />
+      </section>
+      <section>
+        <Service />
+      </section>
+      <section>
+        <About />
+      </section>
+      <section>
+        <Contact />
+      </section>
 
-export default Home
+      <section>
+        <Footer />
+      </section>
+    </>
+  );
+};
+
+export default Home;

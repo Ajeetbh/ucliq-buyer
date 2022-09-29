@@ -22,14 +22,14 @@ function Navbar() {
             <span class="navbar-toggler-icon"></span>
           </button>
 
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div class="collapse  navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
               <Link to="/" class="nav-link">
                 Home
               </Link>
 
               <Link to="/service" class="nav-link">
-                What we do
+                services
               </Link>
               <Link to="/about" class="nav-link">
                 About Us
