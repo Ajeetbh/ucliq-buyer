@@ -5,6 +5,7 @@ import Service from "./components/Service";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Career from "./components/Career";
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
-            
+            <Route path="/career" element={<Career />} />
           </Routes>
         </BrowserRouter>
       </div>

@@ -26,7 +26,7 @@ const Home = () => {
       <section>
         <Header />
       </section>
-      <section style={style}>
+      <section style={{ margin: "80px 0px" }}>
         <SectionSecond />
       </section>
 

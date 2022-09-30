@@ -31,6 +31,9 @@ function Navbar() {
               <Link to="/#Service-section" class="nav-link">
                 services
               </Link>
+              <Link to="/career" class="nav-link">
+                Career
+              </Link>
               <Link to="/about" class="nav-link">
                 About Us
               </Link>
