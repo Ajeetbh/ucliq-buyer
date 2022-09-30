@@ -1,0 +1,16 @@
+.footer h3 {
+  margin-top: 40px;
+  color: white;
+  text-decoration: underline;
+}
+.footer a {
+  padding: 50px;
+  color: white;
+  font-size: 18px;
+}
+.footer p {
+  margin-left: 550px;
+  font-size: 13px;
+  color: white;
+  padding-top: 12px;
+}
