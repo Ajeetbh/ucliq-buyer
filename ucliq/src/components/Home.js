@@ -18,7 +18,7 @@ const Home = () => {
   const style2 = {
     width: "100%",
     background: "#e74c3c",
-    height: "30rem",
+    height: "476px",
   };
   return (
     <>
@@ -30,7 +30,7 @@ const Home = () => {
         <SectionSecond />
       </section>
 
-      <section style={style}>
+      <section style={style} id={"Service-section"}>
         <Service />
       </section>
 

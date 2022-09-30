@@ -28,7 +28,7 @@ function Navbar() {
                 Home
               </Link>
 
-              <Link to="/service" class="nav-link">
+              <Link to="/#Service-section" class="nav-link">
                 services
               </Link>
               <Link to="/about" class="nav-link">

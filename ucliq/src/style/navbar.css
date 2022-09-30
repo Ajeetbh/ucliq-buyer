@@ -8,4 +8,6 @@
   color: white !important;
 }
 
-
+.nav-link:hover {
+  color: yellow !important;
+}

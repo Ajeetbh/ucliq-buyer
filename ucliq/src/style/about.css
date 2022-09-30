@@ -1,0 +1,13 @@
+h1 {
+  margin-top: 50px;
+  font-weight: 700;
+}
+p {
+  margin-left: 150px;
+  margin-right: 80px;
+  text-align: left;
+  font-size: 19px;
+}
+.about span {
+  margin-left: 20px;
+}

@@ -22,7 +22,7 @@ const SectionSecond = () => {
                   <Carousel.Item>
                     <img
                       className="d-block w-100"
-                      src="https://res.cloudinary.com/antrix/image/upload/v1661222560/paneer_tikka_burger_p1aqem.jpg"
+                      src="https://res.cloudinary.com/antrix/image/upload/v1664474527/48bd89_4cb8201fa4a844459245a03c0d10848e_mv2_h3gcdl.webp"
                       alt="First slide"
                     />
                   </Carousel.Item>
@@ -30,7 +30,7 @@ const SectionSecond = () => {
                   <Carousel.Item>
                     <img
                       className="d-block w-100"
-                      src="https://res.cloudinary.com/antrix/image/upload/v1661222560/paneer_tikka_burger_p1aqem.jpg"
+                      src="https://res.cloudinary.com/antrix/image/upload/v1664474527/48bd89_4cb8201fa4a844459245a03c0d10848e_mv2_h3gcdl.webp"
                       alt="Second slide"
                     />
                   </Carousel.Item>
@@ -38,7 +38,7 @@ const SectionSecond = () => {
                   <Carousel.Item>
                     <img
                       className="d-block w-100"
-                      src="https://res.cloudinary.com/antrix/image/upload/v1661222560/paneer_tikka_burger_p1aqem.jpg"
+                      src="https://res.cloudinary.com/antrix/image/upload/v1664474527/48bd89_4cb8201fa4a844459245a03c0d10848e_mv2_h3gcdl.webp"
                       alt="Third slide"
                     />
                   </Carousel.Item>
