@@ -1,12 +1,12 @@
 import React from "react";
-import About from "./About";
+//import About from "./About";
 import Contact from "./Contact";
 import FifthSection from "./FifthSection";
 import Footer from "./Footer";
 import FourthSection from "./FourthSection";
 import Header from "./Header";
 import SectionSecond from "./SectionSecond";
-import Service from "./Service";
+//import Service from "./Service";
 import SixthSection from "./SixthSection";
 // import image from "../images/rbbanner2.webp";
 import "../style/home.css";

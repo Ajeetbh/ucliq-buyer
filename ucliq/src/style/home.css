@@ -16,6 +16,7 @@
 
 .homeInfo p {
   font-size: 25px;
+  margin-left: 10px;
 }
 .buttondiv {
   display: flex;
@@ -30,4 +31,9 @@
 
 .sixthback {
   background-image: url("https://res.cloudinary.com/antrix/image/upload/v1664473846/48bd89_47c6044f0bdb4b18ad6bd67f7aee1a44_mv2_d2rjkn.webp");
+}
+
+.logo{
+  border-radius: 100px;
+  margin-left: 50px;
 }

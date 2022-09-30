@@ -1,15 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../style/navbar.css";
+import logo from '../images/logo.webp'
 
 function Navbar() {
   return (
     <>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="/">
-            Redbasil
-          </a>
+          <img src={logo} alt="logo" className="logo"/>
           <button
             className="navbar-toggler"
             type="button"
@@ -29,7 +28,7 @@ function Navbar() {
               </Link>
 
               <Link to="/#Service-section" class="nav-link">
-                services
+                Services
               </Link>
               <Link to="/career" class="nav-link">
                 Career

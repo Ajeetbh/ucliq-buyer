@@ -54,7 +54,8 @@ function Contact() {
             }}
           >
             <h1> Contact Us </h1>
-            <input
+          <div className="contactt-1">
+          <input
               type="text"
               value={name}
               placeholder="Name"
@@ -72,6 +73,8 @@ function Contact() {
                 handleEmailChange(e);
               }}
             />
+          </div>
+            
             <br />
             <br />
             <input
