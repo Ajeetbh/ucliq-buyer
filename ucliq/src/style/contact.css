@@ -33,3 +33,7 @@ textarea {
   text-align: center;
   width: 100%;
 }
+
+.contactform1 {
+  display: flex;
+}
