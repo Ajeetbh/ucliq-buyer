@@ -54,6 +54,7 @@ function Contact() {
             }}
           >
             <h1> Contact Us </h1>
+<<<<<<< HEAD
           <div className="contactt-1">
           <input
               type="text"
@@ -75,26 +76,52 @@ function Contact() {
             />
           </div>
             
+=======
+            <div className="contactform1">
+              <input
+                type="text"
+                value={name}
+                placeholder="Name"
+                required
+                onChange={(e) => {
+                  handleChange(e);
+                }}
+                style={{ width: "290px", margin: "0 150px 0 0" }}
+              />
+              <input
+                type="email"
+                placeholder="Email"
+                value={email}
+                required
+                onChange={(e) => {
+                  handleEmailChange(e);
+                }}
+              />
+            </div>
+>>>>>>> c08221d910e60999fad626fd0794e1dda45a01b1
             <br />
             <br />
-            <input
-              type="text"
-              placeholder="Phone"
-              value={mobile}
-              required
-              onChange={(e) => {
-                handleMobileChange(e);
-              }}
-            />
-            <input
-              type="text"
-              placeholder="Supplier/Restaurant"
-              value={supplier}
-              required
-              onChange={(e) => {
-                handleSupplierChange(e);
-              }}
-            />
+            <div className="contactform1">
+              <input
+                type="text"
+                placeholder="Phone"
+                value={mobile}
+                required
+                onChange={(e) => {
+                  handleMobileChange(e);
+                }}
+                style={{ width: "290px", margin: "0 150px 0 0" }}
+              />
+              <input
+                type="text"
+                placeholder="Supplier/Restaurant"
+                value={supplier}
+                required
+                onChange={(e) => {
+                  handleSupplierChange(e);
+                }}
+              />
+            </div>
             <br />
             <br />
             <input
