@@ -54,46 +54,53 @@ function Contact() {
             }}
           >
             <h1> Contact Us </h1>
-            <input
-              type="text"
-              value={name}
-              placeholder="Name"
-              required
-              onChange={(e) => {
-                handleChange(e);
-              }}
-            />
-            <input
-              type="email"
-              placeholder="Email"
-              value={email}
-              required
-              onChange={(e) => {
-                handleEmailChange(e);
-              }}
-            />
+            <div className="contactform1">
+              <input
+                type="text"
+                value={name}
+                placeholder="Name"
+                required
+                onChange={(e) => {
+                  handleChange(e);
+                }}
+                style={{ width: "290px", margin: "0 150px 0 0" }}
+              />
+              <input
+                type="email"
+                placeholder="Email"
+                value={email}
+                required
+                onChange={(e) => {
+                  handleEmailChange(e);
+                }}
+              />
+            </div>
             <br />
             <br />
-            <input
-              type="text"
-              placeholder="Phone"
-              value={mobile}
-              required
-              onChange={(e) => {
-                handleMobileChange(e);
-              }}
-            />
-            <input
-              type="text"
-              placeholder="Supplier/Restaurant"
-              value={supplier}
-              required
-              onChange={(e) => {
-                handleSupplierChange(e);
-              }}
-            />
+            <div className="contactform1">
+              <input
+                type="text"
+                placeholder="Phone"
+                value={mobile}
+                required
+                onChange={(e) => {
+                  handleMobileChange(e);
+                }}
+                style={{ width: "290px", margin: "0 150px 0 0" }}
+              />
+              <input
+                type="text"
+                placeholder="Supplier/Restaurant"
+                value={supplier}
+                required
+                onChange={(e) => {
+                  handleSupplierChange(e);
+                }}
+              />
+            </div>
             <br />
             <br />
+
             <input
               className="subject"
               type="text"
