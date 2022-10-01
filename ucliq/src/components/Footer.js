@@ -4,19 +4,37 @@ import "../style/footer.css";
 
 const Footer = () => {
   return (
-    <div className="container-fluid footer">
-      <div className="row">
-        <div className="col-md-12">
-          <h3 style={{ color: "white", fontWeight: "bold" }}>Company</h3>
-          <Link to="/about">About Us</Link>
-          <Link to="">Careers</Link>
-          <Link to="">Our Story</Link>
-          <hr style={{ color: "white", fontWeight: "bold" }} />
-          <span style={{ color: "white", padding: "2px" }}>
-            <Link to="">Terms of Use</Link> and{" "}
-            <Link to="">Privacy Policy</Link>
-          </span>
-          <p>©2022 by Ucliq Technologies Pvt. Ltd.</p>
+    <div className="container-fluid">
+      <div className="conainer">
+        <div className="row">
+          <div className="col-md-4 footer">
+            <div className="company">
+              <h4>Company</h4>
+              <Link to="/about">About Us</Link>
+              <Link to="/buy-sell">Buy/Sell</Link>
+              <Link to="/career">Career</Link>
+              <Link to="/contact">Contact</Link>
+            </div>
+            <div className="resource">
+              <h4>Resource</h4>
+              <li>Blog</li>
+              <li>FAQ</li>
+              <li>Media</li>
+              <li>Reach Us</li>
+            </div>
+            <div className="connect-with">
+              <h4>Connect with us</h4>
+              <div className="icon">
+              <i class="fa fa-facebook-f" style={{fontSize:'30px',color:'rgb(89, 207, 89)'}}></i>
+              <i class="fa fa-linkedin" style={{fontSize:'30px',color:'rgb(89, 207, 89)'}}></i>
+              <i class="fa fa-instagram" style={{fontSize:'30px',color:'rgb(89, 207, 89)'}}></i>
+              <i class="fa fa-twitter" style={{fontSize:'30px',color:'rgb(89, 207, 89)'}}></i> 
+              </div>
+            </div>
+          </div>
+          <div className="footer-bottom">
+            <p>Privacy Policy | Terms of Use | Refund Policy | © 2022 Ucliq Private Limited</p>
+          </div>
         </div>
       </div>
     </div>

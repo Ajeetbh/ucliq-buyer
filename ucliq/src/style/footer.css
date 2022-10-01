@@ -1,16 +1,39 @@
-.footer h3 {
-  margin-top: 40px;
+.footer{
+  display: flex;
+  flex-direction: row;
   color: white;
-  text-decoration: underline;
+}
+.footer h4{
+  margin-left: 200px;
+  margin-bottom: 20px;
+  padding-top: 20px;
 }
 .footer a {
-  padding: 50px;
+  display: flex;
+  flex-direction: column;
   color: white;
   font-size: 18px;
+  margin-left: 200px;
+  padding: 5px;
 }
-.footer p {
-  margin-left: 550px;
-  font-size: 13px;
-  color: white;
-  padding-top: 12px;
+
+.resource{
+  margin-left: 70px;
+}
+.resource li{
+ list-style: none;
+  margin-left: 200px;
+  text-align: left;
+  padding: 5px;
+}
+
+.connect-with .icon .fa{
+  display: inline;
+  margin-left: 90px;
+}
+
+.footer-bottom p{
+  text-align: center;
+  justify-content: center;
+  font-size: 15px;
 }

@@ -30,6 +30,9 @@ function Navbar() {
               <Link to="/#Service-section" class="nav-link">
                 Services
               </Link>
+              <Link to="/buy-sell" class="nav-link">
+                Buy/Sell
+              </Link>
               <Link to="/career" class="nav-link">
                 Career
               </Link>

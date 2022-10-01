@@ -6,6 +6,7 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Career from "./components/Career";
+import BuySell from "./components/BuySell";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/career" element={<Career />} />
             <Route path="/contact" element={<Contact />}/>
+            <Route path="/buy-sell" element={<BuySell/>}/>
           </Routes>
         </BrowserRouter>
       </div>

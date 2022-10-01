@@ -11,6 +11,7 @@ import SixthSection from "./SixthSection";
 // import image from "../images/rbbanner2.webp";
 import "../style/home.css";
 
+
 const Home = () => {
   const style = {
     margin: "220px",
