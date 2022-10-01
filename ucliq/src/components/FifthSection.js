@@ -10,7 +10,6 @@ const FifthSection = () => {
             <h1 className="fifthheading">
               All your enquiries, leads and contracts in one place
             </h1>
-
             <img
               src="https://res.cloudinary.com/antrix/image/upload/v1664470785/bd24_paota0.webp"
               alt=""
@@ -22,5 +21,4 @@ const FifthSection = () => {
     </>
   );
 };
-
 export default FifthSection;
