@@ -24,16 +24,16 @@
 }
 
 .btn-danger {
-  background-color: #e74c3c !important;
+  background-color: #d63a46 !important;
   width: 16rem;
   border-radius: 20px;
 }
 
 .sixthback {
-  background-image: url("https://res.cloudinary.com/antrix/image/upload/v1664473846/48bd89_47c6044f0bdb4b18ad6bd67f7aee1a44_mv2_d2rjkn.webp");
+  background-image: url("https://media.giphy.com/media/2SYJkYQh0k9aM/giphy.gif");
 }
 
-.logo{
+.logo {
   border-radius: 100px;
   margin-left: 50px;
 }

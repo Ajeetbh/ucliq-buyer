@@ -11,14 +11,13 @@ import SixthSection from "./SixthSection";
 // import image from "../images/rbbanner2.webp";
 import "../style/home.css";
 
-
 const Home = () => {
   const style = {
     margin: "220px",
   };
   const style2 = {
     width: "100%",
-    background: "#e74c3c",
+    // background: "#e74c3c",
     height: "476px",
   };
 

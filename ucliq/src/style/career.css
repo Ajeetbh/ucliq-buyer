@@ -1,74 +1,81 @@
-.career{
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
+.career {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 }
- .careerInfo{
-    position: absolute;
-    text-align: left;
-    justify-content: center;
-    margin-right: 800px;
-    margin-top: 100px;
+/* .careerInfo {
+  position: absolute;
+  text-align: left;
+  justify-content: center;
+  margin-right: 800px;
+  margin-top: 100px;
+} */
+.careerInfo h2 {
+  font-weight: 800;
+  margin-bottom: 50px;
 }
- .careerInfo h2{
-    font-weight: 800;
-    margin-bottom: 50px;
+.careerInfo p {
+  margin-bottom: 60px;
+  margin-left: 5px;
+  font-family: "Poppins", sans-serif;
 }
-.careerInfo p{
-    margin-bottom: 60px;
-    margin-left: 5px;
-    font-family: "Poppins", sans-serif;
-} 
-.careerImage{
-    margin-left: 80px;
-    margin-top: 50px;
+.careerImage {
+  margin-left: 80px;
+  margin-top: 50px;
 }
-.careerInfo span{
-    width: 25px;
-    height: 20px;
-    background-color:rgb(231, 38, 38);
-    color: white;
-    padding: 15px;
-    font-size: 15px;
-    margin-bottom: 4px;
-    cursor: pointer;
-    border-radius: 8px;
-} 
-
- .info{
-    align-items: center;
-    justify-content: center;
-    margin: 100px;
-}
-.info h1{
-    font-weight: 800;
-}
-.info p{
-    color: grey;
-    font-size: 20px;
-}
-.info span{
-    font-weight: 600;
-    color: rgb(53, 172, 53);
+.careerInfo button {
+  width: 27rem;
+  height: 57px;
+  background-color: #d63a46;
+  color: white;
+  padding: 15px;
+  font-size: 15px;
+  /* margin-bottom: 4px; */
+  cursor: pointer;
+  border-radius: 20px;
+  border: none;
 }
 
-.info1{
-    background-color: rgb(233, 224, 224);
-    text-align: left;
-    height: 300px;
-    padding-top: 10px;
+.info {
+  align-items: center;
+  justify-content: center;
+  margin: 100px;
 }
-.info1 h1{
-    margin-left: 150px;
-    font-weight: 800;
+.info h1 {
+  font-weight: 800;
 }
-.info1 p{
-    margin-left: 150px;
-    margin-right: 80px;
-    padding-bottom: 50px;
-    color: gray;
+.info p {
+  color: grey;
+  font-size: 20px;
 }
-.info1 span{
-    color: rgb(53, 172, 53);
-    cursor: pointer;
-} 
+.info span {
+  font-weight: 600;
+  color: rgb(53, 172, 53);
+}
+
+.info1 {
+  background-color: rgb(233, 224, 224);
+  text-align: left;
+  height: 300px;
+  padding-top: 10px;
+}
+.info1 h1 {
+  margin-left: 150px;
+  font-weight: 800;
+}
+.info1 p {
+  margin-left: 150px;
+  margin-right: 80px;
+  padding-bottom: 50px;
+  color: gray;
+}
+.info1 span {
+  color: rgb(53, 172, 53);
+  cursor: pointer;
+}
+
+h2,
+p {
+  text-align: left;
+  align-items: left;
+}
