@@ -1,18 +1,24 @@
 .bg-light {
-  background-color: #d63a46 !important;
+  background-color: rgb(23, 23, 10) !important;
   color: white !important;
 }
 
 .nav-link,
 .navbar-brand {
-  color: white !important;
+  color: red !important;
 }
 
 .nav-link:hover {
   color: yellow !important;
+  background-color: red;
 }
 
 .logo {
-  width: 80px;
-  height: 80px;
+  width: 227px;
+  height: 172px;
+  margin-top: -5rem;
+}
+
+.navbar {
+  background-color: yellow !important;
 }

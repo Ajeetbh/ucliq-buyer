@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
-    <div className="container-fluid">
+    <div className="container">
       <div className="headdiv">
         {/* <div className="homeInfo">
           <h1>

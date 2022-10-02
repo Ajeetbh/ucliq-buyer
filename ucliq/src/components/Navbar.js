@@ -7,9 +7,13 @@ function Navbar() {
   return (
     <>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <Link to="/" class="nav-link">
-            <img src={logo} alt="logo" className="logo" />
+        <div class="container-fluid navbar">
+          <Link to="/" class="nav-link1">
+            <img
+              src="https://res.cloudinary.com/antrix/image/upload/v1664728201/logo.c207ae01_jcxdfk.png"
+              alt="logo"
+              className="logo"
+            />
           </Link>
 
           <button

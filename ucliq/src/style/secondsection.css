@@ -18,8 +18,10 @@
 } */
 
 .fifth-two {
-  background-image: url("https://media.giphy.com/media/l4KhLYSGRpDGUUxnG/giphy.gif");
-  filter: brightness(1);
+  /* background-image: url("https://media.giphy.com/media/l4KhLYSGRpDGUUxnG/giphy.gif");
+  filter: brightness(1); */
+  background-color: yellow;
+  height: 13rem;
 }
 
 .fifthsecimage {
