@@ -24,16 +24,52 @@
 }
 
 .btn-danger {
-  background-color: #d63a46 !important;
+  background-color: #fb0603 !important;
   width: 16rem;
   border-radius: 20px;
 }
 
 .sixthback {
-  background-image: url("https://media.giphy.com/media/2SYJkYQh0k9aM/giphy.gif");
+  background-color: #fef200;
 }
 
 .logo {
   border-radius: 100px;
   margin-left: 50px;
+}
+.headBtn {
+  float: left;
+  position: absolute;
+  left: 181px;
+  top: 560px;
+  z-index: 1000;
+  padding: 13px;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.headBtn1 {
+  float: left;
+  position: absolute;
+  left: 175px;
+  top: 614px;
+  z-index: 1000;
+  padding: 20px;
+  color: #ffffff;
+  font-weight: bold;
+  background-color: white !important;
+  border: none;
+}
+
+.nav-link-head {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-link-head:hover {
+  color: yellow !important;
+}
+
+.homeImage {
+  box-shadow: 1px 30px 41px 15px rgb(0 0 0 / 20%);
 }

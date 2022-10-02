@@ -1,14 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../style/navbar.css";
-import logo from '../images/logo.webp'
+import logo from "../images/logo.webp";
 
 function Navbar() {
   return (
     <>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <img src={logo} alt="logo" className="logo"/>
+          <Link to="/" class="nav-link">
+            <img src={logo} alt="logo" className="logo" />
+          </Link>
+
           <button
             className="navbar-toggler"
             type="button"

@@ -188,7 +188,7 @@ const FourthSection = () => {
                   <Carousel.Item>
                     <img
                       className="d-block w-100"
-                      src="https://res.cloudinary.com/antrix/image/upload/v1664474527/48bd89_4cb8201fa4a844459245a03c0d10848e_mv2_h3gcdl.webp"
+                      src="https://res.cloudinary.com/antrix/image/upload/v1664705659/WhatsApp_Image_2022-10-02_at_15.41.33_lcxldl.jpg"
                       alt="Second slide"
                     />
                   </Carousel.Item>

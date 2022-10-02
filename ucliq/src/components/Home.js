@@ -11,6 +11,8 @@ import SixthSection from "./SixthSection";
 // import image from "../images/rbbanner2.webp";
 import "../style/home.css";
 import BuyerSeller from "./BuyerSeller";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Home = () => {
   const style = {
@@ -33,9 +35,9 @@ const Home = () => {
       <section>
         <Header />
       </section>
-      <section style={{ margin: "80px 0px" }}>
+      {/* <section style={{ margin: "80px 0px" }}>
         <SectionSecond />
-      </section>
+      </section> */}
       {/* <section style={style} id={"Service-section"}>
         <Service />
       </section> */}
