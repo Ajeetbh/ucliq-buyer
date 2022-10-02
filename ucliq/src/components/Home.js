@@ -10,6 +10,7 @@ import SectionSecond from "./SectionSecond";
 import SixthSection from "./SixthSection";
 // import image from "../images/rbbanner2.webp";
 import "../style/home.css";
+import BuyerSeller from "./BuyerSeller";
 
 const Home = () => {
   const style = {
@@ -43,7 +44,7 @@ const Home = () => {
       </section>
       {/* buyer seller */}
       <section style={style}>
-        <FourthSection />
+        <BuyerSeller />
       </section>
       <section className="sixthback">
         <SixthSection />

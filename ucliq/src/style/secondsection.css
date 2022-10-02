@@ -4,12 +4,12 @@
 }
 
 .fifthheading {
-  color: black;
+  color: #080707;
   padding-top: 1px;
   margin-bottom: -44px;
   text-align: center;
   line-height: 8rem;
-  text-shadow: 3px 3px 27px #fff;
+  text-shadow: 1px 0px 24px black;
 }
 
 /* .sixth-two {
@@ -18,8 +18,8 @@
 } */
 
 .fifth-two {
-  background-image: url("https://media.giphy.com/media/Qw4X3Fnau9qPKrb8TcI/giphy.gif");
-  filter: brightness(8);
+  background-image: url("https://media.giphy.com/media/l4KhLYSGRpDGUUxnG/giphy.gif");
+  filter: brightness(1);
 }
 
 .fifthsecimage {

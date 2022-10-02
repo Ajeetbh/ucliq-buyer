@@ -18,8 +18,8 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
             <Route path="/career" element={<Career />} />
-            <Route path="/contact" element={<Contact />}/>
-            <Route path="/buy-sell" element={<BuySell/>}/>
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/buy-sell" element={<BuySell />} />
           </Routes>
         </BrowserRouter>
       </div>
