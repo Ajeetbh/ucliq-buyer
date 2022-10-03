@@ -14,11 +14,11 @@
 }
 
 .logo {
-  width: 227px;
-  height: 172px;
-  margin-top: -5rem;
+  width: 150px;
+  height: 150px;
+  margin-top: -5rem; 
 }
 
 .navbar {
-  background-color: red !important;
+  background-color:red !important;
 }

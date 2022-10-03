@@ -4,12 +4,17 @@
 }
 
 .fifthheading {
-  color: #080707;
+  color: white;
   padding-top: 1px;
   margin-bottom: -44px;
   text-align: center;
   line-height: 8rem;
+  font-weight: 700;
   text-shadow: 1px 0px 24px black;
+}
+
+.fifthheading p{
+  margin-top:5px;
 }
 
 /* .sixth-two {
@@ -18,13 +23,61 @@
 } */
 
 .fifth-two {
-  /* background-image: url("https://media.giphy.com/media/l4KhLYSGRpDGUUxnG/giphy.gif");
-  filter: brightness(1); */
-  background-color: yellow;
+  color: white;
   height: 13rem;
+  background-color: red;
+  text-align: center;
 }
-
+.fifth-two p{
+  text-align: center;
+  font-weight: 700;
+}
 .fifthsecimage {
   box-shadow: 2px 6px 29px 14px rgb(0 0 0 / 20%);
   border-radius: 20px;
+}
+
+
+.buyer{
+  background-color: yellow;
+}
+.buyerheader h1{
+  color: red;
+  text-align: center;
+  font-weight: 800;
+  font-size: 50px;
+}
+.buyerheader p{
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+
+.buyerdetail{
+  display: inline-flex;
+  flex-direction: row;
+  height: 300px;
+  padding: 20px;
+ text-align: center;
+}
+
+.buyerdetail h3{
+  color: red;
+  font-weight: bold;
+}
+
+.detail .icon{
+  width: 100px;
+  height: 100px;
+  border: 1px solid red;
+  align-items: center;
+  border-radius: 100%;
+  background-color: red;
+  margin-left: 150px;
+}
+
+.detail p{
+  text-align: center;
+  padding: 20px;
+  margin: 20px 20px;
 }

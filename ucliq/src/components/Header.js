@@ -1,44 +1,37 @@
-import React from "react";
-import image from "../images/rbbanner2.webp";
-import "../style/home.css";
-import { Link } from "react-router-dom";
+import React from 'react'
+import image from '../images/frontimage.webp'
+import { useNavigate } from 'react-router-dom'
 
 const Header = () => {
+  const navigate=useNavigate()
   return (
-    <div className="container">
-      <div className="headdiv">
-        {/* <div className="homeInfo">
-          <h1>
-            Discover, connect and transact with top quality food suppliers in
-            your area.
-          </h1>
-          <br />
-          <p>
-            Introducing Redbasil's digital marketplace for restaurants and
-            hotels. Get started now by downloading the marketplace app.
-          </p>
-          <br />
-          <div className="buttondiv">
-            <button className="btn btn-danger">Download Android App</button>
-            <button className="btn btn-danger">Download iPhone App</button>
+      <div className="container">
+        <div className="row">
+          <div className="header">
+            <div className="col-md-4 headerInfo">
+              <h1 style={{ width: "36rem" }}>
+              Building Digital Mandi of <span>
+                Meat, Fresh Fish, and Seafood.</span>
+              </h1>
+              <p style={{ width: "36rem" }}>
+              UcliQ is a B2B Marketplace for Retail, Restaurants, Hotels and Businesess. 
+              Providing the best services with the help of technology and the supply chain innovation.
+              </p>
+              <div className='span'>
+              <span onClick={()=>navigate('/about')}>About Us</span>
+              </div>
+              
+            </div>
+            <div className="col-md-8 headerImage">
+              <img
+                src={image}
+                alt="careerimage"
+                style={{ height: "30rem" }}
+              />
+            </div>
           </div>
-        </div> */}
-        <div className="homeImage">
-          <div className="btn btn-danger headBtn">
-            <Link to="/about" class="nav-link-head">
-              About Us
-            </Link>
-          </div>
-          <div className="btn btn-danger headBtn1"></div>
-
-          <img
-            src="https://res.cloudinary.com/antrix/image/upload/v1664705659/WhatsApp_Image_2022-10-02_at_15.41.33_lcxldl.jpg"
-            alt="image1"
-          />
         </div>
-      </div>
     </div>
-  );
-};
-
-export default Header;
+  )
+}
+export default Header

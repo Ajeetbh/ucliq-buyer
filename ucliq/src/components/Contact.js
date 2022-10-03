@@ -45,6 +45,7 @@ function Contact() {
     );
   };
   return (
+    <>
     <div classname="container-fluid contact">
       <div className="Signup">
         <header className="Signup-header">
@@ -130,6 +131,7 @@ function Contact() {
         </header>
       </div>
     </div>
+     </>
   );
 }
 export default Contact;

@@ -1,5 +1,7 @@
 .container-fluid {
   background-color: #fb0603;
+  position: relative;
+  bottom: 0;
 }
 
 .footer {

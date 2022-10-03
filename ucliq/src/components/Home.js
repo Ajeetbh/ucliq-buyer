@@ -3,16 +3,16 @@ import React from "react";
 import Contact from "./Contact";
 import FifthSection from "./FifthSection";
 import Footer from "./Footer";
-import FourthSection from "./FourthSection";
+//import FourthSection from "./FourthSection";
 import Header from "./Header";
-import SectionSecond from "./SectionSecond";
+//import SectionSecond from "./SectionSecond";
 //import Service from "./Service";
 import SixthSection from "./SixthSection";
 // import image from "../images/rbbanner2.webp";
 import "../style/home.css";
 import BuyerSeller from "./BuyerSeller";
-import AOS from "aos";
-import "aos/dist/aos.css";
+// import AOS from "aos";
+// import "aos/dist/aos.css";
 
 const Home = () => {
   const style = {

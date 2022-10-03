@@ -1,75 +1,45 @@
-.headdiv {
-  display: flex;
-  justify-content: space-evenly;
+.header {
+  display: inline-block;
   align-items: center;
+  justify-content: space-around;
+  background-color: yellow;
 }
-.homeInfo {
-  width: 35rem;
+.headerInfo {
+  position: absolute;
   text-align: left;
+  justify-content: center;
+  margin-right: 800px;
+  margin-top: 40px;
+} 
+.headerInfo h1 {
+  font-weight: 800;
+  margin-bottom: 50px;
   font-family: "Poppins", sans-serif;
 }
+.headerInfo span{
+  color: red;
+}
 
-.homeInfo h1 {
-  font-size: 50px;
+.headerInfo p {
+  margin-bottom: 60px;
+  margin-left: 5px;
+  font-family: "Poppins", sans-serif;
+  word-spacing: 5px;
   font-weight: bold;
 }
-
-.homeInfo p {
-  font-size: 25px;
-  margin-left: 10px;
+.headerImage {
+  margin-left: 455px;
+  margin-top: 50px;
 }
-.buttondiv {
-  display: flex;
-  justify-content: space-around;
-}
-
-.btn-danger {
-  background-color: #fb0603 !important;
-  width: 16rem;
-  border-radius: 20px;
-}
-
-.sixthback {
-  background-color: #fef200;
-}
-
-.logo {
-  border-radius: 100px;
-  margin-left: 50px;
-}
-.headBtn {
-  float: left;
-  position: absolute;
-  left: 181px;
-  top: 570px;
-  z-index: 1000;
-  padding: 13px;
-  color: #ffffff;
-  font-weight: bold;
-}
-
-.headBtn1 {
-  float: left;
-  position: absolute;
-  left: 175px;
-  top: 629px;
-  z-index: 1000;
-  padding: 20px;
-  color: #ffffff;
-  font-weight: bold;
-  background-color: white !important;
+.headerInfo .span span{
+  width: 350px;
+  height: 57px;
+  background-color: #fb0603;
+  color: white;
+  padding: 15px;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 15px;
   border: none;
 }
 
-.nav-link-head {
-  text-decoration: none;
-  color: white;
-}
-
-.nav-link-head:hover {
-  color: yellow !important;
-}
-
-.homeImage {
-  box-shadow: 1px 30px 41px 15px rgb(0 0 0 / 20%);
-}

@@ -1,12 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../style/navbar.css";
-import logo from "../images/logo.webp";
+//import logo from "../images/logo6.jpg";
 
 function Navbar() {
   return (
     <>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid navbar">
           <Link to="/" class="nav-link1">
             <img
