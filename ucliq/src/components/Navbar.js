@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../style/navbar.css";
-//import logo from "../images/logo6.jpg";
+import logo from "../images/logo6.jpg";
 
 function Navbar() {
   return (
@@ -9,11 +9,7 @@ function Navbar() {
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid navbar">
           <Link to="/" class="nav-link1">
-            <img
-              src="https://res.cloudinary.com/antrix/image/upload/v1664728201/logo.c207ae01_jcxdfk.png"
-              alt="logo"
-              className="logo"
-            />
+            <img src={logo} alt="logo" className="logo" />
           </Link>
 
           <button

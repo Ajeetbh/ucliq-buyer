@@ -2,7 +2,6 @@
   display: inline-block;
   align-items: center;
   justify-content: space-around;
-  background-color: yellow;
 }
 .headerInfo {
   position: absolute;
@@ -10,13 +9,13 @@
   justify-content: center;
   margin-right: 800px;
   margin-top: 40px;
-} 
+}
 .headerInfo h1 {
   font-weight: 800;
   margin-bottom: 50px;
   font-family: "Poppins", sans-serif;
 }
-.headerInfo span{
+.headerInfo span {
   color: red;
 }
 
@@ -31,7 +30,7 @@
   margin-left: 455px;
   margin-top: 50px;
 }
-.headerInfo .span span{
+.headerInfo .span span {
   width: 350px;
   height: 57px;
   background-color: #fb0603;
@@ -42,4 +41,3 @@
   border-radius: 15px;
   border: none;
 }
-

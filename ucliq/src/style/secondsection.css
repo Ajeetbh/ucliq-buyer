@@ -13,8 +13,8 @@
   text-shadow: 1px 0px 24px black;
 }
 
-.fifthheading p{
-  margin-top:5px;
+.fifthheading p {
+  margin-top: 5px;
 }
 
 /* .sixth-two {
@@ -28,7 +28,7 @@
   background-color: red;
   text-align: center;
 }
-.fifth-two p{
+.fifth-two p {
   text-align: center;
   font-weight: 700;
 }
@@ -37,36 +37,36 @@
   border-radius: 20px;
 }
 
-
-.buyer{
-  background-color: yellow;
+.buyer {
+  background-color: #b2bec3;
 }
-.buyerheader h1{
+.buyerheader h1 {
   color: red;
   text-align: center;
   font-weight: 800;
   font-size: 50px;
 }
-.buyerheader p{
+.buyerheader p {
   text-align: center;
   font-weight: 600;
   margin-bottom: 50px;
 }
 
-.buyerdetail{
+.buyerdetail {
   display: inline-flex;
   flex-direction: row;
   height: 300px;
   padding: 20px;
- text-align: center;
+  text-align: center;
+  background-color: white;
 }
 
-.buyerdetail h3{
+.buyerdetail h3 {
   color: red;
   font-weight: bold;
 }
 
-.detail .icon{
+.detail .icon {
   width: 100px;
   height: 100px;
   border: 1px solid red;
@@ -76,8 +76,17 @@
   margin-left: 150px;
 }
 
-.detail p{
+.detail p {
   text-align: center;
   padding: 20px;
   margin: 20px 20px;
+}
+
+.sixthMain {
+  width: 200rem !important;
+  margin-left: 59px !important;
+}
+
+.registerbuyer {
+  display: flex;
 }
