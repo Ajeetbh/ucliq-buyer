@@ -18,11 +18,14 @@
 }
 .buyInfo p {
   font-weight: bold;
+  font-size: 18px;
+  word-spacing: 5px;
   color: gray;
   font-family: "Poppins", sans-serif;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 10px;
+  margin-right: 80px;
   text-align: center;
+  width: 100%;
 }
 .sell {
   display: flex;

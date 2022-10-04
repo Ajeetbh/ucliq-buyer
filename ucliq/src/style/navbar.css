@@ -1,3 +1,10 @@
+.navbar {
+  background-color:red !important;
+  position: -webkit-sticky; 
+  position: sticky;
+  top: 0;
+}
+
 .bg-light {
   background-color: rgb(23, 23, 10) !important;
   color: white !important;
@@ -9,16 +16,16 @@
 }
 
 .nav-link:hover {
-  color: yellow !important;
+  color: #ffff00 !important;
   background-color: red;
 }
 
 .logo {
-  width: 150px;
-  height: 150px;
-  margin-top: -5rem; 
+  width: 100px;
+  height: 100px;
+  margin-top: -1rem; 
+  margin-left: 40px;
+  margin-bottom: 5px;
 }
 
-.navbar {
-  background-color:red !important;
-}
+

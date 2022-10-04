@@ -1,5 +1,5 @@
 import React from "react";
-import image4 from "../images/career.webp";
+//import image4 from "../images/career.webp";
 import "../style/career.css";
 
 const Career = () => {
@@ -22,7 +22,7 @@ const Career = () => {
               <img
                 src="https://res.cloudinary.com/antrix/image/upload/v1664639838/undraw_Process_re_gws7_qupecj.png"
                 alt="careerimage"
-                style={{ height: "32rem" }}
+                style={{ height: "32rem"}}
               />
             </div>
           </div>

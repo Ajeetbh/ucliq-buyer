@@ -24,11 +24,11 @@ const FifthSection = () => {
           <div className="buyerdetail w3-card-4">
             <div className="detail">
               <div className="icon">
-            <i class='fas fa-fish' style={{fontSize:'48px',color:'white'}}></i>
+            <i class='fa fa-coffee' style={{fontSize:'48px',color:'white'}}></i>
               </div>
               <h3>Unmatched Freshness</h3>
               <p>Our technology enabled supply chain delivers the freshest fish
-                and seafoods with the highest shelf life.
+                and seafoods just like coffee with the highest shelf life.
               </p>
             </div>
             <div className="detail">

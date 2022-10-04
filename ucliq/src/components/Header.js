@@ -1,6 +1,7 @@
 import React from 'react'
 import image from '../images/frontimage.webp'
 import { useNavigate } from 'react-router-dom'
+import '../style/home.css'
 
 const Header = () => {
   const navigate=useNavigate()
@@ -26,7 +27,7 @@ const Header = () => {
               <img
                 src={image}
                 alt="careerimage"
-                style={{ height: "30rem" }}
+                style={{ height: "30rem"}}
               />
             </div>
           </div>

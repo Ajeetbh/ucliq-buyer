@@ -1,7 +1,7 @@
 import React from "react";
 import "../style/secondsection.css";
 import image3 from "../images/kyc1.jpg";
-import image4 from "../images/download1.jpg";
+//import image4 from "../images/download1.jpg";
 
 const SixthSection = () => {
   return (
