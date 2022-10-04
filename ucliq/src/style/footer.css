@@ -40,10 +40,7 @@
 .resource li:hover {
   color: yellow;
 }
-/* .connect-with .icon .fa {
-  display: inline;
-  margin-left: 90px;
-} */
+
 
 .footer-bottom p {
   text-align: center;
@@ -56,9 +53,10 @@
   display: flex;
   justify-content: space-evenly;
   margin: 1px 1px 1px 178px;
+  padding-left: 2px;
 }
 
-.connect-with .icon .fa {
+.connect-with .icon a {
   display: inline;
   margin-left: 42px;
 }

@@ -1,6 +1,8 @@
 import React from "react";
 import "../style/secondsection.css";
-import image3 from "../images/kyc1.jpg";
+import kyc from "../images/kyc.jpg";
+import signup from '../images/signup.jpg';
+import download from '../images/download.jpg'
 const SixthSection = () => {
   return (
     <>
@@ -12,13 +14,15 @@ const SixthSection = () => {
               <div className="registerInfo">
                 <div className="pic1">
                   <img
-                    src="https://res.cloudinary.com/antrix/image/upload/v1664818678/download_gif_cnuwyj.gif"
+                    src={download}
                     alt=""
                     style={{
-                      width: "20rem",
+                      width: "25rem",
                       padding: "0px",
-                      margin: "48px 50px 9px -1px",
-                      height: "20rem",
+                      margin: "48px 0px 9px -1px",
+                      height: "25rem",
+                      lineHeight: "40px",
+                      boxShadow: "0px 6px 11px -2px rgb(0 0 0 / 75%)"
                     }}
                   />
                 </div>
@@ -37,13 +41,15 @@ const SixthSection = () => {
               <div className="registerInfo">
                 <div className="pic2">
                   <img
-                    src="https://res.cloudinary.com/antrix/image/upload/v1664817925/WhatsApp_Image_2022-10-03_at_22.55.07_bwuo2k.jpg"
+                    src={signup}
                     alt=""
                     style={{
-                      width: "21rem",
+                      width: "25rem",
                       padding: "0px",
-                      margin: "49px 3px 9px 85px",
-                      height: "20rem",
+                      margin: "49px 0px 9px 85px",
+                      height: "25rem",
+                      lineHeight: "40px",
+                      boxShadow: "0px 6px 11px -2px rgb(0 0 0 / 75%)"
                     }}
                   />
                 </div>
@@ -62,13 +68,15 @@ const SixthSection = () => {
               <div className="registerInfo">
                 <div className="pic3">
                   <img
-                    src={image3}
+                    src={kyc}
                     alt=""
                     style={{
-                      width: "30rem",
+                      width: "25rem",
                       padding: "0px",
                       margin: "49px -104px 9px 69px",
-                      height: "20rem",
+                      height: "25rem",
+                      lineHeight: "40px",
+                      boxShadow: "0px 6px 11px -2px rgb(0 0 0 / 75%)"
                     }}
                   />
                 </div>

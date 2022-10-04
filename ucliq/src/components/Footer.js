@@ -25,33 +25,40 @@ const Footer = () => {
             <div className="connect-with">
               <h4>Connect with us</h4>
               <div className="icon">
+                <a href="https://www.facebook.com/www.ucliq.in/"  target="_blank" rel="noreferrer">
                 <i
                   class="fa fa-facebook-f"
                   style={{ fontSize: "30px", color: "rgb(89, 207, 89)" }}
                 ></i>
+                </a>
+                
+                <a href="https://in.linkedin.com/company/ucliq" target="_blank" rel="noreferrer">
                 <i
                   class="fa fa-linkedin"
-                  style={{
-                    fontSize: "30px",
-                    marging: "0px 0px 0px 1px",
-                    color: "rgb(89, 207, 89)",
-                  }}
+                  style={{fontSize: "30px",marging: "0px 0px 0px 1px", color: "rgb(89, 207, 89)",}}
                 ></i>
-                <i
+                </a>
+               
+               <a href="https://twitter.com/ucliq_com" target="_blank" rel="noreferrer">
+               <i
                   class="fa fa-instagram"
                   style={{ fontSize: "30px", color: "rgb(89, 207, 89)" }}
                 ></i>
-                <i
+               </a>
+               
+               <a href="https://www.instagram.com/ucliq.in/?hl=en" target="_blank" rel="noreferrer">
+               <i
                   class="fa fa-twitter"
                   style={{ fontSize: "30px", color: "rgb(89, 207, 89)" }}
                 ></i>
+               </a>
+                
               </div>
             </div>
           </div>
           <div className="footer-bottom">
             <p>
-              Privacy Policy | Terms of Use | Refund Policy | © 2022 Ucliq
-              Private Limited
+              Privacy Policy | Terms of Use | Refund Policy | © 2022 Ucliq Private Limited
             </p>
           </div>
         </div>

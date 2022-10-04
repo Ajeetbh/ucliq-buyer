@@ -102,7 +102,7 @@
   text-align: center;
   height: 60px;
   margin-left: -3rem;
-  padding: 9px 40px 9px 40px;
+  padding: 5px 40px 9px 40px;
 } 
 .link2 span{
   border: 1px solid red;
@@ -111,7 +111,7 @@
   font-weight: bold;
   height: 60px;
   margin-left: 8rem;
-  padding: 9px 40px 9px 40px;
+  padding: 5px 40px 9px 40px;
 } 
 .link3 span{
   border: 1px solid red;
@@ -121,7 +121,7 @@
   width: 100%;
   height: 60px;
   margin-left: 8rem;
-  padding: 9px 40px 9px 40px;
+  padding: 5px 40px 9px 40px;
 } 
 
 a{
