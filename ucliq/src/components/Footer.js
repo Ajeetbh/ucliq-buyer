@@ -39,20 +39,20 @@ const Footer = () => {
                 ></i>
                 </a>
                
-               <a href="https://twitter.com/ucliq_com" target="_blank" rel="noreferrer">
+               <a href="https://www.instagram.com/ucliq.in/?hl=en" target="_blank" rel="noreferrer">
                <i
                   class="fa fa-instagram"
                   style={{ fontSize: "30px", color: "rgb(89, 207, 89)" }}
                 ></i>
                </a>
                
-               <a href="https://www.instagram.com/ucliq.in/?hl=en" target="_blank" rel="noreferrer">
+               <a href="https://twitter.com/ucliq_com" target="_blank" rel="noreferrer">
                <i
                   class="fa fa-twitter"
                   style={{ fontSize: "30px", color: "rgb(89, 207, 89)" }}
                 ></i>
                </a>
-                
+               
               </div>
             </div>
           </div>
