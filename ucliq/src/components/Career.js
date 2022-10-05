@@ -8,7 +8,7 @@ const Career = () => {
       <div className="container">
         <div className="row">
           <div className="career">
-            <div className="col-md-4 careerInfo">
+            <div className="col-md-4 careerInfo" data-aos="fade-right">
               <h2 style={{ width: "36rem" }}>
                 A Ninja is resilient, smart, and ambitious. Sounds like you?
               </h2>
@@ -18,17 +18,17 @@ const Career = () => {
               </p>
               <button>Find suitable positions</button>
             </div>
-            <div className="col-md-8 careerImage">
+            <div className="col-md-8 careerImage" data-aos="fade-left">
               <img
                 src="https://res.cloudinary.com/antrix/image/upload/v1664639838/undraw_Process_re_gws7_qupecj.png"
                 alt="careerimage"
-                style={{ height: "32rem"}}
+                style={{ height: "32rem" }}
               />
             </div>
           </div>
         </div>
       </div>
-      <div className="info">
+      <div className="info" data-aos="flip-left">
         <h1>Be a part of something great</h1>
         <p>
           <span>We are 4000+ people strong.</span> Ninjacart is the place for{" "}
@@ -39,7 +39,7 @@ const Career = () => {
           that exceed your own expectations.{" "}
         </p>
       </div>
-      <div className="info1">
+      <div className="info1" data-aos="zoom-in">
         <h1>Why we do it</h1>
         <p>
           For decades, the traditional Fresh Produce Supply Chain was highly

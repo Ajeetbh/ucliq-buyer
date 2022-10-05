@@ -9,7 +9,11 @@ function Navbar() {
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid navbar">
           <Link to="/" class="nav-link1">
-            <img src={logo} alt="logo" className="logo" />
+            <img
+              src="https://res.cloudinary.com/antrix/image/upload/v1664960446/20221005_142807_0000_rvu7dq.png"
+              alt="logo"
+              className="logo"
+            />
           </Link>
 
           <button

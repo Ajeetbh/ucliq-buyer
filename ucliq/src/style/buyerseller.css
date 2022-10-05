@@ -67,3 +67,8 @@ select {
 .buyersellerimg {
   border-radius: 48px;
 }
+
+.regseller {
+  width: 200rem !important;
+  margin-left: -122px !important;
+}

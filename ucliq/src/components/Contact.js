@@ -46,92 +46,92 @@ function Contact() {
   };
   return (
     <>
-    <div classname="container-fluid contact">
-      <div className="Signup">
-        <header className="Signup-header">
-          <form
-            onSubmit={(e) => {
-              handleSubmit(e);
-            }}
-          >
-            <h1> Contact Us </h1>
-            <div className="contactform1">
-              <input
-                type="text"
-                value={name}
-                placeholder="Name"
-                required
-                onChange={(e) => {
-                  handleChange(e);
-                }}
-                style={{ width: "290px", margin: "0 150px 0 0" }}
-              />
-              <input
-                type="email"
-                placeholder="Email"
-                value={email}
-                required
-                onChange={(e) => {
-                  handleEmailChange(e);
-                }}
-              />
-            </div>
-            <br />
-            <br />
-            <div className="contactform1">
-              <input
-                type="text"
-                placeholder="Phone"
-                value={mobile}
-                required
-                onChange={(e) => {
-                  handleMobileChange(e);
-                }}
-                style={{ width: "290px", margin: "0 150px 0 0" }}
-              />
-              <input
-                type="text"
-                placeholder="Supplier/Restaurant"
-                value={supplier}
-                required
-                onChange={(e) => {
-                  handleSupplierChange(e);
-                }}
-              />
-            </div>
-            <br />
-            <br />
+      <div classname="container-fluid contact" data-aos="zoom-out">
+        <div className="Signup">
+          <header className="Signup-header">
+            <form
+              onSubmit={(e) => {
+                handleSubmit(e);
+              }}
+            >
+              <h1> Contact Us </h1>
+              <div className="contactform1">
+                <input
+                  type="text"
+                  value={name}
+                  placeholder="Name"
+                  required
+                  onChange={(e) => {
+                    handleChange(e);
+                  }}
+                  style={{ width: "290px", margin: "0 150px 0 0" }}
+                />
+                <input
+                  type="email"
+                  placeholder="Email"
+                  value={email}
+                  required
+                  onChange={(e) => {
+                    handleEmailChange(e);
+                  }}
+                />
+              </div>
+              <br />
+              <br />
+              <div className="contactform1">
+                <input
+                  type="text"
+                  placeholder="Phone"
+                  value={mobile}
+                  required
+                  onChange={(e) => {
+                    handleMobileChange(e);
+                  }}
+                  style={{ width: "290px", margin: "0 150px 0 0" }}
+                />
+                <input
+                  type="text"
+                  placeholder="Supplier/Restaurant"
+                  value={supplier}
+                  required
+                  onChange={(e) => {
+                    handleSupplierChange(e);
+                  }}
+                />
+              </div>
+              <br />
+              <br />
 
-            <input
-              className="subject"
-              type="text"
-              placeholder="Subject"
-              value={subject}
-              required
-              onChange={(e) => {
-                handleSubjectChange(e);
-              }}
-            />
-            <br />
-            <br />
-            <textarea
-              className="textarea"
-              type="text"
-              placeholder="Type your message here..."
-              value={textarea}
-              required
-              onChange={(e) => {
-                handleTextAreaChange(e);
-              }}
-            />
-            <br />
-            <br />
-            <input type="submit" value="Submit" className="submit" />
-          </form>
-        </header>
+              <input
+                className="subject"
+                type="text"
+                placeholder="Subject"
+                value={subject}
+                required
+                onChange={(e) => {
+                  handleSubjectChange(e);
+                }}
+              />
+              <br />
+              <br />
+              <textarea
+                className="textarea"
+                type="text"
+                placeholder="Type your message here..."
+                value={textarea}
+                required
+                onChange={(e) => {
+                  handleTextAreaChange(e);
+                }}
+              />
+              <br />
+              <br />
+              <input type="submit" value="Submit" className="submit" />
+            </form>
+          </header>
+        </div>
       </div>
-    </div>
-     </>
+    </>
   );
 }
 export default Contact;

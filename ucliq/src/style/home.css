@@ -1,22 +1,29 @@
 .header {
-  display: inline-block;
+  display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .headerInfo {
   position: absolute;
   text-align: left;
   justify-content: center;
   margin-right: 800px;
-  margin-top: 40px;
+  margin-top: -55px;
 }
+
+.headerfirsth1 {
+  width: 35rem;
+  text-align: left;
+  font-size: 56px;
+}
+
 .headerInfo h1 {
   font-weight: 800;
   margin-bottom: 50px;
   font-family: "Poppins", sans-serif;
 }
 .headerInfo span {
-  color: red;
+  color: #af1212;
 }
 
 .headerInfo p {
@@ -33,7 +40,7 @@
 .headerInfo .span span {
   width: 350px;
   height: 57px;
-  background-color: #fb0603;
+  background-color: #af1212;
   color: white;
   padding: 15px;
   font-size: 15px;

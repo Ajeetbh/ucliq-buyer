@@ -1,0 +1,66 @@
+.buyer1 {
+  display: flex;
+  justify-content: space-between;
+}
+.buyer2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.buyerdetail1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  height: 300px;
+  padding: 64px;
+  text-align: center;
+  background-color: white;
+  width: 71rem;
+}
+.buyerdetail1 h3 {
+  color: #af1212;
+  font-weight: bold;
+}
+
+.icon1 {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #af1212;
+  align-items: center;
+  border-radius: 100%;
+  background-color: #af1212;
+  margin-left: 48px;
+}
+
+.icon2 {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #af1212;
+  align-items: center;
+  border-radius: 100%;
+  background-color: #af1212;
+  margin-left: 127px;
+}
+
+.details-one {
+  margin: 2px 1003px 4px 57px !important;
+  width: 12rem;
+}
+
+.details2 {
+  margin: 1px 175px 1px 262px !important;
+  width: 30rem !important;
+  background-color: red !important;
+}
+.details3 {
+  margin: 2px 33px 4px 57px;
+  width: 12rem;
+}
+.details4 {
+  margin: 2px 33px 4px 57px;
+  width: 12rem;
+}
+.details5 {
+  margin: 2px 33px 4px 57px;
+  width: 12rem;
+}
