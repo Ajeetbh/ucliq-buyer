@@ -7,6 +7,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Career from "./components/Career";
 import BuySell from "./components/BuySell";
 import Footer from "./components/Footer";
+import Services from "./components/Service";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             <Route path="/career" element={<Career />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/buy-sell" element={<BuySell />} />
+            <Route path="/service" element={<Services />} />
           </Routes>
           <Footer />
         </BrowserRouter>

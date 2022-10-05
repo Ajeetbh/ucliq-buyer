@@ -4,7 +4,7 @@ import "../style/regseller.css";
 const BecomeBuyer = () => {
   return (
     <div>
-      <div className="container">
+      <div className="container" id="service">
         <div className="fifthmain">
           <div className="fifth-two">
             <h1 className="fifthheading" data-aos="fade-left">

@@ -54,7 +54,7 @@ const Home = () => {
       <section className="sixthback">
         <SixthSection />
       </section>
-      <section style={style}>
+      <section style={style} id="#Service">
         <BecomeBuyer />
       </section>
       <section style={style}>

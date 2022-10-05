@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 import "../style/navbar.css";
 import logo from "../images/logo6.jpg";
 
@@ -34,9 +35,9 @@ function Navbar() {
                 Home
               </Link>
 
-              <Link to="/#Service-section" class="nav-link">
+              <HashLink to="Service" class="nav-link" smooth>
                 Services
-              </Link>
+              </HashLink>
               <Link to="/buy-sell" class="nav-link">
                 Buy/Sell
               </Link>
