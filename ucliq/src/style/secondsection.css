@@ -114,12 +114,14 @@
   height: 60px;
   margin-left: -3rem;
   padding: 5px 20px 9px 20px;
+  border-radius: 15px;
 } 
-.link2 span{
-  border: 1px solid red;
-  background-color: red;
+/* .link2 span{
+  border: 1px solid #af1212;
+  background-color: #af1212;
   padding: 5px 40px 9px 40px;
-}
+  border-radius: 15px;
+} */
 .link2 span {
   border: 1px solid #af1212;
   background-color: #af1212;
@@ -128,6 +130,7 @@
   height: 60px;
   margin-left: 4rem;
   padding: 5px 40px 9px 40px;
+  border-radius: 15px;
 }
 .link3 span {
   border: 1px solid #af1212;
@@ -139,6 +142,7 @@
   margin-left: 4rem;
   padding: 5px 40px 9px 40px;
   margin-top: 1rem;
+  border-radius: 15px;
 }
 
 a {

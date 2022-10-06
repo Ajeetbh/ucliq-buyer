@@ -38,3 +38,8 @@ textarea {
 .contactform1 {
   display: flex;
 }
+
+.Signup-header h1{
+  margin-bottom: 50px;
+  font-size: 50px;
+}

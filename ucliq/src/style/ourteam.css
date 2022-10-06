@@ -35,14 +35,16 @@
     width: 400px;
     height: 400px;
 }
-
+.btn{
+    margin-bottom: 30px;
+}
 .btn span{
     width: 20px;
     height: 10px;
     padding:15px 60px 15px 60px;
     color: white;
-    background-color:red ;
+    background-color:#af1212 ;
     border-radius: 10px;
-    font-size: 18px;
     font-weight: bold;
+    font-size: 18px;
 }

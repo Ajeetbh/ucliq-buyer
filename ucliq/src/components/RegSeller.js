@@ -2,6 +2,7 @@ import React from "react";
 import kyc from "../images/kyc.jpg";
 import signup from "../images/signup.jpg";
 import download from "../images/download.jpg";
+import '../style/regseller.css'
 
 const RegSeller = () => {
   return (
@@ -20,15 +21,15 @@ const RegSeller = () => {
                     alt=""
                     style={{
                       width: "320px",
-                      padding: "0px",
-                      margin: "48px 50px 9px 0px",
+                      padding:"0px",
+                      margin: "48px 50px 9px -50px",
                       height: "450px",
                       lineHeight: "40px",
                       boxShadow: "0px 6px 11px -2px rgb(0 0 0 / 75%)",
                     }}
                   />
                 </div>
-                <div className="link1">
+                <div className="link4">
                   <span>
                     <a
                       href="https://play.google.com/store/apps/details?id=com.ucliq_customer&gl=US"
@@ -55,7 +56,7 @@ const RegSeller = () => {
                     }}
                   />
                 </div>
-                <div className="link2">
+                <div className="link5">
                   <span>
                     <a
                       href="https://www.ucliq.in/login"
@@ -82,7 +83,7 @@ const RegSeller = () => {
                    }}
                   />
                 </div>
-                <div className="link3">
+                <div className="link6">
                   <span>
                     <a
                       href="https://www.ucliq.in/kyc"

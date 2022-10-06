@@ -2,7 +2,7 @@ import React from "react";
 //import About from "./About";
 import Contact from "./Contact";
 import FifthSection from "./FifthSection";
-import Footer from "./Footer";
+//import Footer from "./Footer";
 //import FourthSection from "./FourthSection";
 import Header from "./Header";
 //import SectionSecond from "./SectionSecond";
@@ -63,9 +63,9 @@ const Home = () => {
       <section style={style}>
         <Contact />
       </section>
-      <section>
+      {/* <section>
         <Footer />
-      </section> 
+      </section>  */}
     </>
   );
 };
