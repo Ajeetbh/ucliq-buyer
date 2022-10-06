@@ -1,0 +1,14 @@
+.details{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.details img{
+    width: 450px;
+    height: 450px;
+}
+.details h2{
+    text-align: center;
+    
+}

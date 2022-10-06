@@ -26,11 +26,11 @@ const Home = () => {
     height: "476px",
   };
 
-  const style3 = {
-    width: "100%",
-    background: "#e74c3c",
-    height: "250px",
-  };
+  // const style3 = {
+  //   width: "100%",
+  //   background: "#e74c3c",
+  //   height: "250px",
+  // };
   return (
     <>
       {/* section one */}
@@ -63,9 +63,9 @@ const Home = () => {
       <section style={style}>
         <Contact />
       </section>
-      {/* <section style={style3}>
+      <section>
         <Footer />
-      </section> */}
+      </section> 
     </>
   );
 };

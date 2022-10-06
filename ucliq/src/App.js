@@ -6,8 +6,9 @@ import Contact from "./components/Contact";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Career from "./components/Career";
 import BuySell from "./components/BuySell";
-import Footer from "./components/Footer";
+//import Footer from "./components/Footer";
 import Services from "./components/Service";
+import OurTeam from "./components/ViewTeam";
 
 function App() {
   return (
@@ -22,8 +23,9 @@ function App() {
             <Route path="/contact" element={<Contact />} />
             <Route path="/buy-sell" element={<BuySell />} />
             <Route path="/service" element={<Services />} />
+            <Route path="/our-team" element={<OurTeam/>}/>
           </Routes>
-          <Footer />
+          {/* <Footer /> */}
         </BrowserRouter>
       </div>
     </>

@@ -113,19 +113,16 @@
   text-align: center;
   height: 60px;
   margin-left: -3rem;
-<<<<<<< HEAD
   padding: 5px 20px 9px 20px;
 } 
 .link2 span{
   border: 1px solid red;
   background-color: red;
-=======
   padding: 5px 40px 9px 40px;
 }
 .link2 span {
   border: 1px solid #af1212;
   background-color: #af1212;
->>>>>>> f1200cd1b63f0a84727b531456e2957f058b3259
   color: white;
   font-weight: bold;
   height: 60px;
@@ -139,11 +136,7 @@
   font-weight: bold;
   width: 100%;
   height: 60px;
-<<<<<<< HEAD
   margin-left: 4rem;
-=======
-  margin-left: 12rem;
->>>>>>> f1200cd1b63f0a84727b531456e2957f058b3259
   padding: 5px 40px 9px 40px;
   margin-top: 1rem;
 }

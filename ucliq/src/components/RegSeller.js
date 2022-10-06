@@ -9,7 +9,7 @@ const RegSeller = () => {
       <div className="container sixthMain">
         <div className="fifthmain">
           <div className="regseller">
-            <h1 className="regbuyerheading" data-aos="fade-down-right">
+            <h1 className="regbuyerheading" data-aos="fade-down-right" style={{textAlign:"center", marginLeft:"-10rem"}}>
               How to register as a Seller?
             </h1>
             <div className="col-md-4 registerbuyer" data-aos="flip-up">
@@ -19,10 +19,10 @@ const RegSeller = () => {
                     src={download}
                     alt=""
                     style={{
-                      width: "25rem",
+                      width: "320px",
                       padding: "0px",
-                      margin: "48px 0px 9px -1px",
-                      height: "25rem",
+                      margin: "48px 50px 9px 0px",
+                      height: "450px",
                       lineHeight: "40px",
                       boxShadow: "0px 6px 11px -2px rgb(0 0 0 / 75%)",
                     }}
@@ -46,12 +46,12 @@ const RegSeller = () => {
                     src={signup}
                     alt=""
                     style={{
-                      width: "25rem",
+                      width: "320px",
                       padding: "0px",
-                      margin: "49px 0px 9px 85px",
-                      height: "25rem",
+                      margin: "49px 50px 9px 50px",
+                      height: "450px",
                       lineHeight: "40px",
-                      boxShadow: "0px 6px 11px -2px rgb(0 0 0 / 75%)",
+                      boxShadow: "5px 6px 11px -2px rgb(0 0 0 / 75%)",
                     }}
                   />
                 </div>
@@ -73,13 +73,13 @@ const RegSeller = () => {
                     src={kyc}
                     alt=""
                     style={{
-                      width: "25rem",
+                      width: "320px",
                       padding: "0px",
-                      margin: "49px -104px 9px 69px",
-                      height: "25rem",
+                      margin: "49px 40px 9px 50px",
+                      height: "450px",
                       lineHeight: "40px",
-                      boxShadow: "0px 6px 11px -2px rgb(0 0 0 / 75%)",
-                    }}
+                      boxShadow: "5px 6px 11px -2px rgb(0 0 0 / 75%)",
+                   }}
                   />
                 </div>
                 <div className="link3">

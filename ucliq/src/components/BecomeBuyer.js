@@ -20,7 +20,7 @@ const BecomeBuyer = () => {
               style={{
                 fontSize: "48px",
                 color: "white",
-                padding: "25px 180px 1px 1px",
+                padding: "25px 120px 1px 1px",
               }}
             >
               <div className="icon1">

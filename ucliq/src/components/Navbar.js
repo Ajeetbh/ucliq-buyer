@@ -2,10 +2,11 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import "../style/navbar.css";
-import logo from "../images/logo6.jpg";
+//import logo from "../images/logo6.jpg";
 
 function Navbar() {
   return (
+    
     <>
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid navbar">
@@ -35,7 +36,7 @@ function Navbar() {
                 Home
               </Link>
 
-              <HashLink to="Service" class="nav-link" smooth>
+              <HashLink to="/service" class="nav-link" smooth>
                 Services
               </HashLink>
               <Link to="/buy-sell" class="nav-link">
@@ -50,6 +51,7 @@ function Navbar() {
               <Link to="/contact" class="nav-link">
                 Contact
               </Link>
+              <Link to='/our-team'></Link>
             </ul>
           </div>
         </div>
