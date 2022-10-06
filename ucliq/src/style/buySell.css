@@ -57,13 +57,13 @@
   width: 200px;
   height: 70px;
   background-color: white;
-  color: #fb0603;
+  color: #af1212;
   padding: 20px;
   border-radius: 8px;
   cursor: pointer;
 }
 .sell1 span:hover {
-  background-color: #fb0603;
+  background-color: #af1212;
   color: white;
 }
 .sell .sell2 {

@@ -11,6 +11,8 @@ import SixthSection from "./SixthSection";
 // import image from "../images/rbbanner2.webp";
 import "../style/home.css";
 import BuyerSeller from "./BuyerSeller";
+import BecomeBuyer from "./BecomeBuyer";
+import RegSeller from "./RegSeller";
 // import AOS from "aos";
 // import "aos/dist/aos.css";
 
@@ -48,15 +50,22 @@ const Home = () => {
       <section style={style}>
         <BuyerSeller />
       </section>
+
       <section className="sixthback">
         <SixthSection />
+      </section>
+      <section style={style} id="#Service">
+        <BecomeBuyer />
+      </section>
+      <section style={style}>
+        <RegSeller />
       </section>
       <section style={style}>
         <Contact />
       </section>
-      <section style={style3}>
+      {/* <section style={style3}>
         <Footer />
-      </section>
+      </section> */}
     </>
   );
 };

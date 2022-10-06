@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 import "../style/navbar.css";
 import logo from "../images/logo6.jpg";
 
@@ -9,7 +10,11 @@ function Navbar() {
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid navbar">
           <Link to="/" class="nav-link1">
-            <img src={logo} alt="logo" className="logo" />
+            <img
+              src="https://res.cloudinary.com/antrix/image/upload/v1664960446/20221005_142807_0000_rvu7dq.png"
+              alt="logo"
+              className="logo"
+            />
           </Link>
 
           <button
@@ -30,9 +35,9 @@ function Navbar() {
                 Home
               </Link>
 
-              <Link to="/#Service-section" class="nav-link">
+              <HashLink to="Service" class="nav-link" smooth>
                 Services
-              </Link>
+              </HashLink>
               <Link to="/buy-sell" class="nav-link">
                 Buy/Sell
               </Link>

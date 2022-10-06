@@ -1,38 +1,30 @@
 import React from "react";
-import "../style/secondsection.css";
 import kyc from "../images/kyc.jpg";
 import signup from "../images/signup.jpg";
 import download from "../images/download.jpg";
-const SixthSection = () => {
+
+const RegSeller = () => {
   return (
-    <>
+    <div>
       <div className="container sixthMain">
         <div className="fifthmain">
-          <div className="sixth-two">
-            <h1 className="fifthheading" data-aos="zoom-in-left">
-              How to register as a Buyer?
+          <div className="regseller">
+            <h1 className="regbuyerheading" data-aos="fade-down-right">
+              How to register as a Seller?
             </h1>
-            <div
-              className="col-md-4 registerbuyer"
-              data-aos="fade-up"
-              data-aos-duration="3000"
-            >
+            <div className="col-md-4 registerbuyer" data-aos="flip-up">
               <div className="registerInfo">
                 <div className="pic1">
                   <img
                     src={download}
                     alt=""
                     style={{
-                      width: "300px",
+                      width: "25rem",
                       padding: "0px",
-                      margin: "48px 50px 9px 20px",
-                      height: "450px",
+                      margin: "48px 0px 9px -1px",
+                      height: "25rem",
                       lineHeight: "40px",
-<<<<<<< HEAD
-                      boxShadow: "5px 6px 11px -2px rgb(0 0 0 / 75%)"
-=======
                       boxShadow: "0px 6px 11px -2px rgb(0 0 0 / 75%)",
->>>>>>> f1200cd1b63f0a84727b531456e2957f058b3259
                     }}
                   />
                 </div>
@@ -54,16 +46,12 @@ const SixthSection = () => {
                     src={signup}
                     alt=""
                     style={{
-                      width: "300px",
+                      width: "25rem",
                       padding: "0px",
-                      margin: "49px 50px 9px 100px",
-                      height: "450px",
+                      margin: "49px 0px 9px 85px",
+                      height: "25rem",
                       lineHeight: "40px",
-<<<<<<< HEAD
-                      boxShadow: "5px 6px 11px -2px rgb(0 0 0 / 75%)"
-=======
                       boxShadow: "0px 6px 11px -2px rgb(0 0 0 / 75%)",
->>>>>>> f1200cd1b63f0a84727b531456e2957f058b3259
                     }}
                   />
                 </div>
@@ -85,16 +73,12 @@ const SixthSection = () => {
                     src={kyc}
                     alt=""
                     style={{
-                      width: "300px",
+                      width: "25rem",
                       padding: "0px",
-                      margin: "49px 40px 9px 100px",
-                      height: "450px",
+                      margin: "49px -104px 9px 69px",
+                      height: "25rem",
                       lineHeight: "40px",
-<<<<<<< HEAD
-                      boxShadow: "5px 6px 11px -2px rgb(0 0 0 / 75%)"
-=======
                       boxShadow: "0px 6px 11px -2px rgb(0 0 0 / 75%)",
->>>>>>> f1200cd1b63f0a84727b531456e2957f058b3259
                     }}
                   />
                 </div>
@@ -114,7 +98,8 @@ const SixthSection = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
-export default SixthSection;
+
+export default RegSeller;

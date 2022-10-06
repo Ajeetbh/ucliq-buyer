@@ -1,5 +1,5 @@
 .container-fluid {
-  background-color: #fb0603;
+  background-color: #af1212;
   position: relative;
   bottom: 0;
 }
@@ -40,7 +40,6 @@
 .resource li:hover {
   color: yellow;
 }
-
 
 .footer-bottom p {
   text-align: center;
