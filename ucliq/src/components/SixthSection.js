@@ -17,12 +17,12 @@ const SixthSection = () => {
                     src={download}
                     alt=""
                     style={{
-                      width: "25rem",
+                      width: "300px",
                       padding: "0px",
-                      margin: "48px 0px 9px -1px",
-                      height: "25rem",
+                      margin: "48px 50px 9px 20px",
+                      height: "450px",
                       lineHeight: "40px",
-                      boxShadow: "0px 6px 11px -2px rgb(0 0 0 / 75%)"
+                      boxShadow: "5px 6px 11px -2px rgb(0 0 0 / 75%)"
                     }}
                   />
                 </div>
@@ -44,12 +44,12 @@ const SixthSection = () => {
                     src={signup}
                     alt=""
                     style={{
-                      width: "25rem",
+                      width: "300px",
                       padding: "0px",
-                      margin: "49px 0px 9px 85px",
-                      height: "25rem",
+                      margin: "49px 50px 9px 100px",
+                      height: "450px",
                       lineHeight: "40px",
-                      boxShadow: "0px 6px 11px -2px rgb(0 0 0 / 75%)"
+                      boxShadow: "5px 6px 11px -2px rgb(0 0 0 / 75%)"
                     }}
                   />
                 </div>
@@ -71,12 +71,12 @@ const SixthSection = () => {
                     src={kyc}
                     alt=""
                     style={{
-                      width: "25rem",
+                      width: "300px",
                       padding: "0px",
-                      margin: "49px -104px 9px 69px",
-                      height: "25rem",
+                      margin: "49px 40px 9px 100px",
+                      height: "450px",
                       lineHeight: "40px",
-                      boxShadow: "0px 6px 11px -2px rgb(0 0 0 / 75%)"
+                      boxShadow: "5px 6px 11px -2px rgb(0 0 0 / 75%)"
                     }}
                   />
                 </div>
