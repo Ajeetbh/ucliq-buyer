@@ -13,7 +13,7 @@ const Header = () => {
             <h1 className="headerfirsth1">
               Digital Mandi of <span>Meat, Fresh Fish, and Seafood.</span>
             </h1>
-            <p style={{ width: "36rem" }}>
+            <p className="headerP">
               UcliQ is a B2B Marketplace for Retail, Restaurants, Hotels and
               Businesess. Providing the best services with the help of
               technology and the supply chain innovation.
@@ -23,7 +23,7 @@ const Header = () => {
             </div>
           </div>
           <div className="col-md-8 headerImage" data-aos="fade-left">
-            <img src={image} alt="careerimage" style={{ height: "30rem" }} />
+            <img src={image} alt="careerimage" className="headerImage1" />
           </div>
         </div>
       </div>

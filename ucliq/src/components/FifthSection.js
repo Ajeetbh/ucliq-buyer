@@ -25,10 +25,7 @@ const FifthSection = () => {
           <div className="buyerdetail w3-card-4">
             <div className="detail">
               <div className="icon">
-                <i
-                  class="fa fa-coffee"
-                  style={{ fontSize: "48px", color: "white" }}
-                ></i>
+                <i class="fa fa-coffee"></i>
               </div>
               <h3>Unmatched Freshness</h3>
               <p>
@@ -38,10 +35,7 @@ const FifthSection = () => {
             </div>
             <div className="detail">
               <div className="icon">
-                <i
-                  class="fa fa-thumbs-up"
-                  style={{ fontSize: "48px", color: "white" }}
-                ></i>
+                <i class="fa fa-thumbs-up"></i>
               </div>
               <h3>Reliable Supply</h3>
               <p>
@@ -51,10 +45,7 @@ const FifthSection = () => {
             </div>
             <div className="detail">
               <div className="icon">
-                <i
-                  class="fa fa-truck"
-                  style={{ fontSize: "48px", color: "white" }}
-                ></i>
+                <i class="fa fa-truck"></i>
               </div>
               <h3>Convenience</h3>
               <p>

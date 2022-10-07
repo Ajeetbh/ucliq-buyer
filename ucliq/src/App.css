@@ -7,3 +7,9 @@
   /* background-color: #bdc3c7 !important; */
   padding-top: 25px;
 }
+
+@media screen and (max-width: 600px) {
+  body {
+    width: 100%;
+  }
+}
