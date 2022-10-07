@@ -10,7 +10,7 @@ const Service = () => {
           <h1>10000+ Buyers/ 5000+ sellers</h1>
         </div>
         <div>
-          <div className="container-fluid">
+          <div className="container-fluid bg-white mb-5 mt-3">
             <div className="row">
               <div className="col-sm-12">
                 {/* <h3>React Bootstrap Carousel</h3> */}
@@ -20,25 +20,44 @@ const Service = () => {
               <div className="col-12">
                 <Carousel>
                   <Carousel.Item>
+                    <h1>Fruits</h1>
                     <img
                       className="d-block w-100"
-                      src="https://res.cloudinary.com/antrix/image/upload/v1664474527/48bd89_4cb8201fa4a844459245a03c0d10848e_mv2_h3gcdl.webp"
+                      src="https://images.unsplash.com/photo-1619566636858-adf3ef46400b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8NHx8fGVufDB8fHx8&w=1000&q=80"
                       alt="First slide"
                     />
                   </Carousel.Item>
 
                   <Carousel.Item>
+                    <h1>Vegetables</h1>
                     <img
                       className="d-block w-100"
-                      src="https://res.cloudinary.com/antrix/image/upload/v1664474527/48bd89_4cb8201fa4a844459245a03c0d10848e_mv2_h3gcdl.webp"
+                      src="https://img.freepik.com/free-photo/healthy-vegetables-wooden-table_1150-38014.jpg?w=2000"
                       alt="Second slide"
                     />
                   </Carousel.Item>
 
                   <Carousel.Item>
+                    <h1>Seafood</h1>
                     <img
                       className="d-block w-100"
-                      src="https://res.cloudinary.com/antrix/image/upload/v1664474527/48bd89_4cb8201fa4a844459245a03c0d10848e_mv2_h3gcdl.webp"
+                      src="https://media.istockphoto.com/photos/fresh-salmon-steak-with-a-variety-of-seafood-and-herbs-picture-id1156027693?s=612x612"
+                      alt="Third slide"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <h1>Meat & Poutary</h1>
+                    <img
+                      className="d-block w-100"
+                      src="https://www.meatpoultry.com/ext/resources/2021/11/VariousMeatCuts_Lead.jpg?t=1636652511&width=1080"
+                      alt="Third slide"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <h1>Milk & Dairy</h1>
+                    <img
+                      className="d-block w-100"
+                      src="https://image.shutterstock.com/image-photo/various-dairy-products-260nw-627224804.jpg"
                       alt="Third slide"
                     />
                   </Carousel.Item>
