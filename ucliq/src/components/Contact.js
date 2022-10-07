@@ -47,6 +47,7 @@ function Contact() {
   return (
     <>
       <div classname="container-fluid contact" data-aos="zoom-out">
+        <h1> Contact Us </h1>
         <div className="Signup">
           <header className="Signup-header">
             <form
@@ -54,7 +55,6 @@ function Contact() {
                 handleSubmit(e);
               }}
             >
-              <h1> Contact Us </h1>
               <div className="contactform1">
                 <input
                   type="text"

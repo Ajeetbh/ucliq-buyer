@@ -1,0 +1,35 @@
+const CareerData=[
+    {
+        imgsrc:"https://i.pinimg.com/originals/0a/df/40/0adf40eca81beed9673cdb5d492d79df.jpg",
+        name:"Apple"
+    },
+    {
+        imgsrc:"https://thumbs.dreamstime.com/z/fruit-shop-191312222.jpg",
+        name:"Grapes"
+    },
+    {
+        imgsrc:"https://imgmedia.lbb.in/media/2020/04/5ea1aa2c1036c70c93641b88_1587653164736.jpg",
+        name:"Mango"
+    },
+    {
+        imgsrc:"https://previews.123rf.com/images/milanchikov/milanchikov1902/milanchikov190200104/116866556-fresh-fish-are-on-the-counter-in-the-fish-shop.jpg",
+        name:"Fish"
+    },
+    {
+        imgsrc:"https://thumbs.dreamstime.com/b/harvesting-guayaba-guava-fruits-fruit-shop-harvesting-guayaba-guava-fruits-sale-people-fruit-shop-don-wai-floating-114253550.jpg",
+        name:"Guava"
+    },
+    {
+        imgsrc:"https://image.shutterstock.com/shutterstock/photos/1788073925/display_1500/stock-photo-human-hands-with-chicken-meat-in-the-store-1788073925.jpg",
+        name:"Chicken"
+    },
+    {
+        imgsrc:"https://images.unsplash.com/photo-1611693424421-3db00de93a89?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dmVnZXRhYmxlJTIwc2hvcHxlbnwwfHwwfHw%3D&w=1000&q=80",
+        name:"Vegetable"
+    },
+    {
+        imgsrc:"https://chikplaza.com/wp-content/uploads/2017/09/Mutton-Mix-Assorted-Curry-Cut_STP3627-324x324.jpg",
+        name:"Mutton"
+    },
+]
+export default CareerData;
