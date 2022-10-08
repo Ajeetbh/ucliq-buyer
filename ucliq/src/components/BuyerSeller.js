@@ -5,9 +5,6 @@ const BuyerSeller = () => {
   return (
     <>
       <div className="container1">
-        {/* <div className="fifth-two">
-          <h1 className="fifthheading">Creating opportunity for all</h1>
-        </div> */}
         <div className="w-100">
           <h1 className="subheadingbuy">Benefits</h1>
           <div className="mainsubdiv">
@@ -33,7 +30,7 @@ const BuyerSeller = () => {
                 />
               </div>
             </div>
-            <div className="subdiv1" data-aos="zoom-in">
+            <div className="subdiv2" data-aos="zoom-in">
               <h2>High-Speed Logistic Support </h2>
               <div className="secondsuvdiv">
                 <img
@@ -44,7 +41,7 @@ const BuyerSeller = () => {
                 />
               </div>
             </div>
-            <div className="subdiv1" data-aos="zoom-in">
+            <div className="subdiv2" data-aos="zoom-in">
               <h2>Credit Facilities</h2>
               <div className="secondsuvdiv">
                 <img

@@ -6,7 +6,6 @@ import "../style/navbar.css";
 
 function Navbar() {
   return (
-    
     <>
       <nav class="navbar navbar-expand-lg navbar-light">
         <div class="container-fluid navbar">
