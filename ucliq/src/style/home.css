@@ -71,4 +71,56 @@
   .headerImage {
     visibility: hidden;
   }
+
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .headerfirsth1 {
+    width: 26rem;
+    text-align: center;
+    font-size: 35px;
+    margin-left: 75px;
+  }
+
+  .headerP {
+    width: 23rem;
+    text-align: center;
+    margin-left: 84px;
+  }
+
+  .span {
+    margin-left: 133px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .headerImage {
+    visibility: hidden;
+  }
+
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .headerfirsth1 {
+    width: 26rem;
+    text-align: center;
+    font-size: 35px;
+    margin-left: 3px;
+  }
+
+  .headerP {
+    width: 23rem;
+    text-align: center;
+    margin-left: 84px;
+  }
+
+  .span {
+    margin-left: 100px;
+  }
 }
