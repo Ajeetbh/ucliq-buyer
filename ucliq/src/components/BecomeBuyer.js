@@ -7,7 +7,7 @@ const BecomeBuyer = () => {
       <div className="container" id="service">
         <div className="fifthmain">
           <div className="fifth-two">
-            <h1 className="fifthheading" data-aos="fade-left">
+            <h1 className="buyerheading" data-aos="fade-left">
               Become a Seller
             </h1>
             <br />
@@ -20,7 +20,7 @@ const BecomeBuyer = () => {
               style={{
                 fontSize: "48px",
                 color: "white",
-                padding: "25px 120px 1px 1px",
+                // padding: "25px 120px 1px 1px",
               }}
             >
               <div className="icon1">
@@ -33,14 +33,14 @@ const BecomeBuyer = () => {
                   }}
                 ></i>
               </div>
-              <h3>New Customers</h3>
+              <h3 className="buyheadnew">New Customers</h3>
             </div>
             <div
               className="detail2"
               style={{
                 fontSize: "48px",
                 color: "white",
-                padding: "25px 161px 1px 1px",
+                // padding: "25px 161px 1px 1px",
               }}
             >
               <div className="icon1">
@@ -53,17 +53,17 @@ const BecomeBuyer = () => {
                   }}
                 ></i>
               </div>
-              <h3>Digital Store Front</h3>
+              <h3 className="buyheadnew">Digital Store Front</h3>
             </div>
             <div
               className="detail3"
               style={{
                 fontSize: "48px",
                 color: "white",
-                padding: "25px 1px 1px 1px",
+                // padding: "25px 1px 1px 1px",
               }}
             >
-              <div className="icon1">
+              <div className="icon3">
                 <i
                   class="fa fa-truck"
                   style={{
@@ -73,7 +73,7 @@ const BecomeBuyer = () => {
                   }}
                 ></i>
               </div>
-              <h3>Secured Payment</h3>
+              <h3 className="buyheadnew">Secured Payment</h3>
             </div>
           </div>
         </div>
@@ -84,11 +84,11 @@ const BecomeBuyer = () => {
           <div className="buyerdetail1 w3-card-4" data-aos="fade-left">
             <div
               className="detail4"
-              style={{
-                fontSize: "48px",
-                color: "white",
-                padding: "25px 161px 1px 1px",
-              }}
+              // style={{
+              //   fontSize: "48px",
+              //   color: "white",
+              //   padding: "25px 161px 1px 1px",
+              // }}
             >
               <div className="icon2">
                 <i
@@ -104,11 +104,11 @@ const BecomeBuyer = () => {
             </div>
             <div
               className="detail5"
-              style={{
-                fontSize: "48px",
-                color: "white",
-                padding: "25px 1px 1px 1px",
-              }}
+              // style={{
+              //   fontSize: "48px",
+              //   color: "white",
+              //   padding: "25px 1px 1px 1px",
+              // }}
             >
               <div className="icon2">
                 <i

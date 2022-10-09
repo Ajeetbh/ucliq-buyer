@@ -22,6 +22,17 @@
   font-weight: bold;
 }
 
+.buyerheading {
+  color: white;
+  padding-top: 1px;
+  margin-bottom: -44px;
+  text-align: center;
+  line-height: 8rem;
+  font-weight: 700;
+  text-shadow: 1px 0px 24px black;
+  margin-left: -7rem;
+}
+
 .icon1 {
   width: 100px;
   height: 100px;
@@ -30,6 +41,16 @@
   border-radius: 100%;
   background-color: #af1212;
   margin-left: 48px;
+}
+
+.icon3 {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #af1212;
+  align-items: center;
+  border-radius: 100%;
+  background-color: #af1212;
+  margin-left: 127px;
 }
 
 .icon2 {
@@ -42,30 +63,34 @@
   margin-left: 127px;
 }
 
-.details-one {
-  margin: 2px 1003px 4px 57px !important;
-  width: 12rem;
+.detail-one {
+  font-size: 48px;
+  color: white;
+  padding: 25px 120px 1px 1px;
 }
 
-.details2 {
-  margin: 1px 175px 1px 262px !important;
-  width: 30rem !important;
-  background-color: red !important;
+.detail2 {
+  font-size: 48px;
+  color: white;
+  padding: 25px 161px 1px 1px;
 }
-.details3 {
-  margin: 2px 33px 4px 57px;
-  width: 12rem;
+.detail3 {
+  padding: 25px 1px 1px 1px;
+  font-size: 48px;
+  color: white;
 }
-.details4 {
-  margin: 2px 33px 4px 57px;
-  width: 12rem;
+.detail4 {
+  font-size: 48px;
+  color: white;
+  padding: 25px 161px 1px 1px;
 }
-.details5 {
-  margin: 2px 33px 4px 57px;
-  width: 12rem;
+.detail5 {
+  font-size: 48px;
+  color: white;
+  padding: 25px 1px 1px 1px;
 }
 
-.link4 span{
+.link4 span {
   margin-left: -90px;
   border: 1px solid #af1212;
   background-color: #af1212;
@@ -74,7 +99,7 @@
   font-weight: bold;
   border-radius: 15px;
 }
-.link5 span{
+.link5 span {
   margin-left: -10px;
   border: 1px solid #af1212;
   background-color: #af1212;
@@ -84,7 +109,7 @@
   padding: 5px 20px 9px 20px;
   border-radius: 15px;
 }
-.link6 span{
+.link6 span {
   margin-left: -10px;
   border: 1px solid #af1212;
   background-color: #af1212;
@@ -93,4 +118,63 @@
   height: 60px;
   padding: 5px 20px 9px 20px;
   border-radius: 15px;
+}
+
+@media screen and (max-width: 400px) {
+  .buyerheading {
+    margin-left: -12rem;
+    width: 23rem;
+    margin-top: -14rem;
+  }
+  .buyerdetail1 {
+    margin-left: -223px;
+    width: 25.5rem;
+  }
+  .detail2 {
+    font-size: 1px;
+    color: white;
+    padding: 0px 2px 1px 1px;
+    margin-left: 0rem;
+  }
+
+  .detail3 {
+    font-size: 1px;
+    color: white;
+    padding: 0px 1px 1px 1px;
+    margin-left: -1rem;
+    margin-top: 21px;
+  }
+
+  .detail-one {
+    font-size: 1px;
+    color: white;
+    padding: 0px 2px 1px 1px;
+    margin-left: 0rem;
+  }
+  .icon1 {
+    font-size: 30px;
+    color: white;
+    margin-left: 16px;
+  }
+  .icon3 {
+    font-size: 30px;
+    color: white;
+    margin-left: 16px;
+    margin-top: -22px;
+  }
+
+  .buyheadnew {
+    font-size: 15px;
+  }
+  .detail4 {
+    font-size: 48px;
+    color: white;
+    padding: 0px;
+  }
+
+  .detail5 {
+    font-size: 48px;
+    color: white;
+    padding-top: 1px;
+  }
 }

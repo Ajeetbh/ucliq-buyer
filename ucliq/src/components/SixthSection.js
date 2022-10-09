@@ -9,7 +9,7 @@ const SixthSection = () => {
       <div className="container sixthMain">
         <div className="fifthmain">
           <div className="sixth-two">
-            <h1 className="fifthheading" data-aos="zoom-in-left">
+            <h1 className="Sixheading" data-aos="zoom-in-left">
               How to register as a Buyer?
             </h1>
             <div
@@ -47,7 +47,7 @@ const SixthSection = () => {
                   </span>
                 </div>
               </div>
-              <div className="registerInfo">
+              <div className="registerInfo1">
                 <div className="pic2">
                   <img
                     src={signup}
@@ -75,7 +75,7 @@ const SixthSection = () => {
                   </span>
                 </div>
               </div>
-              <div className="registerInfo">
+              <div className="registerInfo1">
                 <div className="pic3">
                   <img
                     src={kyc}
