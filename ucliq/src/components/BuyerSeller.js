@@ -30,7 +30,7 @@ const BuyerSeller = () => {
                 />
               </div>
             </div>
-            <div className="subdiv2" data-aos="zoom-in">
+            <div className="subdiv1" data-aos="zoom-in">
               <h2>High-Speed Logistic Support </h2>
               <div className="secondsuvdiv">
                 <img
@@ -41,7 +41,7 @@ const BuyerSeller = () => {
                 />
               </div>
             </div>
-            <div className="subdiv2" data-aos="zoom-in">
+            <div className="subdiv1" data-aos="zoom-in">
               <h2>Credit Facilities</h2>
               <div className="secondsuvdiv">
                 <img

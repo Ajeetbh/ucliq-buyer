@@ -73,4 +73,8 @@ select {
   margin-left: -122px !important;
 }
 
-
+@media screen and (max-width: 600px) {
+  .subdiv2 {
+    width: 5rem;
+  }
+}
