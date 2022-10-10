@@ -136,8 +136,9 @@ p:hover {
   }
 }
 
-/* @media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
   .buy {
+    display: flex;
     flex-flow: row wrap;
     align-items: center;
     justify-content: center;
@@ -152,21 +153,69 @@ p:hover {
     display: block;
     order: 2;
     width: 62.5;
-    height: 300px;
-    margin: 2rem 5rem 2rem 5rem;
+    height: auto;
     align-items: center;
     justify-content: center;
   }
   .buyInfo h1{
-    font-size: 2rem;
-    padding: 1rem 4rem 1rem 4rem;
-    margin-right: 4rem;
-    align-content: space-around;
+    font-size: 1.5rem;
   }
   .buyInfo p{
     font-size: 1rem;
-    margin-right: 8rem;
     margin-bottom: 3rem;
     align-items: center;
+    justify-content: center;
   }
-} */
+} 
+
+@media screen and (max-width: 360px) {
+   .buy {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+  } 
+  .buy .buyInfo{
+    display: block;
+    order: 1;
+    margin-top: 2rem;
+  } 
+  
+  .sell{
+    display: block;
+    order: 2;
+    width: 62.5;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5rem;
+  } 
+  .sell span{
+    margin-top: 2rem;
+    padding: 1rem;
+    font-size: .8rem
+  };
+  
+  .buyInfo h1{
+    font-size: .8rem;
+  }
+  .buyInfo p{
+    font-size: .8rem;
+    margin-bottom: 3rem;
+    align-items: center;
+    justify-content: center;
+  }
+  .sell .sell1 h3{
+    font-size: 1rem;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 4rem 3rem 4rem;
+   }
+   .sell .sell2 h3{
+    font-size: 1rem;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 4rem 3rem 4rem;
+   }
+} 
