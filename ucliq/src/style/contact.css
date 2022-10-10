@@ -1,12 +1,11 @@
-
 .Signup {
   text-align: center;
   margin-top: 20px;
-  margin-bottom: 200px; 
+  margin-bottom: 200px;
   padding-left: 40px;
   padding-right: 40px;
   padding-top: 20px;
-  background-image: url('../images/contact5.jpg');
+  /* background-image: url("../images/contact5.jpg"); */
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -43,24 +42,60 @@ textarea {
 
 .contactform1 {
   display: flex;
+  justify-content: space-between;
 }
 
-.contactform1 input:hover{
+.inputcontactone {
+  width: 290px;
+  margin: 0 150px 0 0;
+}
+
+.contactform1 input:hover {
   border: 1px solid black;
   padding-left: 10px;
 }
-.subject:hover{
+.subject:hover {
   border: 1px solid black;
   padding-left: 10px;
 }
-.textarea:hover{
+.textarea:hover {
   border: 1px solid black;
   padding-left: 10px;
   border-radius: 15px;
 }
 
-
-::placeholder{
+::placeholder {
   color: black;
   font-weight: bold;
+}
+
+@media screen and (max-width: 400px) {
+  .contacthead1 {
+    margin-top: 50px;
+    font-weight: 900;
+    width: 13rem;
+    margin-left: -9rem;
+  }
+
+  .Signup {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 200px;
+    padding-left: 0px;
+    padding-right: 1px;
+    padding-top: 12px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: -13rem;
+    width: 24rem;
+  }
+  .contactform1 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 23rem;
+  }
+  .inputcontactone {
+    width: 126px;
+    margin: 0 51px 0 0;
+  }
 }

@@ -48,6 +48,12 @@
   color: white;
 }
 
+.icondet {
+  font-size: 30px !important;
+  margin: 0px 0px 0px 1px !important;
+  color: rgb(89, 207, 89) !important;
+}
+
 .icon {
   display: flex;
   justify-content: space-evenly;
@@ -58,4 +64,30 @@
 .connect-with .icon a {
   display: inline;
   margin-left: 42px;
+}
+
+@media screen and (max-width: 400px) {
+  .company {
+    margin-left: -12rem;
+  }
+  .resource {
+    margin-left: -171px;
+  }
+  .connect-with {
+    margin-left: -179px;
+  }
+
+  .icon {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1px 1px 1px 143px;
+    padding-left: -20px;
+    flex-direction: column;
+  }
+
+  .icondet {
+    font-size: 25px !important;
+    margin: -5px 0px 0px 1px !important;
+    color: rgb(89, 207, 89) !important;
+  }
 }

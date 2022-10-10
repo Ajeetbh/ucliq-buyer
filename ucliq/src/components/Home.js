@@ -13,6 +13,7 @@ import "../style/home.css";
 import BuyerSeller from "./BuyerSeller";
 import BecomeBuyer from "./BecomeBuyer";
 import RegSeller from "./RegSeller";
+import FlowChart from "./FlowChart";
 // import AOS from "aos";
 // import "aos/dist/aos.css";
 
@@ -51,6 +52,9 @@ const Home = () => {
         <BuyerSeller />
       </section>
 
+      {/* <section style={style}>
+        <FlowChart />
+      </section> */}
       <section className="sixthback">
         <SixthSection />
       </section>

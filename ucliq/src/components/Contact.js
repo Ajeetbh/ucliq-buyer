@@ -47,7 +47,7 @@ function Contact() {
   return (
     <>
       <div classname="container-fluid contact" data-aos="zoom-out">
-        <h1> Contact Us </h1>
+        <h1 className="contacthead1"> Contact Us </h1>
         <div className="Signup">
           <header className="Signup-header">
             <form
@@ -64,7 +64,8 @@ function Contact() {
                   onChange={(e) => {
                     handleChange(e);
                   }}
-                  style={{ width: "290px", margin: "0 150px 0 0" }}
+                  className="inputcontactone"
+                  // style={{ width: "290px", margin: "0 150px 0 0" }}
                 />
                 <input
                   type="email"
@@ -87,7 +88,8 @@ function Contact() {
                   onChange={(e) => {
                     handleMobileChange(e);
                   }}
-                  style={{ width: "290px", margin: "0 150px 0 0" }}
+                  className="inputcontactone"
+                  // style={{ width: "290px", margin: "0 150px 0 0" }}
                 />
                 <input
                   type="text"
