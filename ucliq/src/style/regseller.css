@@ -99,6 +99,25 @@
   font-weight: bold;
   border-radius: 15px;
 }
+
+.pic-one {
+  width: 320px;
+  padding: 0px;
+  margin: 48px 50px 9px -50px;
+  height: 450px;
+  line-height: 40px;
+  box-shadow: 0px 6px 11px -2px rgb(0 0 0 / 75%);
+}
+
+.pic-two {
+  width: 320px;
+  padding: 0px;
+  margin: 49px 50px 9px 50px;
+  height: 450px;
+  line-height: 40px;
+  box-shadow: 5px 6px 11px -2px rgb(0 0 0 / 75%);
+}
+
 .link5 span {
   margin-left: -10px;
   border: 1px solid #af1212;
@@ -169,12 +188,70 @@
   .detail4 {
     font-size: 48px;
     color: white;
-    padding: 0px;
+    padding: 1px 0px 1px 95px;
   }
 
   .detail5 {
     font-size: 48px;
     color: white;
-    padding-top: 1px;
+    padding: 0px 195px 1px 1px;
+  }
+
+  .buyheadnew1 {
+    font-size: 18px;
+    margin-left: 114px;
+  }
+
+  .regbuyerheading {
+    text-align: center;
+    margin-left: -11rem;
+    width: 27rem;
+    font-size: 25px;
+    margin-top: -14rem;
+  }
+
+  .pic-one {
+    margin-left: -5rem;
+  }
+
+  .pic-two {
+    width: 320px;
+    padding: 0px;
+    margin: 49px 50px 9px -77px;
+    height: 450px;
+    line-height: 40px;
+    box-shadow: 5px 6px 11px -2px rgb(0 0 0 / 75%);
+  }
+
+  .link4 span {
+    margin-left: -154px;
+    border: 1px solid #af1212;
+    background-color: #af1212;
+    padding: 5px 20px 9px 13px;
+    color: white;
+    font-weight: bold;
+    border-radius: 15px;
+  }
+
+  .link5 span {
+    margin-left: -142px;
+    border: 1px solid #af1212;
+    background-color: #af1212;
+    color: white;
+    font-weight: bold;
+    height: 60px;
+    padding: 5px 20px 9px 20px;
+    border-radius: 15px;
+  }
+
+  .link6 span {
+    margin-left: -125px;
+    border: 1px solid #af1212;
+    background-color: #af1212;
+    color: white;
+    font-weight: bold;
+    height: 60px;
+    padding: 5px 20px 9px 20px;
+    border-radius: 15px;
   }
 }

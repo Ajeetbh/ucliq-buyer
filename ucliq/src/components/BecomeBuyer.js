@@ -82,14 +82,7 @@ const BecomeBuyer = () => {
 
         <div className="buyer2">
           <div className="buyerdetail1 w3-card-4" data-aos="fade-left">
-            <div
-              className="detail4"
-              // style={{
-              //   fontSize: "48px",
-              //   color: "white",
-              //   padding: "25px 161px 1px 1px",
-              // }}
-            >
+            <div className="detail4">
               <div className="icon2">
                 <i
                   class="fa fa-coffee"
@@ -100,16 +93,9 @@ const BecomeBuyer = () => {
                   }}
                 ></i>
               </div>
-              <h3>High-Speed Logistics Support</h3>
+              <h3 className="buyheadnew1">High-Speed Logistics Support</h3>
             </div>
-            <div
-              className="detail5"
-              // style={{
-              //   fontSize: "48px",
-              //   color: "white",
-              //   padding: "25px 1px 1px 1px",
-              // }}
-            >
+            <div className="detail5">
               <div className="icon2">
                 <i
                   class="fa fa-thumbs-up"
@@ -120,7 +106,7 @@ const BecomeBuyer = () => {
                   }}
                 ></i>
               </div>
-              <h3>Finance and Capital Support</h3>
+              <h3 className="buyheadnew1">Finance and Capital Support</h3>
             </div>
           </div>
         </div>
