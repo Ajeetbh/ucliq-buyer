@@ -6,19 +6,14 @@ const Service = () => {
   return (
     <>
       <div className="container">
-        <div>
+        <div className="serviceHead">
           <h1>10000+ Buyers/ 5000+ sellers</h1>
         </div>
         <div>
           <div className="container-fluid bg-white mb-5 mt-3">
             <div className="row">
-              <div className="col-sm-12">
-                {/* <h3>React Bootstrap Carousel</h3> */}
-              </div>
-            </div>
-            <div className="row">
               <div className="col-12">
-                <Carousel>
+                <Carousel className="item">
                   <Carousel.Item>
                     <h1>Fruits</h1>
                     <img
@@ -28,7 +23,7 @@ const Service = () => {
                     />
                   </Carousel.Item>
 
-                  <Carousel.Item>
+                  <Carousel.Item className="item">
                     <h1>Vegetables</h1>
                     <img
                       className="d-block w-100"
@@ -37,7 +32,7 @@ const Service = () => {
                     />
                   </Carousel.Item>
 
-                  <Carousel.Item>
+                  <Carousel.Item className="item">
                     <h1>Seafood</h1>
                     <img
                       className="d-block w-100"
@@ -45,7 +40,7 @@ const Service = () => {
                       alt="Third slide"
                     />
                   </Carousel.Item>
-                  <Carousel.Item>
+                  <Carousel.Item className="item">
                     <h1>Meat & Poutary</h1>
                     <img
                       className="d-block w-100"
@@ -53,7 +48,7 @@ const Service = () => {
                       alt="Third slide"
                     />
                   </Carousel.Item>
-                  <Carousel.Item>
+                  <Carousel.Item className="item">
                     <h1>Milk & Dairy</h1>
                     <img
                       className="d-block w-100"
