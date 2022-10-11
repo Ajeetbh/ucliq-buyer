@@ -31,3 +31,55 @@ const Header = () => {
   );
 };
 export default Header;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// import React from 'react'
+// import image from "../images/frontimage.webp";
+// import { useNavigate } from "react-router-dom";
+// import "../style/home.css";
+
+
+// const Header = () => {
+//   const navigate=useNavigate()
+//   return (
+//     <div className='main'>
+//       <div className='main-info' data-aos="fade-right">
+//         <h1 className="headerfirsth1">
+//           Digital Mandi of <span>Meat, Fresh Fish, and Seafood.</span>          
+//         </h1>
+//         <p className="headerP">
+//           UcliQ is a B2B Marketplace for Retail, Restaurants, Hotels and
+//           Businesess. Providing the best services with the help of
+//           technology and the supply chain innovation.
+//         </p>
+//         <div className="span">
+//           <span onClick={() => navigate("/about")}>About Us</span>
+//         </div>
+//       </div>
+//       <div className='main-image' data-aos="fade-left">
+//         <img src={image} alt="careerimage" className="headerImage1" />
+//       </div>
+//     </div>
+//   )
+// }
+// export default Header;
+
+
+
