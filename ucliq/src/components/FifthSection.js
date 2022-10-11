@@ -5,18 +5,6 @@ const FifthSection = () => {
   return (
     <>
       <div className="container">
-        <div className="fifthmain">
-          <div className="fifth-two" data-aos="fade-up">
-            <h1 className="fifthheading">Register as a Buyer</h1>
-            <br />
-            <p>
-              UcliQ can serve you up the best in chicken, mutton, fish and
-              seafoods with our Mobile app.
-              <br /> Download the app now and get some excited offers and
-              discounts.
-            </p>
-          </div>
-        </div>
         <div className="buyer" data-aos="flip-left">
           <div className="buyerheader">
             <h1>UcliQ's For Buyer</h1>

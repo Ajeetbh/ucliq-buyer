@@ -10,47 +10,15 @@ const BuyerSeller = () => {
           <div className="mainsubdiv">
             <div className="subdiv1" data-aos="zoom-in">
               <h2>Competitive Pricing</h2>
-              <div className="secondsuvdiv">
-                <img
-                  src="https://res.cloudinary.com/antrix/image/upload/v1664724149/competitive_pricing_1_dxmmcx.png"
-                  alt=""
-                  style={{ width: "19rem", height: "14rem" }}
-                  className="buyersellerimg"
-                />
-              </div>
             </div>
             <div className="subdiv1" data-aos="zoom-in">
               <h2>Fresh Quality </h2>
-              <div className="secondsuvdiv">
-                <img
-                  src="https://res.cloudinary.com/antrix/image/upload/v1664725738/fresh_quality_ywio3s.png"
-                  alt=""
-                  style={{ width: "19rem", height: "14rem" }}
-                  className="buyersellerimg"
-                />
-              </div>
             </div>
             <div className="subdiv1" data-aos="zoom-in">
               <h2>High-Speed Logistic Support </h2>
-              <div className="secondsuvdiv">
-                <img
-                  src="https://res.cloudinary.com/antrix/image/upload/v1664727218/logistic2_bpwq9a.png"
-                  alt=""
-                  style={{ width: "19rem", height: "182px" }}
-                  className="buyersellerimg"
-                />
-              </div>
             </div>
             <div className="subdiv1" data-aos="zoom-in">
               <h2>Credit Facilities</h2>
-              <div className="secondsuvdiv">
-                <img
-                  src="https://res.cloudinary.com/antrix/image/upload/v1664727738/credit_adv_1_z9hosm.png"
-                  alt=""
-                  style={{ width: "19rem", height: "14rem" }}
-                  className="buyersellerimg"
-                />
-              </div>
             </div>
           </div>
         </div>

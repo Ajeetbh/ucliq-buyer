@@ -9,64 +9,38 @@
   margin-top: 20px;
 }
 
-.buyerul {
-  text-align: left;
-}
-
 .subheadingbuy {
-  color: #080707;
+  color: #af1212;
+  margin-top: -10rem;
   padding-top: 1px;
-  margin-bottom: -44px;
   text-align: center;
   line-height: 8rem;
-  text-shadow: 1px 0px 5px black;
+  font-size: 4rem;
+  font-weight: 700;
 }
 
 .subdiv1 {
   width: 23%;
+  height: 18rem;
   margin-right: 30px;
   background-color: #ecf0f1;
   padding: 20px 12px 23px 10px;
   line-height: 40px;
   box-shadow: 0px 6px 11px -2px rgb(0 0 0 / 75%);
 }
-.subdiv1:hover {
-  background-color: #00b894;
-}
-
-.subdiv2 {
-  width: 53%;
-  background-color: #dfe6e9;
+.subdiv1 h2{
+  font-size: 2rem;
   text-align: center;
-  padding: 5px 0px 10px 100px;
-  line-height: 0px;
-  box-shadow: 0px 5px 17px 2px rgba(0, 0, 0, 0.75);
+  justify-content: center;
+  padding-top: 4rem;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
 }
-.subdiv2:hover {
-  background-color: #00b894;
-}
-.secondsuvdiv {
-  display: flex;
-  flex-direction: column;
-}
-.btn-primary {
-  width: 120px;
-  margin-left: 200px;
-  margin-top: 10px;
-}
-input {
-  border-radius: 15px !important;
-}
-select {
-  height: 2.5rem;
-  border: none;
-  border-radius: 15px;
-  padding: 9px;
+.subdiv1:hover {
+  background-color: #af1212;
+  color: white;
 }
 
-.buyersellerimg {
-  border-radius: 48px;
-}
 
 .regseller {
   width: 200rem !important;

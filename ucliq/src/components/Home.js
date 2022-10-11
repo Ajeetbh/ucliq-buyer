@@ -13,7 +13,7 @@ import "../style/home.css";
 import BuyerSeller from "./BuyerSeller";
 import BecomeBuyer from "./BecomeBuyer";
 import RegSeller from "./RegSeller";
-import FlowChart from "./FlowChart";
+//import FlowChart from "./FlowChart";
 // import AOS from "aos";
 // import "aos/dist/aos.css";
 

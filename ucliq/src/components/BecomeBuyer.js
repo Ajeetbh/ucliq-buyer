@@ -25,7 +25,7 @@ const BecomeBuyer = () => {
             >
               <div className="icon1">
                 <i
-                  class="fa fa-coffee"
+                  class="fa fa-male"
                   style={{
                     fontSize: "48px",
                     color: "white",
@@ -45,7 +45,7 @@ const BecomeBuyer = () => {
             >
               <div className="icon1">
                 <i
-                  class="fa fa-thumbs-up"
+                  class="fa fa-store"
                   style={{
                     fontSize: "48px",
                     color: "white",
@@ -63,9 +63,9 @@ const BecomeBuyer = () => {
                 // padding: "25px 1px 1px 1px",
               }}
             >
-              <div className="icon3">
+              <div className="icon1">
                 <i
-                  class="fa fa-truck"
+                  class="fa fa-credit-card"
                   style={{
                     fontSize: "48px",
                     color: "white",
@@ -85,7 +85,7 @@ const BecomeBuyer = () => {
             <div className="detail4">
               <div className="icon2">
                 <i
-                  class="fa fa-coffee"
+                  class="fa fa-truck"
                   style={{
                     fontSize: "48px",
                     color: "white",
