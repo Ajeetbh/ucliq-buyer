@@ -1,44 +1,41 @@
 .flex-container {
-    display: flex;
-    flex-direction: row;
-    margin-top: 5rem;
-  }
-  
-  .flex-container > div {
-    background-color: rgb(161, 189, 221);
-    border: 3px solid #af1212;
-    width: 30rem;
-    height: 10rem;
-    line-height: 75px;
-    align-items: center;
-    justify-content: center;
-    font-size: 30px;
-    
-  }
- 
+  display: flex;
+  flex-direction: row;
+  margin-top: 5rem;
+}
 
-  .flex-container .divcol1{
-    border-radius: 4rem;
-    border-top: none;
-    border-left:none ;
-    padding-top: 2.5rem;
-  }
+.flex-container > div {
+  background-color: rgb(161, 189, 221);
+  /* border: 3px solid #af1212; */
+  width: 30rem;
+  height: 10rem;
+  line-height: 75px;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+}
 
-  .flex-container .divcol2{
-    border-radius: 4rem;
-    border-bottom:none ;
-    padding-bottom: 2.5rem;
-  }
+.flex-container .divcol1 {
+  border-radius: 4rem;
+  border-top: none;
+  border-left: none;
+  padding-top: 2.5rem;
+}
 
-  .flex-container .divcol3{
-    border-radius: 4rem;
-    border-top: none;
-    padding-top: 2.5rem;
-  }
+.flex-container .divcol2 {
+  border-radius: 5rem;
+  border-bottom: none;
+  padding-bottom: 2.5rem;
+}
 
-  .flex-container .divcol4{
-    border-radius: 4rem;
-    border-bottom: none;
-    padding-bottom: 2.5rem;
-  }
- 
+.flex-container .divcol3 {
+  border-radius: 8rem;
+  border-top: none;
+  padding-top: 2.5rem;
+}
+
+.flex-container .divcol4 {
+  border-radius: 8rem;
+  border-bottom: none;
+  padding-bottom: 2.5rem;
+}
