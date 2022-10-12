@@ -3,18 +3,20 @@ import "../style/regseller.css";
 
 const RegSeller = () => {
   return (
-    <div className="container">
-        <h1 style={{color:"#af1212",fontSize:"3rem"}}>How to register as a Seller?</h1>
+    <div className="container container6">
+        <div className="regheader">
+            <h1>How to register as a Seller?</h1>
+        </div>
         <div className="flex-container">
             <div className="divcol2" data-aos="zoom-in">
                 <h5>Download Ucliq <br/> Seller App</h5>
                 <a href="https://play.google.com/store/apps/details?id=com.ucliq_seller_panel" target="_blank"
                 rel="noreferrer">
-                    <i className="fa fa-android" aria-hidden="true" style={{fontSize:"48px",color:"black"}}></i>    
+                    <i className="fa fa-android" aria-hidden="true" style={{fontSize:"48px"}}></i>    
                 </a>
             </div>
             <div className="divcol3" data-aos="zoom-in">
-                <i className="fa fa-mobile" style={{fontSize:"48px",color:"#f3da35"}}></i>
+                <i className="fa fa-mobile" style={{fontSize:"48px"}}></i>
                 <h5>Verify mobile number</h5>
             </div>
             <div className="divcol4" data-aos="zoom-in">

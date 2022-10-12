@@ -15,13 +15,6 @@
   font-size: 30px;
 }
 
-.flex-container .divcol1 {
-  border-radius: 4rem;
-  border-top: none;
-  border-left: none;
-  padding-top: 2.5rem;
-}
-
 .flex-container .divcol2 {
   border-radius: 5rem;
   border-bottom: none;
@@ -38,4 +31,18 @@
   border-radius: 8rem;
   border-bottom: none;
   padding-bottom: 2.5rem;
+}
+
+
+
+
+@media screen and (max-width: 400px){
+  .container4{
+    margin-top: 45rem;
+  }
+  .flex-container{
+    display: flex;
+   flex-flow: row wrap;
+   padding: 2rem;
+  }
 }

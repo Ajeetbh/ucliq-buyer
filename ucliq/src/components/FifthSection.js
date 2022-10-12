@@ -16,30 +16,36 @@ const FifthSection = () => {
                 <i class="fa fa-coffee"></i>
               </div>
               <h3>Unmatched Freshness</h3>
+              <div>
               <p>
                 Our technology enabled supply chain delivers the freshest fish
                 and seafoods just like coffee with the highest shelf life.
               </p>
+              </div>
             </div>
             <div className="detail">
               <div className="icon">
                 <i class="fa fa-thumbs-up"></i>
               </div>
               <h3>Reliable Supply</h3>
-              <p>
+             <div>
+             <p>
                 No more haggling with suppliers on last minute suprises and
                 price. Get access to a wide variety of products.
               </p>
+             </div>
             </div>
             <div className="detail">
               <div className="icon">
                 <i class="fa fa-truck"></i>
               </div>
               <h3>Convenience</h3>
+              <div>
               <p>
                 No more early morning trips to the local fish market. we deliver
                 to your doorstep.
               </p>
+             </div>
             </div>
           </div>
         </div>

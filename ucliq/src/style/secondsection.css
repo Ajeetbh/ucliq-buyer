@@ -227,6 +227,8 @@ a:hover {
   .buyer {
     background-color: yellow;
     height: 6rem;
+    margin-top: -10rem;
+    padding-bottom: 15rem;
   }
   .subheadingbuy {
     color: #080707;

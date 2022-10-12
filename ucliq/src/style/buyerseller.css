@@ -47,8 +47,16 @@
   margin-left: -122px !important;
 }
 
-@media screen and (max-width: 600px) {
-  .subdiv2 {
-    width: 5rem;
+@media screen and (max-width: 400px) {
+  .container1 .subheadingbuy{
+    margin-top: 6rem;
+    margin-bottom: 2rem;
+    font-size: 4rem;
+  }
+  .mainsubdiv .subdiv1{
+    font-size: .8rem;
+    align-items: center; 
+    justify-content: center; 
+    padding-bottom: 3rem;
   }
 }

@@ -1,3 +1,7 @@
+.regheader h1{
+  color:#af1212;
+  font-size:3rem;
+}
 .flex-container {
   display: flex;
   flex-direction: row;
@@ -65,6 +69,44 @@
   border: 2px solid rgb(161 189 221);
 }
 
+
+/* @media screen and (max-width: 400px){
+  .regheader h1{
+    text-align: left;
+    font-size: 2.5rem;
+    margin-left: -10rem;
+    margin-top: -10rem;
+    }
+    .flex-container{
+      display: flex;
+     flex-flow: row wrap;
+     margin-left: -14rem;
+     margin-top: -1rem;
+    }
+    .divcol2{
+      width: 25rem;
+      padding: 3rem 6rem 3rem 6rem;
+    }
+    .divcol3{
+      width: 25rem;
+      padding: 3rem 6rem 3rem 6rem;
+    }
+    .divcol4{
+      width: 25rem;
+      padding: 3rem 6rem 3rem 6rem;
+    }
+  } 
+
+
+
+
+
+ */
+
+
+
+
+
 .buyer1 {
   display: flex;
   justify-content: space-between;
@@ -90,7 +132,7 @@
 }
 
 .buyerheading {
-  color: white;
+  color: #af1212;
   padding-top: 1px;
   margin-bottom: -44px;
   text-align: center;
@@ -322,3 +364,5 @@
     border-radius: 15px;
   }
 }
+
+

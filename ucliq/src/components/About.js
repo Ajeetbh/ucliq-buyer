@@ -1,10 +1,8 @@
 import React from "react";
 import "../style/about.css";
-import OurTeam from "../components/OurTeam";
 
 const About = () => {
   return (
-    <div>
     <div className="about" data-aos="zoom-in-up">
       <h1>About Us</h1>
       <div className="aboutInfo w3-container w3-panel w3-border-left w3-border-right w3-card-4">
@@ -63,8 +61,6 @@ const About = () => {
           involved.
         </p>
       </div>
-    </div>
-    <OurTeam/>
     </div>
   );
 };

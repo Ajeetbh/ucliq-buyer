@@ -15,61 +15,31 @@ const BecomeBuyer = () => {
         </div>
         <div className="buyer1">
           <div className="buyerdetail1 w3-card-4" data-aos="fade-right">
-            <div
-              className="detail-one"
-              style={{
-                fontSize: "48px",
-                color: "white",
-                // padding: "25px 120px 1px 1px",
-              }}
-            >
+            <div className="detail-one" style={{fontSize: "48px", color: "white" // padding: "25px 120px 1px 1px",
+            }}>
               <div className="icon1">
-                <i
-                  class="fa fa-male"
-                  style={{
-                    fontSize: "48px",
-                    color: "white",
-                    padding: "25px 1px 1px 1px",
-                  }}
+                <i class="fa fa-male" style={{fontSize: "48px",color: "white",padding: "25px 1px 1px 1px",
+                }}
                 ></i>
               </div>
-              <h3 className="buyheadnew">New Customers</h3>
+               <h3 className="buyheadnew">New Customers</h3>
             </div>
-            <div
-              className="detail2"
-              style={{
-                fontSize: "48px",
-                color: "white",
-                // padding: "25px 161px 1px 1px",
+
+            <div className="detail2" style={{fontSize: "48px",color: "white",// padding: "25px 161px 1px 1px",
               }}
-            >
-              <div className="icon1">
-                <i
-                  class="fa fa-store"
-                  style={{
-                    fontSize: "48px",
-                    color: "white",
-                    padding: "25px 1px 1px 1px",
+            ><div className="icon1">
+                <i class="fa fa-store" style={{fontSize: "48px",color: "white",padding: "25px 1px 1px 1px",
                   }}
                 ></i>
               </div>
               <h3 className="buyheadnew">Digital Store Front</h3>
             </div>
-            <div
-              className="detail3"
-              style={{
-                fontSize: "48px",
-                color: "white",
-                // padding: "25px 1px 1px 1px",
+
+            <div className="detail3" style={{fontSize: "48px",color: "white",marginTop:"-.1rem",//padding: "25px 1px 1px 1px", 
               }}
             >
               <div className="icon1">
-                <i
-                  class="fa fa-credit-card"
-                  style={{
-                    fontSize: "48px",
-                    color: "white",
-                    padding: "25px 1px 1px 1px",
+                <i class="fa fa-credit-card" style={{fontSize: "48px",color: "white",padding: "25px 1px 1px 1px",
                   }}
                 ></i>
               </div>

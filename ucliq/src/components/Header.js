@@ -9,20 +9,22 @@ const Header = () => {
     <div className="container">
       <div className="row">
         <div className="header">
-          <div className="col-md-4 headerInfo" data-aos="fade-right">
+          <div className="col-sm-6 headerInfo" data-aos="fade-right">
             <h1 className="headerfirsth1">
               Digital Mandi of <span>Meat, Fresh Fish, and Seafood.</span>
             </h1>
-            <p className="headerP">
+            <div className="headerP">
+            <p>
               UcliQ is a B2B Marketplace for Retail, Restaurants, Hotels and
               Businesess. Providing the best services with the help of
               technology and the supply chain innovation.
             </p>
+            </div>
             <div className="span">
               <span onClick={() => navigate("/about")}>About Us</span>
-            </div>
+            </div> 
           </div>
-          <div className="col-md-8 headerImage" data-aos="fade-left">
+          <div className="col-sm-6 headerImage" data-aos="fade-left">
             <img src={image} alt="careerimage" className="headerImage1" />
           </div>
         </div>
