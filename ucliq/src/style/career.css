@@ -22,7 +22,7 @@
   width: 27rem;
   height: 57px;
   background-color: #af1212;
-  color: white;
+  color: #dfe6e9;
   padding: 15px;
   font-size: 15px;
   /* margin-bottom: 4px; */
@@ -76,27 +76,26 @@ p {
   align-items: left;
 }
 
-
 @media screen and (max-width: 900px) {
-  .career{
+  .career {
     display: flex;
     flex-flow: row wrap;
     text-align: center;
     padding: 20px 40px 20px 40px;
   }
-  .careerInfo{
+  .careerInfo {
     display: block;
     order: 1;
   }
-  .careerInfo h2{
-    font-size:2rem;
+  .careerInfo h2 {
+    font-size: 2rem;
     text-align: center;
   }
-  .careerInfo p{
+  .careerInfo p {
     text-align: center;
     font-size: 1rem;
   }
-  .career .careerImage{
+  .career .careerImage {
     display: block;
     order: 2;
     width: 62.5rem;
@@ -110,39 +109,39 @@ p {
     width: 15rem;
     text-align: center;
   }
-  .info{
+  .info {
     text-align: center;
     justify-content: center;
   }
-  .info1{
+  .info1 {
     text-align: left;
     height: auto;
   }
 }
 
 @media screen and (max-width: 600px) {
-  .career{
+  .career {
     display: flex;
     flex-flow: row wrap;
     text-align: center;
     justify-content: center;
   }
-  .careerInfo{
+  .careerInfo {
     display: block;
     order: 1;
   }
 
-  .careerInfo h2{
+  .careerInfo h2 {
     font-size: 20px;
     text-align: center;
     justify-content: center;
     padding: 1rem 5rem 1rem 5rem;
   }
-  .careerInfo p{
+  .careerInfo p {
     font-size: 15px;
     text-align: center;
     justify-content: center;
-    padding: .1rem 10rem .5rem 10rem;
+    padding: 0.1rem 10rem 0.5rem 10rem;
   }
   .careerInfo button {
     width: 10rem;
@@ -159,30 +158,30 @@ p {
     height: 20rem;
     padding-right: 4rem;
   }
-  .info{
+  .info {
     width: 62.5;
     display: block;
     align-items: center;
     margin-top: -2rem;
   }
-  .info h1{
+  .info h1 {
     text-align: left;
     font-size: 20px;
   }
-  .info p{
+  .info p {
     font-size: 12px;
     align-items: center;
   }
-  .info1{
+  .info1 {
     width: 62.5;
     display: block;
     align-items: center;
   }
-  .info1 h1{
+  .info1 h1 {
     text-align: left;
     font-size: 20px;
   }
-  .info1 p{
+  .info1 p {
     font-size: 12px;
     align-items: center;
     padding: 1rem 2rem 1rem 2rem;

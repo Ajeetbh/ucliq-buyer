@@ -1,10 +1,10 @@
-.header{
+.header {
   display: flex;
   flex-direction: row;
   margin-top: 2rem;
 }
 
-.headerInfo{
+.headerInfo {
   height: 30rem;
   text-align: left;
   justify-content: center;
@@ -32,7 +32,7 @@
   width: 35rem;
   height: 5.7rem;
   background-color: #af1212;
-  color: white;
+  color: #dfe6e9;
   padding: 1rem 2.5rem 1rem 2.5rem;
   font-weight: bold;
   font-size: 18px;
@@ -41,30 +41,28 @@
   border: none;
 }
 
-.headerImage{
+.headerImage {
   width: 62.5;
   height: 30rem;
 }
-.headerImage img{
+.headerImage img {
   width: 35rem;
   height: 30rem;
   padding: 2rem;
 }
 
-
-
 @media screen and (max-width: 900px) {
-  .header{
+  .header {
     flex-flow: row wrap;
     align-items: center;
     justify-content: center;
     width: 62.5rem;
   }
-  .header .headerInfo{
+  .header .headerInfo {
     display: block;
     order: 1;
   }
-  .header .headerImage{
+  .header .headerImage {
     display: block;
     order: 2;
     width: 100%;
@@ -73,9 +71,9 @@
 }
 
 @media screen and (max-width: 600px) {
-  .header{
-   align-items: center;
-   justify-content: center;
+  .header {
+    align-items: center;
+    justify-content: center;
   }
   .headerfirsth1 {
     width: 26rem;
@@ -93,22 +91,21 @@
   .span {
     padding-left: 5rem;
   }
-  .headerInfo .span span{
+  .headerInfo .span span {
     padding: 1rem;
     margin-bottom: 4rem;
   }
-  .headerImage img{
+  .headerImage img {
     margin-top: 3rem;
     padding: 5rem;
   }
-
 }
 
 @media screen and (max-width: 400px) {
-  .header{
+  .header {
     text-align: left;
   }
-   .headerfirsth1 {
+  .headerfirsth1 {
     text-align: left;
     font-size: 1.8rem;
     margin: 1rem;
@@ -121,17 +118,15 @@
   .span {
     margin-left: -3rem;
   }
-  .headerInfo .span span{
-    padding: .8rem;
+  .headerInfo .span span {
+    padding: 0.8rem;
   }
-  .headerImage img{
+  .headerImage img {
     margin-top: -12rem;
     margin-left: -4rem;
     padding: 7rem;
   }
-} 
-
-
+}
 
 /* .header {
   display: flex;
@@ -176,7 +171,7 @@
   width: 350px;
   height: 57px;
   background-color: #af1212;
-  color: white;
+  color: #dfe6e9;
   padding: 15px 40px 15px 40px;
   font-weight: bold;
   font-size: 18px;

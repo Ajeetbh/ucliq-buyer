@@ -112,8 +112,8 @@ ul a span {
   display: block;
   width: 0;
   height: 130px;
-  background: red;
-  border-left: 4px solid #fff;
+  background: #ff5252;
+  border-left: 4px solid #dfe6e9;
   left: 45.45%;
   position: relative;
 }
@@ -136,7 +136,7 @@ ul a span {
   height: 64px;
   margin: 0 auto 92px auto;
   padding-top: 25px;
-  border-bottom: 4px solid white;
+  border-bottom: 4px solid #dfe6e9;
   z-index: 1;
 }
 
@@ -150,7 +150,7 @@ ul a span {
 .subdirector > li:first-child {
   float: right;
   right: 27.2%;
-  border-left: 4px solid white;
+  border-left: 4px solid #dfe6e9;
 }
 
 @media print {
@@ -162,7 +162,7 @@ ul a span {
 .departments > li:first-child {
   float: left;
   left: 27.2%;
-  border-right: 4px solid white;
+  border-right: 4px solid #dfe6e9;
 }
 
 @media print {
@@ -254,7 +254,7 @@ ul a span {
   position: absolute;
   width: 0;
   height: 22px;
-  border-left: 4px solid white;
+  border-left: 4px solid #dfe6e9;
   z-index: 1;
   top: -22px;
   left: 50%;
@@ -298,7 +298,7 @@ ul a span {
     position: absolute;
     width: 0;
     height: 60px;
-    border-left: 4px solid white;
+    border-left: 4px solid #dfe6e9;
     z-index: 1;
     top: -60px;
     left: 0%;

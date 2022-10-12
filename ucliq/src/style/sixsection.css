@@ -33,16 +33,13 @@
   padding-bottom: 2.5rem;
 }
 
-
-
-
-@media screen and (max-width: 400px){
-  .container4{
+@media screen and (max-width: 400px) {
+  .container4 {
     margin-top: 45rem;
   }
-  .flex-container{
+  .flex-container {
     display: flex;
-   flex-flow: row wrap;
-   padding: 2rem;
+    flex-flow: row wrap;
+    padding: 2rem;
   }
 }

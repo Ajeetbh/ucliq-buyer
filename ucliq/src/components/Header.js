@@ -14,18 +14,22 @@ const Header = () => {
               Digital Mandi of <span>Meat, Fresh Fish, and Seafood.</span>
             </h1>
             <div className="headerP">
-            <p>
-              UcliQ is a B2B Marketplace for Retail, Restaurants, Hotels and
-              Businesess. Providing the best services with the help of
-              technology and the supply chain innovation.
-            </p>
+              <p>
+                UcliQ is a B2B Marketplace for Retail, Restaurants, Hotels and
+                Businesess. Providing the best services with the help of
+                technology and the supply chain innovation.
+              </p>
             </div>
             <div className="span">
               <span onClick={() => navigate("/about")}>About Us</span>
-            </div> 
+            </div>
           </div>
           <div className="col-sm-6 headerImage" data-aos="fade-left">
-            <img src={image} alt="careerimage" className="headerImage1" />
+            <img
+              src="https://res.cloudinary.com/antrix/image/upload/v1665591651/istockphoto-1263975117-612x612_yutcrz.jpg"
+              alt="careerimage"
+              className="headerImage1"
+            />
           </div>
         </div>
       </div>
@@ -33,4 +37,3 @@ const Header = () => {
   );
 };
 export default Header;
-

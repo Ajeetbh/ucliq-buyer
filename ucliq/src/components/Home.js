@@ -64,9 +64,9 @@ const Home = () => {
       <section style={style}>
         <RegSeller />
       </section>
-      <section style={style}>
+      {/* <section style={style}>
         <Contact />
-      </section>
+      </section> */}
       {/* <section>
         <Footer />
       </section>  */}

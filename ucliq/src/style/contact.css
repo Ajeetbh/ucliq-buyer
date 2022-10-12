@@ -8,6 +8,7 @@
   /* background-image: url('../images/contact5.jpg'); */
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: #dfe6e9;
 }
 
 input,
@@ -27,6 +28,17 @@ textarea {
   margin-bottom: 10px;
   flex-direction: row;
   justify-content: space-between;
+  border-radius: 50rem;
+}
+
+::placeholder {
+  text-align: center;
+}
+
+form {
+  width: 39rem;
+  align-items: center;
+  margin-left: 29rem;
 }
 
 .subject,
@@ -37,7 +49,7 @@ textarea {
   background-color: #af1212;
   text-align: center;
   width: 100%;
-  color: white;
+  color: #dfe6e9;
   border-radius: 3rem;
 }
 

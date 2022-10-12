@@ -39,7 +39,7 @@
   background-size: cover;
   height: 250px;
   width: 600px;
-  color: white;
+  color: #dfe6e9;
 }
 .sell p {
   font-size: 13px;
@@ -56,7 +56,7 @@
 .sell1 span {
   width: 200px;
   height: 70px;
-  background-color: white;
+  background-color: #dfe6e9;
   color: #af1212;
   padding: 20px;
   border-radius: 8px;
@@ -64,21 +64,21 @@
 }
 .sell1 span:hover {
   background-color: #af1212;
-  color: white;
+  color: #dfe6e9;
 }
 .sell .sell2 {
   background-image: url("https://res.cloudinary.com/antrix/image/upload/v1664701911/farmer_xsud0n.jpg");
   background-size: cover;
   height: 250px;
   width: 600px;
-  color: white;
+  color: #dfe6e9;
   margin-top: 2rem;
 }
 
 .sell2 span {
   width: 200px;
   height: 70px;
-  background-color: white;
+  background-color: #dfe6e9;
   color: forestgreen;
   padding: 20px;
   border-radius: 8px;
@@ -86,7 +86,7 @@
 }
 .sell2 span:hover {
   background-color: rgb(69, 231, 69);
-  color: white;
+  color: #dfe6e9;
 }
 h3:hover {
   zoom: 105%;
@@ -114,18 +114,17 @@ p:hover {
   box-shadow: inset 0 0 0 5000px rgba(0, 0, 0, 0.2);
 }
 
-
 @media screen and (max-width: 900px) {
   .buy {
     flex-flow: row wrap;
     align-items: center;
   }
-  .buy .buyInfo{
+  .buy .buyInfo {
     display: block;
     order: 1;
     margin-top: 2rem;
   }
-  .sell{
+  .sell {
     display: block;
     order: 2;
     width: 62.5;
@@ -143,13 +142,13 @@ p:hover {
     align-items: center;
     justify-content: center;
   }
-  .buy .buyInfo{
+  .buy .buyInfo {
     display: block;
     order: 1;
     margin-top: 2rem;
   }
-  
-  .sell{
+
+  .sell {
     display: block;
     order: 2;
     width: 62.5;
@@ -157,32 +156,32 @@ p:hover {
     align-items: center;
     justify-content: center;
   }
-  .buyInfo h1{
+  .buyInfo h1 {
     font-size: 1.5rem;
   }
-  .buyInfo p{
+  .buyInfo p {
     font-size: 1rem;
     margin-bottom: 3rem;
     align-items: center;
     justify-content: center;
   }
-} 
+}
 
 @media screen and (max-width: 360px) {
-   .buy {
+  .buy {
     display: flex;
     flex-flow: row wrap;
     align-items: center;
     justify-content: center;
     width: auto;
-  } 
-  .buy .buyInfo{
+  }
+  .buy .buyInfo {
     display: block;
     order: 1;
     margin-top: 2rem;
-  } 
-  
-  .sell{
+  }
+
+  .sell {
     display: block;
     order: 2;
     width: 62.5;
@@ -190,32 +189,32 @@ p:hover {
     align-items: center;
     justify-content: center;
     padding-bottom: 5rem;
-  } 
-  .sell span{
+  }
+  .sell span {
     margin-top: 2rem;
     padding: 1rem;
-    font-size: .8rem
-  };
-  
-  .buyInfo h1{
-    font-size: .8rem;
+    font-size: 0.8rem;
   }
-  .buyInfo p{
-    font-size: .8rem;
+
+  .buyInfo h1 {
+    font-size: 0.8rem;
+  }
+  .buyInfo p {
+    font-size: 0.8rem;
     margin-bottom: 3rem;
     align-items: center;
     justify-content: center;
   }
-  .sell .sell1 h3{
+  .sell .sell1 h3 {
     font-size: 1rem;
     align-items: center;
     justify-content: center;
     padding: 1rem 4rem 3rem 4rem;
-   }
-   .sell .sell2 h3{
+  }
+  .sell .sell2 h3 {
     font-size: 1rem;
     align-items: center;
     justify-content: center;
     padding: 1rem 4rem 3rem 4rem;
-   }
-} 
+  }
+}
