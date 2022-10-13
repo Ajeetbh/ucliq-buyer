@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../images/frontimage.webp";
+//import image from "../images/frontimage.webp";
 import { useNavigate } from "react-router-dom";
 import "../style/home.css";
 

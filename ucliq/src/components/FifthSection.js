@@ -17,7 +17,7 @@ const FifthSection = () => {
               </div>
               <h3>Unmatched Freshness</h3>
               <div>
-              <p>
+              <p className="detailP">
                 Our technology enabled supply chain delivers the freshest fish
                 and seafoods just like coffee with the highest shelf life.
               </p>
@@ -29,7 +29,7 @@ const FifthSection = () => {
               </div>
               <h3>Reliable Supply</h3>
              <div>
-             <p>
+             <p className="detailP">
                 No more haggling with suppliers on last minute suprises and
                 price. Get access to a wide variety of products.
               </p>
@@ -40,7 +40,7 @@ const FifthSection = () => {
                 <i class="fa fa-truck"></i>
               </div>
               <h3>Convenience</h3>
-              <div>
+              <div className="detailP">
               <p>
                 No more early morning trips to the local fish market. we deliver
                 to your doorstep.

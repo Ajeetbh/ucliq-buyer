@@ -57,6 +57,8 @@
   border-radius: 20px;
 }
 
+
+
 .buyer {
   background-color: #b2bec3;
 }
@@ -219,7 +221,7 @@ a:hover {
     text-shadow: 1px 0px 24px black;
   }
   .buyerheader h1 {
-    color: #af1212;
+    color:#af1212;
     text-align: center;
     font-weight: 800;
     font-size: 41px;
@@ -287,6 +289,34 @@ a:hover {
     margin-top: 1rem;
   }
 }
+
+@media screen and (max-width: 400px){
+  .buyer{
+    margin-top: -18rem;
+    width: auto;
+  }
+  .buyerheader h1{
+    font-size: 1.5rem;
+  }
+  .buyerheader p{
+    font-size: 1rem;
+  }
+  .buyerdetail .detail h3{
+    font-size: 1.2rem;
+  }
+  .buyerdetail .detail p{
+    font-size: .9rem;
+  }
+  .detail .icon{
+    padding: 1rem;
+  }
+}
+
+
+
+
+
+
 
 @media screen and (max-width: 900px) {
   .serviceHead h1 {

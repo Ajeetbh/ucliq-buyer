@@ -50,10 +50,10 @@
   .container1 .subheadingbuy {
     margin-top: 6rem;
     margin-bottom: 2rem;
-    font-size: 4rem;
+    font-size: 2.5rem;
   }
-  .mainsubdiv .subdiv1 {
-    font-size: 0.8rem;
+  .mainsubdiv .subdiv1 h2{
+    font-size: 1.2rem;
     align-items: center;
     justify-content: center;
     padding-bottom: 3rem;

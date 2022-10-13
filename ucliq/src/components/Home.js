@@ -1,6 +1,6 @@
 import React from "react";
 //import About from "./About";
-import Contact from "./Contact";
+//import Contact from "./Contact";
 import FifthSection from "./FifthSection";
 //import Footer from "./Footer";
 //import FourthSection from "./FourthSection";

@@ -3,8 +3,8 @@ import "../style/sixsection.css";
 
 const SixthSection = () => {
   return (
-    <div className="container container4">
-      <h1 style={{ color: "#af1212", fontSize: "3rem" }}>
+    <div className="container">
+      <h1 className="header4">
         How to register as a Buyer?
       </h1>
       <div className="flex-container">
