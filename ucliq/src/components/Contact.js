@@ -64,7 +64,7 @@ function Contact() {
                   onChange={(e) => {
                     handleChange(e);
                   }}
-                  className="inputcontactone"
+                  // className="inputcontactone"
                   // style={{ width: "290px", margin: "0 150px 0 0" }}
                 />
                 <input
@@ -88,7 +88,7 @@ function Contact() {
                   onChange={(e) => {
                     handleMobileChange(e);
                   }}
-                  className="inputcontactone"
+                  //className="inputcontactone"
                   // style={{ width: "290px", margin: "0 150px 0 0" }}
                 />
                 <input

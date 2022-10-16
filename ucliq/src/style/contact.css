@@ -1,13 +1,11 @@
+.contact{
+  margin-left: -2rem;
+}
 .Signup {
   text-align: center;
-  margin-top: 20px;
-  margin-bottom: 200px;
-  padding-left: 40px;
-  padding-right: 40px;
-  padding-top: 20px;
-  /* background-image: url('../images/contact5.jpg'); */
-  background-repeat: no-repeat;
-  background-size: cover;
+  margin-top: 2rem;
+  margin-bottom: 20rem;
+  padding-top: 2rem;
   background-color: #dfe6e9;
 }
 
@@ -84,31 +82,42 @@ form {
 
 @media screen and (max-width: 400px) {
   .contacthead1 {
-    margin-top: 50px;
-    font-weight: 900;
+    margin-top: 5rem;
     width: 13rem;
-    margin-left: -9rem;
+    margin-left: 7rem;
+    font-size: 1.5rem;
   }
 
   .Signup {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 200px;
-    padding-left: 0px;
-    padding-right: 1px;
     padding-top: 12px;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-left: -13rem;
+    margin-left: -25rem;
     width: 24rem;
   }
   .contactform1 {
     display: flex;
     justify-content: space-evenly;
-    width: 23rem;
+    flex-direction: column;
+    width: 35rem;
   }
   .inputcontactone {
     width: 126px;
     margin: 0 51px 0 0;
+  }
+  .subject,.textarea{
+    width: 20rem;
+    margin-right: 20rem;
+  }
+  ::placeholder {
+    font-size: 1rem;
+  }
+  .submit{
+    width: 20rem;
+    margin-right: 20rem;
+    font-size: 1rem;
   }
 }

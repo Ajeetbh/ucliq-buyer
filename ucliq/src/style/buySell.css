@@ -167,7 +167,7 @@ p:hover {
   }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 400px) {
   .buy {
     display: flex;
     flex-flow: row wrap;
@@ -197,7 +197,7 @@ p:hover {
   }
 
   .buyInfo h1 {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
   .buyInfo p {
     font-size: 0.8rem;
@@ -212,9 +212,15 @@ p:hover {
     padding: 1rem 4rem 3rem 4rem;
   }
   .sell .sell2 h3 {
-    font-size: 1rem;
+    font-size:1rem;
     align-items: center;
     justify-content: center;
     padding: 1rem 4rem 3rem 4rem;
+  }
+  .sell1 span{
+    padding: .5rem;
+  }
+  .sell2 span{
+    padding: .5rem;
   }
 }

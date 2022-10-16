@@ -187,3 +187,36 @@ p {
     padding: 1rem 2rem 1rem 2rem;
   }
 }
+
+
+@media screen and (max-width: 400px) {
+  .careerInfo h2{
+    font-size: 1rem;
+  }
+  .careerInfo p{
+    font-size: .8rem;
+    margin-top: -2rem;
+  }
+  .careerInfo button {
+    width: 7rem;
+    text-align: center;
+    font-size: .8rem;
+    margin-top: -3rem;
+  }
+  .careerImage img{
+    align-items: center;
+    justify-content: center;
+    padding: 6rem;
+    margin-left: -3rem;
+    margin-top: -6rem;
+  }
+  .info{
+    margin-top: -15rem;
+  }
+  .info p{
+    font-size: .8rem;
+  }
+  .info1 p{
+    font-size: .8rem;
+  }
+}
