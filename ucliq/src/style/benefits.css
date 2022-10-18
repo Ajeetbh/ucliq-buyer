@@ -1,0 +1,97 @@
+.infobenefit{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.heading h1{
+    color: #af1212;
+    font-size: 3rem;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5rem;
+    margin-top: 3rem;
+}
+.main .sub{
+    width:25rem;
+    height: 15rem; 
+    margin: 2rem;
+    line-height: 4rem;
+    box-shadow: 0rem .6rem 1.1rem -.2rem rgb(0 0 0 / 75%);
+    color:#af1212; 
+} 
+.sub h2{
+    margin-top: 6rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.sub:hover{
+    background-color: #af1212;
+    color: white;
+}
+
+
+/* .container1 {
+    width: 88rem;
+    margin-left: -176px;
+  }
+  
+  .mainsubdiv {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .subheadingbuy {
+    color: #af1212;
+    margin-top: -10rem;
+    padding-top: 1px;
+    text-align: center;
+    line-height: 8rem;
+    font-size: 4rem;
+    font-weight: 700;
+  }
+  
+  .subdiv1 {
+    width: 20%;
+    height: 18rem;
+    margin-right: 30px;
+    background-color: #ecf0f1;
+    padding: 20px 12px 23px 10px;
+    line-height: 40px;
+    box-shadow: 0px 6px 11px -2px rgb(0 0 0 / 75%);
+  }
+  .subdiv1 h2 {
+    font-size: 2rem;
+    text-align: center;
+    justify-content: center;
+    padding-top: 4rem;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
+  }
+  .subdiv1:hover {
+    background-color: #af1212;
+    color: #dfe6e9;
+  }
+  
+  .regseller {
+    width: 200rem !important;
+    margin-left: -122px !important;
+  } */
+  
+  @media screen and (max-width: 400px) {
+    .container1 .subheadingbuy {
+      margin-top: 6rem;
+      margin-bottom: 2rem;
+      font-size: 2.5rem;
+    }
+    .mainsubdiv .subdiv1 h2{
+      font-size: 1.2rem;
+      align-items: center;
+      justify-content: center;
+      padding-bottom: 3rem;
+    }
+  }
+  

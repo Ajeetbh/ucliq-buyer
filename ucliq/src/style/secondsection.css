@@ -59,98 +59,6 @@
 
 
 
-.buyer {
-  background-color: #b2bec3;
-}
-.buyerheader h1 {
-  color: #af1212;
-  text-align: center;
-  font-weight: 800;
-  font-size: 50px;
-}
-.buyerheader p {
-  text-align: center;
-  font-weight: 600;
-  margin-bottom: 50px;
-}
-
-.buyerdetail {
-  display: inline-flex;
-  flex-direction: row;
-  height: 300px;
-  padding: 20px;
-  text-align: center;
-  background-color: #dfe6e9;
-}
-
-.buyerdetail h3 {
-  color: #af1212;
-  font-weight: bold;
-}
-
-.detail .icon {
-  width: 100px;
-  height: 100px;
-  border: 1px solid #af1212;
-  align-items: center;
-  border-radius: 100%;
-  background-color: #af1212;
-  margin-left: 150px;
-}
-
-.detail p {
-  text-align: center;
-  padding: 20px;
-  margin: 20px 20px;
-  width: 100%;
-  height: 500px;
-}
-
-.sixthMain {
-  width: 200rem !important;
-  margin-left: 59px !important;
-}
-
-.registerbuyer {
-  display: flex;
-  flex-direction: row;
-}
-
-.link1 span {
-  border: 1px solid #af1212;
-  background-color: #af1212;
-  color: #dfe6e9;
-  font-weight: bold;
-  text-align: center;
-  height: 60px;
-  margin-left: -3rem;
-  padding: 5px 20px 9px 20px;
-}
-.link2 span {
-  border: 1px solid red;
-  background-color: red;
-  padding: 5px 40px 9px 40px;
-}
-.link2 span {
-  border: 1px solid #af1212;
-  background-color: #af1212;
-  color: #dfe6e9;
-  font-weight: bold;
-  height: 60px;
-  margin-left: 4rem;
-  padding: 5px 40px 9px 40px;
-}
-.link3 span {
-  border: 1px solid #af1212;
-  background-color: #af1212;
-  color: #dfe6e9;
-  font-weight: bold;
-  width: 100%;
-  height: 60px;
-  margin-left: 12rem;
-  padding: 5px 40px 9px 40px;
-  margin-top: 1rem;
-}
 
 a {
   text-decoration: none;
@@ -164,53 +72,9 @@ a:hover {
   color: #dfe6e9 !important;
 }
 
-@media screen and (max-width: 900px) {
-  .buyerdetail {
-    width: 47rem;
-    height: 23rem;
-  }
 
-  .detail {
-    width: 15rem;
-  }
-  .detail .icon {
-    width: 61px;
-    height: 67px;
-    border: 1px solid #af1212;
-    align-items: center;
-    border-radius: 100%;
-    background-color: #af1212;
-    margin-left: 89px;
-  }
-}
 
 @media screen and (max-width: 600px) {
-  .buyerdetail {
-    width: 378px;
-    height: 39rem;
-    display: flex;
-    align-content: space-around;
-    justify-content: space-between;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 1rem;
-    margin-top: -3rem;
-  }
-
-  .buyerdetail h3 {
-    color: #af1212;
-    font-weight: bold;
-    width: 17rem;
-  }
-
-  .detail p {
-    text-align: center;
-    padding: 12px;
-    margin: -21px -82px;
-    width: 26rem;
-    height: 7rem;
-  }
-
   .fifthheading {
     color: #dfe6e9;
     padding-top: 0px;
@@ -219,18 +83,6 @@ a:hover {
     line-height: 8rem;
     font-weight: 700;
     text-shadow: 1px 0px 24px black;
-  }
-  .buyerheader h1 {
-    color:#af1212;
-    text-align: center;
-    font-weight: 800;
-    font-size: 41px;
-  }
-  .buyer {
-    background-color: yellow;
-    height: 6rem;
-    margin-top: -10rem;
-    padding-bottom: 15rem;
   }
   .subheadingbuy {
     color: #080707;
@@ -289,34 +141,6 @@ a:hover {
     margin-top: 1rem;
   }
 }
-
-@media screen and (max-width: 400px){
-  .buyer{
-    margin-top: -18rem;
-    width: auto;
-  }
-  .buyerheader h1{
-    font-size: 1.5rem;
-  }
-  .buyerheader p{
-    font-size: 1rem;
-  }
-  .buyerdetail .detail h3{
-    font-size: 1.2rem;
-  }
-  .buyerdetail .detail p{
-    font-size: .9rem;
-  }
-  .detail .icon{
-    padding: 1rem;
-  }
-}
-
-
-
-
-
-
 
 @media screen and (max-width: 900px) {
   .serviceHead h1 {

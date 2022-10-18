@@ -1,8 +1,8 @@
 .navbar {
   background-color: #af1212 !important;
   /* position: -webkit-sticky;
-  position: sticky; */
-  top: 0;
+  position: sticky;  
+  top: 0; */
   height: auto;
 }
 
@@ -24,12 +24,15 @@
   color: #ffff00 !important;
 }
 
+
+
 .logo {
   width: 143px;
   height: 107px;
   margin-top: -2rem;
   margin-left: 40px;
-  margin-bottom: -15px;
+  margin-bottom: -15px; 
+  padding:-2rem;
 }
 
 @media screen and (max-width: 400px) {

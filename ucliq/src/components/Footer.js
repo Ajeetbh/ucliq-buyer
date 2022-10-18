@@ -3,10 +3,6 @@ import { Link } from "react-router-dom";
 import "../style/footer.css";
 
 const Footer = () => {
-  // function scrollToTop() {
-  //   window.scrollTo({ top: 0, behavior: "smooth" });
-  //   console.log("clicked");
-  // }
   return (
     <div className="container-fluid">
       <div className="conainer">

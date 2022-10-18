@@ -1,0 +1,46 @@
+.infoHeader{
+    background-image: url("https://previews.123rf.com/images/baibakova/baibakova1901/baibakova190100149/115965224-different-types-of-fresh-chicken-meat-top-view-flat-lay-paanorama-banner-with-copy-space.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 62.5;
+    height: 35rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.infoHeader h1{
+    width: 40rem;
+    color: black;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 3rem;
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+}
+.infoHeader span{
+    color: #af1212;
+}
+.infoHeader .infoP p{
+    width: 30rem;
+    color:black;
+    font-size: 1.2rem;
+    padding: 1rem;
+    text-align: left;
+    justify-content: center;
+    font-weight: bold;
+    margin-bottom: 3rem;
+    font-family: "Poppins", sans-serif;
+}
+
+.span span{
+    color: white;
+    width: 1rem;
+    height: 1rem;
+    background-color: #af1212;
+    padding: 1rem 2rem 1rem 2rem;
+    font-weight: bold;
+    border-radius: 2rem;
+    margin-left: -75rem;
+    font-family: "Poppins", sans-serif;
+}
