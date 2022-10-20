@@ -33,14 +33,16 @@
     font-family: "Poppins", sans-serif;
 }
 
-.span span{
-    color: white;
+.download span{
     width: 1rem;
     height: 1rem;
     background-color: #af1212;
     padding: 1rem 2rem 1rem 2rem;
     font-weight: bold;
     border-radius: 2rem;
-    margin-left: -75rem;
+    margin-left: -65rem;
     font-family: "Poppins", sans-serif;
+}
+.download a{
+    color: white;
 }

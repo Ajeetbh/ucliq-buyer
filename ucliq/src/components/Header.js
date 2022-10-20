@@ -11,7 +11,7 @@ const Header = () => {
           Businesess. Providing the best services with the help of
           technology and the supply chain innovation.</p>
         </div>
-        <div className='span'><span><a
+        <div className='download'><span><a
             href="https://play.google.com/store/apps/details?id=com.ucliq_customer&gl=US"
             target="_blank"
             rel="noreferrer"

@@ -30,9 +30,9 @@
   width: 143px;
   height: 107px;
   margin-top: -2rem;
-  margin-left: 40px;
+  margin-left: -1rem;
   margin-bottom: -15px; 
-  padding:-2rem;
+  padding:-3rem;
 }
 
 @media screen and (max-width: 400px) {

@@ -1,0 +1,58 @@
+.aboutUs{
+    display: flex;
+    flex-direction: row;
+    color:black;
+    background-color:gray;
+}
+
+.aboutInfo{
+    display: flex;
+    flex-direction: column;
+}
+
+.detailinfo{
+    display: flex;
+    flex-direction: row;
+    font-family: "Poppins", sans-serif;
+    align-items: center;
+    margin-left: -5rem;
+}
+
+.detailinfo .icon{
+    margin-left: -.2rem;
+}
+
+.detailheader h5{
+    margin: 1rem;
+    width: 10rem;
+    height: 4rem;
+    background-color: yellow;
+    font-size: 1rem;
+    padding-top: 1rem;
+    border-radius: 1rem;
+    font-weight:bold;
+}
+
+.aboutImage h1{
+    color: #af1212;
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+}
+
+.aboutImage p{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 1.2rem;
+    margin-bottom: 4rem;
+}
+
+.btn{
+    width: 10rem;
+    height: 4rem;
+    margin-left: -38rem;
+    color: white;
+    font-size: 1.2rem;
+    padding-top:1rem;
+    background-color: #af1212;
+    border-radius: 1rem;
+}

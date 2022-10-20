@@ -1,5 +1,5 @@
 .buyer5 {
-    background-image: url("https://cdn.pixabay.com/photo/2017/03/01/10/03/online-sales-2108028_960_720.jpg");
+    background-image: url("https://img.freepik.com/free-photo/black-friday-elements-assortment_23-2149074076.jpg?w=826&t=st=1666275673~exp=1666276273~hmac=b538790fa3aff30aabc2ce9bee721e79b4836dd87f82c33ee48e1afcbd2781f9");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -47,6 +47,8 @@
     width: 100%;
     height: 50rem;
     font-weight: bold;
+    color: white;
+    font-size: 1.2rem;
   }
   
  
