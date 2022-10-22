@@ -14,19 +14,19 @@ const AboutUcliq = () => {
                     <div className='firstSec'>
                         <div className='col1'>
                             <div className='icon'>
-                            <i className="fa fa-truck" style={{fontSize:"60px",color:"rgb(235, 78, 78)"}}></i>
+                            <i className="fa fa-truck" style={{fontSize:"60px",color:"#e74c3c"}}></i>
                             </div>
                             <h5>Doorstep Delivary</h5>
                         </div>
                         <div className='col1'>
                              <div className='icon'>
-                             <i className='fas fa-chart-line' style={{fontSize:"60px",color:"rgb(235, 78, 78)"}}></i>
+                             <i className='fas fa-chart-line' style={{fontSize:"60px",color:"#e74c3c"}}></i>
                              </div>
                              <h5>Business Growth</h5>
                         </div> 
                         <div className='col1'>
                              <div className='icon'>
-                             <i className='fa fa-rupee' style={{fontSize:"60px",color:"rgb(235, 78, 78)"}}></i>
+                             <i className='fa fa-rupee' style={{fontSize:"60px",color:"#e74c3c"}}></i>
                              </div>
                              <h5>Smart Returns</h5>
                         </div> 
@@ -34,13 +34,13 @@ const AboutUcliq = () => {
                     <div className='secondSec'>
                         <div className='col2'>
                               <div className='icon'>
-                              <i className='far fa-credit-card' style={{fontSize:"60px",color:"rgb(235, 78, 78)"}}></i>  
+                              <i className='far fa-credit-card' style={{fontSize:"60px",color:"#e74c3c"}}></i>  
                               </div>                 
                               <h5>Credit Facility</h5>
                         </div> 
                         <div className='col2'>
                         <div className='icon'>
-                        <i className='fa fa-money' style={{fontSize:"60px",color:"rgb(235, 78, 78)"}}></i>    
+                        <i className='fa fa-money' style={{fontSize:"60px",color:"#e74c3c"}}></i>    
                         </div>               
                         <h5>Easy Payment</h5>
                     </div>

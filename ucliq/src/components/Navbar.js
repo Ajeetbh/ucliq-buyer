@@ -5,14 +5,15 @@ import "../style/navbar.css";
 function Navbar() {
   return (
     <>
-      <nav class="navbar navbar-expand-lg navbar-light">
+      <nav class="navbar navbar-expand-lg">
         <div class="container-fluid navbar">
           <Link to="/" class="nav-link1">
-            <img
+            {/* <img
               src="https://res.cloudinary.com/antrix/image/upload/v1664960446/20221005_142807_0000_rvu7dq.png"
               alt="logo"
               className="logo"
-            />
+            /> */}
+            Ucliq
           </Link>
 
           <button
@@ -32,6 +33,7 @@ function Navbar() {
               <Link to="/" class="nav-link">
                 Home
               </Link>
+
               <Link to="/buy-sell" class="nav-link">
                 Buy/Sell
               </Link>
@@ -52,4 +54,3 @@ function Navbar() {
   );
 }
 export default Navbar;
-
