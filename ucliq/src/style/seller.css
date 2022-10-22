@@ -1,59 +1,66 @@
-.sellerinfo1{
-   background-color: white;
+.sellerinfo1 {
+  background-color: white;
 }
 
-.buyerheading1 h1{
-    color: #af1212;
-    font-size: 3.5rem;
+.buyerheading1 h1 {
+  color: #af1212;
+  font-size: 3.5rem;
 }
 
-.buyer{
-    background-image: url("https://images.unsplash.com/photo-1557821552-17105176677c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8ZSUyMGNvbW1lcmNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60");
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    padding: 4rem;
-    margin: 2rem;
+.buyer {
+  /* background-image: url("https://images.unsplash.com/photo-1557821552-17105176677c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8ZSUyMGNvbW1lcmNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  padding: 4rem;
+  margin: 2rem;
 }
 
-.buyer .buyer1{
-    display: flex;
-    flex-direction: row;
+.buyer .buyer1 {
+  display: flex;
+  flex-direction: row;
+  margin-left: 125px;
 }
-.buyer1 .detail1{
-    margin: 4rem;
-    padding-left: 5rem;
+.buyer1 .detail1 {
+  margin-left: 6rem;
+  padding-left: 6rem;
 }
-.buyer .buyer2{
-    display: flex;
-    flex-direction: row;
+.buyer .buyer2 {
+  display: flex;
+  flex-direction: row;
 }
-.buyer2 .detail2{
-    margin: 2rem;
-    padding-left: 16rem;
-    color: black;
+.buyer2 {
+  margin-left: 30rem;
+  margin-top: 5rem;
+}
+.detail2 {
+  margin-left: -10px;
+  margin-right: 167px;
 }
 
-.detail1 .icon1{
-    width: 7rem;
-    height: 7rem;
-    border-radius: 8rem;
-    background-color: #af1212;
-    padding-top: .5rem;
+.detail3 {
+  margin-left: 13rem !important;
 }
-.detail1 .buyheadnew{
-    font-weight: bold;
-    margin-left: -2rem;
+.detail1 .icon1 {
+  width: 7rem;
+  height: 7rem;
+  border-radius: 8rem;
+  background-color: #af1212;
+  padding-top: 0.5rem;
 }
-.detail2 .icon1{
-    width: 7rem;
-    height: 7rem;
-    border-radius: 8rem;
-    background-color: #af1212;
-    padding-top: .5rem;
+.detail1 .buyheadnew {
+  font-weight: bold;
+  margin-left: -2rem;
 }
-.detail2 .buyheadnew{
-    margin-left: -8rem;
-    font-weight: bold;
+.detail2 .icon1 {
+  width: 7rem;
+  height: 7rem;
+  border-radius: 8rem;
+  background-color: #af1212;
+  padding-top: 0.5rem;
+}
+.detail2 .buyheadnew {
+  margin-left: -8rem;
+  font-weight: bold;
 }

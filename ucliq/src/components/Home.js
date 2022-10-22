@@ -1,8 +1,11 @@
 import React from "react";
 import Header from "./Header";
 import "../style/home.css";
-import Contact from '../components/Contact'
-import AboutUcliq  from "../components/AboutUcliq";
+import Contact from "../components/Contact";
+import AboutUcliq from "../components/AboutUcliq";
+import BuySell from "./BuySell";
+import Seller from "./Seller";
+import HomeSellerSec from "./HomeSellerSec";
 const Home = () => {
   return (
     <>
@@ -10,10 +13,10 @@ const Home = () => {
         <Header />
       </section>
       <section>
-        <AboutUcliq/>
+        <AboutUcliq />
       </section>
       <section>
-        <Contact />
+        <HomeSellerSec />
       </section>
     </>
   );
