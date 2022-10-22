@@ -33,13 +33,7 @@ function Navbar() {
               <Link to="/" class="nav-link">
                 Home
               </Link>
-<<<<<<< HEAD
-              {/* 
-              <HashLink to="/service" class="nav-link" smooth>
-                Services
-              </HashLink> */}
-=======
->>>>>>> 4138d6074f409ff977588facd3d7a282e37e387a
+
               <Link to="/buy-sell" class="nav-link">
                 Buy/Sell
               </Link>

@@ -13,6 +13,7 @@
 .nav-link1 {
   font-size: 3rem;
   margin-left: 2rem;
+  text-decoration: none;
   font-weight: bold;
   font-family: Georgia, "Times New Roman", Times, serif;
   color: #e74c3c;

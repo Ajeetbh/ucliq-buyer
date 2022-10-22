@@ -1,101 +1,75 @@
-.second{
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(231, 198, 198);
-    padding-top: 5rem;
+.second {
+  display: flex;
+  flex-direction: column;
+  background-color: #ecf0f1;
+  padding-top: 5rem;
 }
 
-.secondInfo p{
-    color: rgb(243, 63, 63);
-    font-size: 1.5rem;
-    font-family: "Poppins", sans-serif;
-    font-weight: bold;
-    text-align: center;
+.secondInfo p {
+  color: rgb(243, 63, 63);
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  text-align: center;
 }
-.secondInfo h1{
-    text-align: center;
-    justify-content: center;
-    font-family: "Poppins", sans-serif;
-    font-size: 3rem;
-    font-weight: 800;
-    margin: 0rem 10rem 3rem 10rem;
-    word-spacing: .2rem;
-}
-
-.secondProp{
-    display: flex;
-    flex-direction: column;
+.secondInfo h1 {
+  text-align: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 3rem;
+  font-weight: 800;
+  margin: 0rem 10rem 3rem 10rem;
+  word-spacing: 0.2rem;
 }
 
-.secondProp .firstSec{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-.firstSec .col1{
-    width: 15rem;
-    height: 15rem;
-    margin: 2rem;
-    background-color: white;
-    border-radius: 3rem;
-}
-.col1 .icon{
-    width: 6rem;
-    height: 6rem;
-    background-color: rgb(235, 78, 78);
-    align-items: center;
-    justify-content: center;
-    border-radius: 3rem;
-    margin:2rem 2rem 2rem 5rem;
+.secondProp {
+  display: flex;
+  flex-direction: column;
 }
 
-.secondProp .secondSec{
-    display: flex;
-    flex-direction: row;
-    margin-left: 14rem;
+.secondProp .firstSec {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.firstSec .col1 {
+  width: 15rem;
+  height: 15rem;
+  margin: 2rem;
+  background-color: white;
+  border-radius: 3rem;
+}
+.col1 .icon {
+  width: 6rem;
+  height: 6rem;
+  background-color: rgb(235, 78, 78);
+  align-items: center;
+  justify-content: center;
+  border-radius: 3rem;
+  margin: 2rem 2rem 2rem 5rem;
 }
 
-.secondSec .col2{
-    width: 15rem;
-    height: 15rem;
-    background-color:white;
-    margin: 4rem;
-    border-radius: 3rem;
+.secondProp .secondSec {
+  display: flex;
+  flex-direction: row;
+  margin-left: 14rem;
 }
 
-.col2 .icon{
-    width: 6rem;
-    height: 6rem;
-    background-color: rgb(235, 78, 78);
-    align-items: center;
-    justify-content: center;
-    border-radius: 3rem;
-    margin:2rem 2rem 2rem 5rem;
+.secondSec .col2 {
+  width: 15rem;
+  height: 15rem;
+  background-color: white;
+  margin: 4rem;
+  border-radius: 3rem;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.col2 .icon {
+  width: 6rem;
+  height: 6rem;
+  background-color: rgb(235, 78, 78);
+  align-items: center;
+  justify-content: center;
+  border-radius: 3rem;
+  margin: 2rem 2rem 2rem 5rem;
+}
