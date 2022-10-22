@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { HashLink } from "react-router-hash-link";
 import "../style/navbar.css";
 
 function Navbar() {
@@ -34,10 +33,13 @@ function Navbar() {
               <Link to="/" class="nav-link">
                 Home
               </Link>
+<<<<<<< HEAD
               {/* 
               <HashLink to="/service" class="nav-link" smooth>
                 Services
               </HashLink> */}
+=======
+>>>>>>> 4138d6074f409ff977588facd3d7a282e37e387a
               <Link to="/buy-sell" class="nav-link">
                 Buy/Sell
               </Link>
