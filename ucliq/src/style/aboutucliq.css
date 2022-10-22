@@ -1,58 +1,101 @@
-.aboutUs{
+.second{
     display: flex;
-    flex-direction: row;
-    color:black;
-    background-color:gray;
+    flex-direction: column;
+    background-color: rgb(231, 198, 198);
+    padding-top: 5rem;
 }
 
-.aboutInfo{
+.secondInfo p{
+    color: rgb(243, 63, 63);
+    font-size: 1.5rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+.secondInfo h1{
+    text-align: center;
+    justify-content: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 3rem;
+    font-weight: 800;
+    margin: 0rem 10rem 3rem 10rem;
+    word-spacing: .2rem;
+}
+
+.secondProp{
     display: flex;
     flex-direction: column;
 }
 
-.detailinfo{
+.secondProp .firstSec{
     display: flex;
     flex-direction: row;
-    font-family: "Poppins", sans-serif;
     align-items: center;
-    margin-left: -5rem;
+    justify-content: center;
+}
+.firstSec .col1{
+    width: 15rem;
+    height: 15rem;
+    margin: 2rem;
+    background-color: white;
+    border-radius: 3rem;
+}
+.col1 .icon{
+    width: 6rem;
+    height: 6rem;
+    background-color: rgb(235, 78, 78);
+    align-items: center;
+    justify-content: center;
+    border-radius: 3rem;
+    margin:2rem 2rem 2rem 5rem;
 }
 
-.detailinfo .icon{
-    margin-left: -.2rem;
+.secondProp .secondSec{
+    display: flex;
+    flex-direction: row;
+    margin-left: 14rem;
 }
 
-.detailheader h5{
-    margin: 1rem;
-    width: 10rem;
-    height: 4rem;
-    background-color: yellow;
-    font-size: 1rem;
-    padding-top: 1rem;
-    border-radius: 1rem;
-    font-weight:bold;
+.secondSec .col2{
+    width: 15rem;
+    height: 15rem;
+    background-color:white;
+    margin: 4rem;
+    border-radius: 3rem;
 }
 
-.aboutImage h1{
-    color: #af1212;
-    text-align: left;
-    font-family: "Poppins", sans-serif;
+.col2 .icon{
+    width: 6rem;
+    height: 6rem;
+    background-color: rgb(235, 78, 78);
+    align-items: center;
+    justify-content: center;
+    border-radius: 3rem;
+    margin:2rem 2rem 2rem 5rem;
 }
 
-.aboutImage p{
-    color: white;
-    font-family: "Poppins", sans-serif;
-    font-size: 1.2rem;
-    margin-bottom: 4rem;
-}
 
-.btn{
-    width: 10rem;
-    height: 4rem;
-    margin-left: -38rem;
-    color: white;
-    font-size: 1.2rem;
-    padding-top:1rem;
-    background-color: #af1212;
-    border-radius: 1rem;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
