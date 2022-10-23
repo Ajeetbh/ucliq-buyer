@@ -42,7 +42,7 @@ const Seller = () => {
               </div>
               <div className="seller2">
                 <div className="column2">
-                  <div className="icons">
+                  <div className="icon-2">
                     <i
                       class="fa fa-truck"
                       style={{ fontSize: "48px", color: "white" }}
@@ -52,20 +52,20 @@ const Seller = () => {
                 </div>
                 {/*5................. .............................. */}
                 <div className="detail2">
-                  <div className="icon1">
-                    <i
+                  {/* <div className="icon1"> */}
+                  {/* <i
                       class="fa fa-thumbs-up"
                       style={{
                         fontSize: "48px",
                         color: "white",
                         padding: "25px 1px 1px 1px",
                       }}
-                    ></i>
-                  </div>
+                    ></i> */}
+                  {/* </div> */}
 
-                  <h3 className="buyheadnew">Finance and Capital Support</h3>
+                  {/* <h3 className="buyheadnew">Finance and Capital Support</h3> */}
                   <div className="column2">
-                    <div className="icons">
+                    <div className="icon-3">
                       <i
                         class="fa fa-thumbs-up"
                         style={{ fontSize: "48px", color: "white" }}

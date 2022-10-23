@@ -46,6 +46,7 @@
   margin: 4rem;
   border-radius: 2rem;
   background-color: white;
+  padding-top: 1px;
 }
 
 .buyerheading1 h1 {
@@ -116,4 +117,47 @@
   font-weight: bold;
   margin-left: -2rem;
   color: #2c3a47;
+}
+
+.seller1 .icons {
+  width: 6rem;
+  height: 6rem;
+  background-color: #e74c3c;
+  margin: 2rem 0rem 2rem 4rem;
+}
+
+.icon-2 {
+  background-color: #af1212;
+  width: 6rem;
+  height: 6rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5rem;
+  padding-top: 1rem;
+  margin-left: 65px;
+  margin-top: 39px;
+}
+
+.icon-3 {
+  background-color: #af1212;
+  width: 6rem;
+  height: 6rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5rem;
+  padding-top: 1rem;
+  margin-left: 65px;
+  margin-top: 39px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: 400;
+  margin: 10px 0;
+  color: black;
 }

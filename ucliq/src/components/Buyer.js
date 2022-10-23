@@ -36,8 +36,8 @@ const Buyer = () => {
               </div>
             </div>
             <div className="detail">
-              <div className="icon">
-                <i class="fa fa-truck" style={{fontSize:"60px",color:"white"}}></i>
+              <div className="icon-th">
+                <i class="fa fa-truck third-icon"></i>
               </div>
               <h3>Convenience</h3>
               <div className="detailP">
