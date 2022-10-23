@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 .header4 {
   color: #af1212;
   margin-bottom: 5rem;
@@ -61,66 +60,3 @@
   margin-left: 8rem;
   margin-top: -3rem;
 }
-=======
-.header4{
-    color: #e74c3c;
-    margin-bottom: 5rem;
-  }
-  
-  .border{
-    display: flex;
-    flex-direction: row;
-    margin: 6rem;
-  }
-   .border .div1{
-    width:25rem;
-    height: 10rem;
-    border: 2px solid green;
-    border-bottom: none;
-    border-top-right-radius:10rem;
-    border-top-left-radius: 10rem;
-   }
-   .border .div2{
-    margin-top: 10rem;
-    width:25rem;
-    height: 10rem;
-    border: 2px solid green;
-    border-top: none;
-    border-bottom-right-radius:10rem;
-    border-bottom-left-radius: 10rem;
-   }
-   .border .div3{
-    width:25rem;
-    height: 10rem;
-    border: 2px solid green;
-    border-bottom: none;
-    border-top-right-radius:10rem;
-    border-top-left-radius: 10rem;
-   }
-  
-   .icons{
-    background-color:#e74c3c;
-    width: 6rem;
-    height: 6rem;
-    align-items: center;
-    justify-content: center;
-    border-radius: 5rem;
-    padding-top: 1rem;
-   }
-  
-   .div1 .icons{
-    margin-left: 8rem;
-    margin-top: -3rem;
-   }
-   .div2 .icons{
-    margin-left: 8rem;
-    margin-top: 1.5rem;
-   }
-   .div2 h5{
-    padding-top: 3rem;
-   }
-   .div3 .icons{
-    margin-left: 8rem;
-    margin-top: -3rem;
-   }
->>>>>>> 323eb8874dbd7e54705742010f8c86607e8c5111

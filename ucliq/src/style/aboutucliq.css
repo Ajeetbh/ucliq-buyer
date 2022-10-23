@@ -1,4 +1,4 @@
-/* .second {
+.second {
   display: flex;
   flex-direction: column;
   background-color: #ff7675;
@@ -28,27 +28,27 @@
   flex-direction: column;
 }
 
-.secondProp .firstSec{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+.secondProp .firstSec {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
-.firstSec .col1{
-    width: 12rem;
-    height: 14rem;
-    margin: 2rem;
-    background-color: white;
-    border-radius: 3rem;
-    transform: skewX(10deg);
+.firstSec .col1 {
+  width: 12rem;
+  height: 14rem;
+  margin: 2rem;
+  background-color: white;
+  border-radius: 3rem;
+  transform: skewX(10deg);
 }
-.col1 .icon{
-    width: 6rem;
-    height: 6rem;
-    align-items: center;
-    justify-content: center;
-    border-radius: 3rem;
-    margin:2rem 2rem 1.5rem 3rem;
+.col1 .icon {
+  width: 6rem;
+  height: 6rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3rem;
+  margin: 2rem 2rem 1.5rem 3rem;
 }
 .secondProp .firstSec {
   display: flex;
@@ -72,38 +72,37 @@
   border-radius: 3rem;
   margin: 2rem 2rem 2rem 5rem;
 }
-.col1 h5{
-    font-weight: bold;
-    font-family: Georgia, "Times New Roman", Times, serif;
+.col1 h5 {
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
-.col2 h5{
-    font-weight: bold;
-    font-family: Georgia, "Times New Roman", Times, serif;
-}
-
-
-.secondProp .secondSec{
-    display: flex;
-    flex-direction: row;
-    margin-left: 18rem;
+.col2 h5 {
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-.secondSec .col2{
-    width: 12rem;
-    height: 14rem;
-    background-color:white;
-    margin: 4rem;
-    border-radius: 3rem;
-    transform: skewX(10deg);
+.secondProp .secondSec {
+  display: flex;
+  flex-direction: row;
+  margin-left: 18rem;
 }
 
-.col2 .icon{
-    width: 6rem;
-    height: 6rem;
-    align-items: center;
-    justify-content: center;
-    border-radius: 3rem;
-    margin:2rem 2rem 1.5rem 3rem;
+.secondSec .col2 {
+  width: 12rem;
+  height: 14rem;
+  background-color: white;
+  margin: 4rem;
+  border-radius: 3rem;
+  transform: skewX(10deg);
+}
+
+.col2 .icon {
+  width: 6rem;
+  height: 6rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 3rem;
+  margin: 2rem 2rem 1.5rem 3rem;
 }
 .secondProp .secondSec {
   display: flex;
@@ -129,7 +128,6 @@
   margin: 2rem 2rem 2rem 5rem;
 }
 
-<<<<<<< HEAD
 h1,
 h2,
 h3,
@@ -144,7 +142,3 @@ h6 {
 p {
   color: #2c3a47;
 }
-=======
-/* font-family: Georgia, "Times New Roman", Times, serif;
-color: #e74c3c; */
->>>>>>> 323eb8874dbd7e54705742010f8c86607e8c5111

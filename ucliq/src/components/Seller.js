@@ -14,19 +14,28 @@ const Seller = () => {
               <div className="seller1">
                 <div className="column1">
                   <div className="icons">
-                    <i class="fa fa-male" style={{fontSize: "48px",color: "white"}}></i>
+                    <i
+                      class="fa fa-male"
+                      style={{ fontSize: "48px", color: "white" }}
+                    ></i>
                   </div>
                   <h5>New Customers</h5>
                 </div>
                 <div className="column1">
                   <div className="icons">
-                    <i class="fa fa-store" style={{fontSize: "48px",color: "white"}}></i>
+                    <i
+                      class="fa fa-store"
+                      style={{ fontSize: "48px", color: "white" }}
+                    ></i>
                   </div>
                   <h5>Digital Store Front</h5>
                 </div>
                 <div className="column1">
                   <div className="icons">
-                    <i class="fa fa-credit-card" style={{fontSize: "48px",color: "white"}}></i>
+                    <i
+                      class="fa fa-credit-card"
+                      style={{ fontSize: "48px", color: "white" }}
+                    ></i>
                   </div>
                   <h5>Secured Payment</h5>
                 </div>
@@ -34,11 +43,13 @@ const Seller = () => {
               <div className="seller2">
                 <div className="column2">
                   <div className="icons">
-                    <i class="fa fa-truck" style={{fontSize: "48px",color: "white"}}></i>
+                    <i
+                      class="fa fa-truck"
+                      style={{ fontSize: "48px", color: "white" }}
+                    ></i>
                   </div>
                   <h5>High-Speed Logistics Support</h5>
                 </div>
-<<<<<<< HEAD
                 {/*5................. .............................. */}
                 <div className="detail2">
                   <div className="icon1">
@@ -53,21 +64,23 @@ const Seller = () => {
                   </div>
 
                   <h3 className="buyheadnew">Finance and Capital Support</h3>
-=======
-                <div className="column2">
-                  <div className="icons">
-                    <i class="fa fa-thumbs-up" style={{fontSize: "48px",color: "white"}}></i>
+                  <div className="column2">
+                    <div className="icons">
+                      <i
+                        class="fa fa-thumbs-up"
+                        style={{ fontSize: "48px", color: "white" }}
+                      ></i>
+                    </div>
+                    <h5>Finance and Capital Support</h5>
                   </div>
-                  <h5>Finance and Capital Support</h5>
->>>>>>> 323eb8874dbd7e54705742010f8c86607e8c5111
                 </div>
               </div>
-            </div> 
-          </div>    
-      </div>     
-  </div>
-  </div>
-  )
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 };
 
 export default Seller;
