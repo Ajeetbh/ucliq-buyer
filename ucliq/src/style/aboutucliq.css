@@ -1,21 +1,13 @@
-.second {
+/* .second {
   display: flex;
   flex-direction: column;
-<<<<<<< HEAD
   background-color: #ff7675;
-=======
-  background-color: #ebc6c2;
->>>>>>> 323eb8874dbd7e54705742010f8c86607e8c5111
   padding-top: 5rem;
   width: 100% !important;
 }
 
 .secondInfo p {
-<<<<<<< HEAD
   color: #2d3436;
-=======
-  color: #e74c3c;
->>>>>>> 323eb8874dbd7e54705742010f8c86607e8c5111
   font-size: 1.5rem;
   font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: bold;
