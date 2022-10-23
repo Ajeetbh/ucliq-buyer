@@ -47,8 +47,11 @@ function Contact() {
   return (
     <>
       <div classname="container-fluid contact" data-aos="zoom-out">
-        <h1 className="contacthead1"> Contact Us </h1>
-        <div className="Signup">
+        <h1 className="contacthead1" style={{ color: "#2c3a47" }}>
+          {" "}
+          Contact Us{" "}
+        </h1>
+        <div className="Signup" style={{ color: "#2c3a47" }}>
           <header className="Signup-header">
             <form
               onSubmit={(e) => {
@@ -113,6 +116,7 @@ function Contact() {
                 onChange={(e) => {
                   handleSubjectChange(e);
                 }}
+                style={{ color: "#2c3a47" }}
               />
               <br />
               <br />

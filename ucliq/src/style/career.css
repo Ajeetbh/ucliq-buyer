@@ -21,9 +21,10 @@
 .careerInfo button {
   width: 27rem;
   height: 57px;
-  background-color: #af1212;
-  color: #dfe6e9;
+  background-color: #ff7675;
+  color: #2c3a47;
   padding: 15px;
+  font-weight: bold;
   font-size: 15px;
   /* margin-bottom: 4px; */
   cursor: pointer;
@@ -188,35 +189,34 @@ p {
   }
 }
 
-
 @media screen and (max-width: 400px) {
-  .careerInfo h2{
+  .careerInfo h2 {
     font-size: 1rem;
   }
-  .careerInfo p{
-    font-size: .8rem;
+  .careerInfo p {
+    font-size: 0.8rem;
     margin-top: -2rem;
   }
   .careerInfo button {
     width: 7rem;
     text-align: center;
-    font-size: .8rem;
+    font-size: 0.8rem;
     margin-top: -3rem;
   }
-  .careerImage img{
+  .careerImage img {
     align-items: center;
     justify-content: center;
     padding: 6rem;
     margin-left: -3rem;
     margin-top: -6rem;
   }
-  .info{
+  .info {
     margin-top: -15rem;
   }
-  .info p{
-    font-size: .8rem;
+  .info p {
+    font-size: 0.8rem;
   }
-  .info1 p{
-    font-size: .8rem;
+  .info1 p {
+    font-size: 0.8rem;
   }
 }

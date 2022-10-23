@@ -1,4 +1,4 @@
-.contact{
+.contact {
   margin-left: -2rem;
 }
 .Signup {
@@ -7,7 +7,7 @@
   margin-bottom: 20rem;
   margin-left: -4rem;
   padding-top: 2rem;
-  background-color: #dfe6e9;
+  background-color: #fff;
 }
 
 input,
@@ -20,7 +20,7 @@ textarea {
   font-weight: 300;
   background: transparent;
   border: none;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #2c3a47;
   font-size: 18px;
   padding-left: 0;
   height: 45px;
@@ -35,7 +35,7 @@ textarea {
 }
 
 form {
-  width: 39rem;
+  width: 50rem;
   align-items: center;
   margin-left: 29rem;
 }
@@ -45,11 +45,12 @@ form {
   width: 100%;
 }
 .submit {
-  background-color: #af1212;
+  background-color: #ff7675;
   text-align: center;
   width: 100%;
-  color: #dfe6e9;
+  color: #2c3a47;
   border-radius: 3rem;
+  font-weight: bold;
 }
 
 .contactform1 {
@@ -63,21 +64,21 @@ form {
 }
 
 .contactform1 input:hover {
-  border: 1px solid black;
+  border: 1px solid #2c3a47;
   padding-left: 10px;
 }
 .subject:hover {
-  border: 1px solid black;
+  border: 1px solid #2c3a47;
   padding-left: 10px;
 }
 .textarea:hover {
-  border: 1px solid black;
+  border: 1px solid #2c3a47;
   padding-left: 10px;
   border-radius: 15px;
 }
 
 ::placeholder {
-  color: black;
+  color: #2c3a47;
   font-weight: bold;
 }
 
@@ -109,14 +110,15 @@ form {
     width: 126px;
     margin: 0 51px 0 0;
   }
-  .subject,.textarea{
+  .subject,
+  .textarea {
     width: 20rem;
     margin-right: 20rem;
   }
   ::placeholder {
     font-size: 1rem;
   }
-  .submit{
+  .submit {
     width: 20rem;
     margin-right: 20rem;
     font-size: 1rem;

@@ -63,4 +63,11 @@
 .detail2 .buyheadnew {
   margin-left: -8rem;
   font-weight: bold;
+  color: #2c3a47;
+}
+
+.detail1 .buyheadnew {
+  font-weight: bold;
+  margin-left: -2rem;
+  color: #2c3a47;
 }

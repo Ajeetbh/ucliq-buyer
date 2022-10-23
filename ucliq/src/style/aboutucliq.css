@@ -1,12 +1,13 @@
 .second {
   display: flex;
   flex-direction: column;
-  background-color: #ecf0f1;
+  background-color: #ff7675;
   padding-top: 5rem;
+  width: 100% !important;
 }
 
 .secondInfo p {
-  color: rgb(243, 63, 63);
+  color: #2d3436;
   font-size: 1.5rem;
   font-family: "Poppins", sans-serif;
   font-weight: bold;
@@ -37,8 +38,9 @@
   width: 15rem;
   height: 15rem;
   margin: 2rem;
-  background-color: white;
+  background-color: #2c3a47;
   border-radius: 3rem;
+  box-shadow: 17px 14px 8px 2px rgb(0 0 0 / 20%);
 }
 .col1 .icon {
   width: 6rem;
@@ -53,15 +55,16 @@
 .secondProp .secondSec {
   display: flex;
   flex-direction: row;
-  margin-left: 14rem;
+  margin-left: 27rem;
 }
 
 .secondSec .col2 {
   width: 15rem;
   height: 15rem;
-  background-color: white;
+  background-color: #2c3a47;
   margin: 4rem;
   border-radius: 3rem;
+  box-shadow: 17px 14px 8px 2px rgb(0 0 0 / 20%);
 }
 
 .col2 .icon {
@@ -72,4 +75,19 @@
   justify-content: center;
   border-radius: 3rem;
   margin: 2rem 2rem 2rem 5rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: 400;
+  margin: 10px 0;
+  color: white;
+}
+p {
+  color: #2c3a47;
 }

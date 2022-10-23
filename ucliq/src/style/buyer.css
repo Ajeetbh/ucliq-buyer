@@ -1,59 +1,58 @@
 .buyer5 {
-    background-image: url("https://img.freepik.com/free-photo/black-friday-elements-assortment_23-2149074076.jpg?w=826&t=st=1666275673~exp=1666276273~hmac=b538790fa3aff30aabc2ce9bee721e79b4836dd87f82c33ee48e1afcbd2781f9");
-    background-repeat: no-repeat;
-    background-size: cover;
+  /* background-image: url("https://img.freepik.com/free-photo/black-friday-elements-assortment_23-2149074076.jpg?w=826&t=st=1666275673~exp=1666276273~hmac=b538790fa3aff30aabc2ce9bee721e79b4836dd87f82c33ee48e1afcbd2781f9"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #fdcb6e;
 }
 .buyerheader5 h1 {
-    color: #af1212;
-    text-align: center;
-    font-weight: 800;
-    font-size: 4rem;
+  color: #ff7675;
+  text-align: center;
+  font-weight: 800;
+  font-size: 4rem;
 }
 .buyerheader5 p {
-    text-align: center;
-    font-weight: bold;
-    margin-bottom: 5rem;
-    font-size: 1.2rem;
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 5rem;
+  font-size: 1.2rem;
 }
-  
+
 .buyerdetails {
-    display: inline-flex;
-    flex-direction: row;
-    height: 300px;
-    padding: 20px;
-    text-align: center;
+  display: inline-flex;
+  flex-direction: row;
+  height: 300px;
+  padding: 20px;
+  text-align: center;
 }
-  
-  .buyerdetails h3 {
-    color: #af1212;
-    font-weight: bold;
-    font-size: 1.8rem;
-  }
-  
-  .detail .icon {
-    width: 100px;
-    height: 100px;
-    border: 1px solid #af1212;
-    align-items: center;
-    border-radius: 100%;
-    background-color: #af1212;
-    margin-left: 150px;
-  }
-  
-  .detail p {
-    text-align: center;
-    padding: 1rem;
-    margin: 2rem 2rem;
-    width: 100%;
-    height: 50rem;
-    font-weight: bold;
-    color: white;
-    font-size: 1.2rem;
-  }
-  
- 
-  
-  /*
+
+.buyerdetails h3 {
+  color: #ff7675;
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+
+.detail .icon {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #ff7675;
+  align-items: center;
+  border-radius: 100%;
+  background-color: #ff7675;
+  margin-left: 227px;
+}
+
+.detail p {
+  text-align: center;
+  padding: 1rem;
+  margin: 2rem 2rem;
+  width: 100%;
+  height: 50rem;
+  font-weight: bold;
+  color: #2c3a47;
+  font-size: 1.2rem;
+}
+
+/*
   @media screen and (max-width: 400px){
     .buyer{
       margin-top: -18rem;

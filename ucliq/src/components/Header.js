@@ -21,7 +21,7 @@ const Header = () => {
               </p>
             </div>
             <div className="span">
-              <span onClick={() => navigate("/about")}>About Us</span>
+              <span onClick={() => navigate("/about")}>Download App</span>
             </div>
           </div>
           <div className="col-sm-6 headerImage" data-aos="fade-left">

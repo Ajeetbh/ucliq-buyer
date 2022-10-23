@@ -9,7 +9,7 @@ const Career = () => {
         <div className="row">
           <div className="career">
             <div className="col-md-4 careerInfo" data-aos="fade-right">
-              <h2 style={{ width: "36rem" }}>
+              <h2 style={{ width: "36rem", color: "#2c3a47" }}>
                 A Ninja is resilient, smart, and ambitious. Sounds like you?
               </h2>
               <p style={{ width: "36rem" }}>
@@ -29,7 +29,7 @@ const Career = () => {
         </div>
       </div>
       <div className="info" data-aos="flip-left">
-        <h1>Be a part of something great</h1>
+        <h1 style={{ color: "#2c3a47" }}>Be a part of something great</h1>
         <p>
           <span>We are 4000+ people strong.</span> Ninjacart is the place for{" "}
           <span>innovators, problem-solvers</span> and{" "}

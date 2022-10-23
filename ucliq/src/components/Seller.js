@@ -70,7 +70,7 @@ const Seller = () => {
                   <h3 className="buyheadnew">High-Speed Logistics Support</h3>
                 </div>
                 {/*5................. .............................. */}
-                <div className="detail3">
+                <div className="detail2">
                   <div className="icon1">
                     <i
                       class="fa fa-thumbs-up"
@@ -81,6 +81,7 @@ const Seller = () => {
                       }}
                     ></i>
                   </div>
+
                   <h3 className="buyheadnew">Finance and Capital Support</h3>
                 </div>
               </div>

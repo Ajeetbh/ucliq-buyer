@@ -4,7 +4,7 @@ import "../style/about.css";
 const About = () => {
   return (
     <div className="about" data-aos="zoom-in-up">
-      <h1>About Us</h1>
+      <h1 style={{ color: "#2c3a47" }}>About Us</h1>
       <div className="aboutInfo w3-container w3-panel w3-border-left w3-border-right w3-card-4">
         <p>
           UcliQ is a Business-to-Business (B2B) e-commerce company that brings a
