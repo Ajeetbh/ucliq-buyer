@@ -19,6 +19,7 @@ const AboutUcliq = () => {
                     style={{ fontSize: "42px", color: "white" }}
                   ></i>
                 </div>
+<<<<<<< HEAD
                 <h5>Doorstep Delivary</h5>
               </div>
               <div className="col1">
@@ -27,6 +28,43 @@ const AboutUcliq = () => {
                     className="fas fa-chart-line"
                     style={{ fontSize: "42px", color: "white" }}
                   ></i>
+=======
+                <div className='secondProp'>
+                    <div className='firstSec'>
+                        <div className='col1'>
+                            <div className='icon'>
+                            <i className="fa fa-truck" style={{fontSize:"60px",color:"#e74c3c"}}></i>
+                            </div>
+                            <h5>Doorstep Delivary</h5>
+                        </div>
+                        <div className='col1'>
+                             <div className='icon'>
+                             <i className='fas fa-chart-line' style={{fontSize:"60px",color:"#e74c3c"}}></i>
+                             </div>
+                             <h5>Business Growth</h5>
+                        </div> 
+                        <div className='col1'>
+                             <div className='icon'>
+                             <i className='fa fa-rupee' style={{fontSize:"60px",color:"#e74c3c"}}></i>
+                             </div>
+                             <h5>Smart Returns</h5>
+                        </div> 
+                    </div>
+                    <div className='secondSec'>
+                        <div className='col2'>
+                              <div className='icon'>
+                              <i className='far fa-credit-card' style={{fontSize:"60px",color:"#e74c3c"}}></i>  
+                              </div>                 
+                              <h5>Credit Facility</h5>
+                        </div> 
+                        <div className='col2'>
+                        <div className='icon'>
+                        <i className='fa fa-money' style={{fontSize:"60px",color:"#e74c3c"}}></i>    
+                        </div>               
+                        <h5>Easy Payment</h5>
+                    </div>
+                    </div>
+>>>>>>> 323eb8874dbd7e54705742010f8c86607e8c5111
                 </div>
                 <h5>Business Growth</h5>
               </div>

@@ -2,12 +2,9 @@ import React from "react";
 import Header from "./Header";
 import "../style/home.css";
 
-import Contact from "../components/Contact";
 import AboutUcliq from "../components/AboutUcliq";
-import BuySell from "./BuySell";
-import Seller from "./Seller";
-import HomeSellerSec from "./HomeSellerSec";
-// import AboutUcliq from "./AboutUcliq";
+//import HomeSellerSec from "../components/HomeSellerSec";
+
 
 const Home = () => {
   return (
@@ -20,7 +17,7 @@ const Home = () => {
       </section>
       {/* <section>
         <HomeSellerSec />
-      </section> */}
+      </section>  */}
     </>
   );
 };

@@ -5,10 +5,17 @@
   background-color: #fdcb6e;
 }
 .buyerheader5 h1 {
+<<<<<<< HEAD
   color: #ff7675;
   text-align: center;
   font-weight: 800;
   font-size: 4rem;
+=======
+    color: #e74c3c;
+    text-align: center;
+    font-weight: 800;
+    font-size: 4rem;
+>>>>>>> 323eb8874dbd7e54705742010f8c86607e8c5111
 }
 .buyerheader5 p {
   text-align: center;
@@ -24,6 +31,7 @@
   padding: 20px;
   text-align: center;
 }
+<<<<<<< HEAD
 
 .buyerdetails h3 {
   color: #ff7675;
@@ -53,6 +61,39 @@
 }
 
 /*
+=======
+  
+  .buyerdetails h3 {
+    color: #e74c3c;
+    font-weight: bold;
+    font-size: 1.8rem;
+  }
+  
+  .detail .icon {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #e74c3c;
+    align-items: center;
+    border-radius: 100%;
+    background-color: #e74c3c;
+    margin-left: 150px;
+  }
+  
+  .detail p {
+    text-align: center;
+    padding: 1rem;
+    margin: 2rem 2rem;
+    width: 100%;
+    height: 50rem;
+    font-weight: bold;
+
+    font-size: 1.2rem;
+  }
+  
+ 
+  
+  /*
+>>>>>>> 323eb8874dbd7e54705742010f8c86607e8c5111
   @media screen and (max-width: 400px){
     .buyer{
       margin-top: -18rem;

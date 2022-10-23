@@ -13,7 +13,7 @@ const Buyer = () => {
           <div className="buyerdetails">
             <div className="detail">
               <div className="icon">
-                <i class="fa fa-coffee"></i>
+                <i class="fa fa-coffee" style={{fontSize:"60px",color:"white"}}></i>
               </div>
               <h3>Unmatched Freshness</h3>
               <div>
@@ -25,7 +25,7 @@ const Buyer = () => {
             </div>
             <div className="detail">
               <div className="icon">
-                <i class="fa fa-thumbs-up"></i>
+                <i class="fa fa-thumbs-up" style={{fontSize:"60px",color:"white"}}></i>
               </div>
               <h3>Reliable Supply</h3>
               <div>
@@ -37,7 +37,7 @@ const Buyer = () => {
             </div>
             <div className="detail">
               <div className="icon">
-                <i class="fa fa-truck"></i>
+                <i class="fa fa-truck" style={{fontSize:"60px",color:"white"}}></i>
               </div>
               <h3>Convenience</h3>
               <div className="detailP">

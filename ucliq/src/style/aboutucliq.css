@@ -1,22 +1,30 @@
 .second {
   display: flex;
   flex-direction: column;
+<<<<<<< HEAD
   background-color: #ff7675;
+=======
+  background-color: #ebc6c2;
+>>>>>>> 323eb8874dbd7e54705742010f8c86607e8c5111
   padding-top: 5rem;
   width: 100% !important;
 }
 
 .secondInfo p {
+<<<<<<< HEAD
   color: #2d3436;
+=======
+  color: #e74c3c;
+>>>>>>> 323eb8874dbd7e54705742010f8c86607e8c5111
   font-size: 1.5rem;
-  font-family: "Poppins", sans-serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-weight: bold;
   text-align: center;
 }
 .secondInfo h1 {
   text-align: center;
   justify-content: center;
-  font-family: "Poppins", sans-serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 3rem;
   font-weight: 800;
   margin: 0rem 10rem 3rem 10rem;
@@ -28,6 +36,28 @@
   flex-direction: column;
 }
 
+.secondProp .firstSec{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.firstSec .col1{
+    width: 12rem;
+    height: 14rem;
+    margin: 2rem;
+    background-color: white;
+    border-radius: 3rem;
+    transform: skewX(10deg);
+}
+.col1 .icon{
+    width: 6rem;
+    height: 6rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3rem;
+    margin:2rem 2rem 1.5rem 3rem;
+}
 .secondProp .firstSec {
   display: flex;
   flex-direction: row;
@@ -45,13 +75,44 @@
 .col1 .icon {
   width: 6rem;
   height: 6rem;
-  background-color: rgb(235, 78, 78);
   align-items: center;
   justify-content: center;
   border-radius: 3rem;
   margin: 2rem 2rem 2rem 5rem;
 }
+.col1 h5{
+    font-weight: bold;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+.col2 h5{
+    font-weight: bold;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
 
+
+.secondProp .secondSec{
+    display: flex;
+    flex-direction: row;
+    margin-left: 18rem;
+}
+
+.secondSec .col2{
+    width: 12rem;
+    height: 14rem;
+    background-color:white;
+    margin: 4rem;
+    border-radius: 3rem;
+    transform: skewX(10deg);
+}
+
+.col2 .icon{
+    width: 6rem;
+    height: 6rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3rem;
+    margin:2rem 2rem 1.5rem 3rem;
+}
 .secondProp .secondSec {
   display: flex;
   flex-direction: row;
@@ -70,13 +131,13 @@
 .col2 .icon {
   width: 6rem;
   height: 6rem;
-  background-color: rgb(235, 78, 78);
   align-items: center;
   justify-content: center;
   border-radius: 3rem;
   margin: 2rem 2rem 2rem 5rem;
 }
 
+<<<<<<< HEAD
 h1,
 h2,
 h3,
@@ -91,3 +152,7 @@ h6 {
 p {
   color: #2c3a47;
 }
+=======
+/* font-family: Georgia, "Times New Roman", Times, serif;
+color: #e74c3c; */
+>>>>>>> 323eb8874dbd7e54705742010f8c86607e8c5111

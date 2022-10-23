@@ -1,7 +1,54 @@
-.sellerinfo1 {
+.seller{
+  background-color: rgb(238, 203, 203);
+  align-items: center;
+  justify-content: center;
+}
+
+.sellerheader{
+  color: #e74c3c;
+}
+
+.sellerInfo{
+  display: flex;
+  flex-direction: column;
+}
+
+.sellerInfo .seller1{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.seller1 .column1{
+  width: 15rem;
+  height: 15rem;
+  margin: 4rem;
+  border-radius: 2rem;
+  background-color:white;
+}
+.seller1 .icons{
+  width: 6rem;
+  height: 6rem;
+  background-color: #e74c3c;
+  margin: 2rem 0rem 2rem 4rem;
+}
+
+.sellerInfo .seller2{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.seller2 .column2{
+  width: 15rem;
+  height: 15rem;
+  margin: 4rem;
+  border-radius: 2rem;
   background-color: white;
 }
 
+<<<<<<< HEAD
 .buyerheading1 h1 {
   color: #af1212;
   font-size: 3.5rem;
@@ -71,3 +118,11 @@
   margin-left: -2rem;
   color: #2c3a47;
 }
+=======
+.seller2 .icons{
+  width: 6rem;
+  height: 6rem;
+  background-color: #e74c3c;
+  margin: 2rem 0rem 2rem 4rem;
+}
+>>>>>>> 323eb8874dbd7e54705742010f8c86607e8c5111
