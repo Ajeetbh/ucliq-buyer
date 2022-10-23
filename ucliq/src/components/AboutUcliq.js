@@ -19,7 +19,6 @@ const AboutUcliq = () => {
                     style={{ fontSize: "42px", color: "white" }}
                   ></i>
                 </div>
-<<<<<<< HEAD
                 <h5>Doorstep Delivary</h5>
               </div>
               <div className="col1">
