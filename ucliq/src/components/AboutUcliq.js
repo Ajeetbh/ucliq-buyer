@@ -16,7 +16,7 @@ const AboutUcliq = () => {
                 <div className="icon">
                   <i
                     className="fa fa-truck"
-                    style={{ fontSize: "42px", color: "white" }}
+                    style={{ fontSize: "42px", color: "#59cf59" }}
                   ></i>
                 </div>
                 <h5>Doorstep Delivary</h5>
@@ -25,7 +25,7 @@ const AboutUcliq = () => {
                 <div className="icon">
                   <i
                     className="fas fa-chart-line"
-                    style={{ fontSize: "42px", color: "white" }}
+                    style={{ fontSize: "42px", color: "#59cf59" }}
                   ></i>
                 </div>
                 <h5>Business Growth</h5>
@@ -34,7 +34,7 @@ const AboutUcliq = () => {
                 <div className="icon">
                   <i
                     className="fa fa-rupee"
-                    style={{ fontSize: "42px", color: "white" }}
+                    style={{ fontSize: "42px", color: "#59cf59" }}
                   ></i>
                 </div>
                 <h5>Smart Returns</h5>
@@ -45,7 +45,7 @@ const AboutUcliq = () => {
                 <div className="icon">
                   <i
                     className="far fa-credit-card"
-                    style={{ fontSize: "42px", color: "white" }}
+                    style={{ fontSize: "42px", color: "#59cf59" }}
                   ></i>
                 </div>
                 <h5>Credit Facility</h5>
@@ -54,7 +54,7 @@ const AboutUcliq = () => {
                 <div className="icon">
                   <i
                     className="fa fa-money"
-                    style={{ fontSize: "42px", color: "white" }}
+                    style={{ fontSize: "42px", color: "#59cf59" }}
                   ></i>
                 </div>
                 <h5>Easy Payment</h5>

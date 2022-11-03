@@ -1,76 +1,78 @@
-.forth{
-    display: flex;
-    flex-direction: row;
-    padding: 0rem 2rem;
-    margin-top: 4rem;
+body {
+  background-color: #fff;
+}
+.forth {
+  display: flex;
+  flex-direction: row;
+  padding: 0rem 23rem;
+  margin-top: 4rem;
+  margin-bottom: -15rem;
 }
 
-.forthInfo{
-    width: 50%;
-    text-align: left;
+.forthInfo {
+  width: 50%;
+  text-align: left;
 }
-.forthInfo h5{
-    color: orange;
-    margin-bottom: 1rem;
+.forthInfo h5 {
+  color: orange;
+  margin-bottom: 1rem;
 }
-.forthInfo h1{
-    font-family: "Poppins", sans-serif;
-    font-weight: bold;
-    font-size: 3rem;
-    margin-bottom: 1rem;
+.forthInfo h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+  margin-bottom: 1rem;
 }
-.forthInfo p{
-    font-size: 1.2rem;
-    color: gray;
-    width: 32rem;
-    margin-bottom: 4rem;
+.forthInfo p {
+  font-size: 1.2rem;
+  color: gray;
+  width: 32rem;
+  margin-bottom: 4rem;
 }
-.forthInfo span{
-    width: 20rem;
-    height: 4rem;
-    border: 1px solid rgb(243, 63, 63);
-    padding: 1rem 2rem;
-    border-radius: 1rem;
-    color: rgb(243, 63, 63);
-    font-weight: bold;
-    cursor: pointer;
-}
-
-.forthImage{
-    width: 50%;
+.forthInfo span {
+  width: 20rem;
+  height: 4rem;
+  border: 1px solid rgb(243, 63, 63);
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  color: rgb(243, 63, 63);
+  font-weight: bold;
+  cursor: pointer;
 }
 
-
-
-.forthImage .man{
-    position: relative;
-    top:2rem;
-    left: -5rem;
-}
-.man img{
-    width: 22rem;
-    height: 22rem;
+.forthImage {
+  width: 51%;
 }
 
-.forthImage .second1{
-    background: white;
-    position: relative;
-    width: 10rem;
-    height: 15rem;
-    top:-20rem;
-    left: 18rem;
-    border-radius: 1rem;
-    box-shadow: 0rem 0.6rem 1.1rem -0.2rem rgb(0 0 0 / 50%);
-    margin-bottom: 2rem;
+.forthImage .man {
+  position: relative;
+  top: 2rem;
+  left: -5rem;
+}
+.man img {
+  width: 22rem;
+  height: 22rem;
 }
 
-.bike img{
-    width: 5rem;
-    height:5rem;
-    margin-top: 1rem;
+.forthImage .second1 {
+  background: white;
+  position: relative;
+  width: 8rem;
+  height: 15rem;
+  top: -20rem;
+  left: 19rem;
+  border-radius: 1rem;
+  box-shadow: 0rem 0.6rem 1.1rem -0.2rem rgb(0 0 0 / 50%);
+  margin-bottom: 2rem;
 }
-.second1 span{
-    font-size: .8rem;
-    text-align: center;
-    color: gray;
+
+.bike img {
+  width: 5rem;
+  height: 5rem;
+  margin-top: 1rem;
+}
+.second1 span {
+  font-size: 0.8rem;
+  text-align: center;
+  color: gray;
 }

@@ -9,21 +9,21 @@ const Footer = () => {
         <div className="row">
           <div className="col-md-4 footer">
             <div className="company">
-              <h4>Company</h4>
+              <h4 style={{ color: "#59cf59" }}>Company</h4>
               <Link to="/about">About Us</Link>
               <Link to="/buy-sell">Buy/Sell</Link>
               <Link to="/career">Career</Link>
               <Link to="/contact">Contact</Link>
             </div>
             <div className="resource">
-              <h4>Resource</h4>
+              <h4 style={{ color: "#59cf59" }}>Resource</h4>
               <li>Blog</li>
               <li>FAQ</li>
               <li>Media</li>
               <li>Reach Us</li>
             </div>
             <div className="connect-with">
-              <h4>Connect with us</h4>
+              <h4 style={{ color: "#fff" }}>Connect with us</h4>
               <div className="icon">
                 <a
                   href="https://www.facebook.com/www.ucliq.in/"

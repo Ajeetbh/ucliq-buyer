@@ -11,12 +11,16 @@
 
 .nav-link1 {
   font-size: 3rem;
-  margin-left: 2rem;
+  margin-left: 7rem;
   text-decoration: none;
   font-weight: bold;
   font-family: Georgia, "Times New Roman", Times, serif;
   color: #ff7675;
 }
+.navbar-nav {
+  margin-left: 27rem !important;
+}
+
 .nav-link,
 .navbar-brand {
   color: #ff7675 !important;

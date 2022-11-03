@@ -1,7 +1,17 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: fit-content;
+} */
+
+/* body {
+  background-image: url("https://res.cloudinary.com/antrix/image/upload/v1665591651/istockphoto-1263975117-612x612_yutcrz.jpg");
+} */
 .App {
   text-align: center;
   background-color: #fff;
-  
+  /* background-image: url("https://res.cloudinary.com/antrix/image/upload/v1665591651/istockphoto-1263975117-612x612_yutcrz.jpg"); */
 }
 
 .sec-two {
