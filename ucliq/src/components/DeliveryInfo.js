@@ -3,7 +3,13 @@ import "../style/deliveryInfo.css";
 
 const DeliveryInfo = () => {
   return (
-    <div className="container1" style={{ background: "#fff", width: "112%" }}>
+    <div
+      className="container1"
+      style={{ background: "#fff", width: "112%" }}
+      data-aos="fade-right"
+      data-aos-offset="300"
+      data-aos-easing="ease-in-sine"
+    >
       <div className="row">
         <div className="forth">
           <div className="forthInfo">

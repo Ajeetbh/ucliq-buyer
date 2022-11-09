@@ -1,15 +1,16 @@
 .container1 {
-  background-image: url("https://res.cloudinary.com/antrix/image/upload/v1667443247/varias-carnes-crudas-listas-parrilla-barbacoa_136595-1095_l5vhqw.png");
-  width: 103rem;
-  margin-left: 0px;
+  background-image: url("https://res.cloudinary.com/antrix/image/upload/v1664473846/48bd89_47c6044f0bdb4b18ad6bd67f7aee1a44_mv2_d2rjkn.webp");
+  width: 103rem !important;
+  margin-left: 0px !important;
   height: 49rem;
 }
 
 .header {
   display: flex;
   flex-direction: row;
-  margin-top: 2rem;
+  margin-top: 22rem;
   margin-bottom: 4rem;
+  margin-left: 15rem;
   /* background-color: #fff; */
 }
 
@@ -24,6 +25,7 @@
   font-size: 3rem;
   font-family: "Poppins", sans-serif;
   color: #2c3a47;
+  text-shadow: 1px 2px 4px #0b0c0c;
 }
 
 .headerInfo span {
@@ -67,22 +69,22 @@
 }
 
 /* .secondImage{
-  display: flex;
-  flex-direction: column;
-  border: 2px solid white;
-  width: 12rem;
-  height: 18rem;
-  background-color: white;
-  position:absolute;
-  top: 17rem;
-  left: 40rem;
-  border-radius: 2rem;
-  box-shadow: 0rem 0.6rem 1.1rem -0.2rem rgb(0 0 0 / 50%);
-} */
+        display: flex;
+        flex-direction: column;
+        border: 2px solid white;
+        width: 12rem;
+        height: 18rem;
+        background-color: white;
+        position:absolute;
+        top: 17rem;
+        left: 40rem;
+        border-radius: 2rem;
+        box-shadow: 0rem 0.6rem 1.1rem -0.2rem rgb(0 0 0 / 50%);
+      } */
 /* .secondImage img {
-  width: 7rem;
-  height: 7rem;
-} */
+        width: 7rem;
+        height: 7rem;
+      } */
 
 .secondImage .info h2 {
   font-weight: 800;
@@ -105,15 +107,15 @@
 }
 
 /* .secondImage .cart {
-  position: absolute;
-  left: 4rem;
-  top: 16rem;
-  width: 3.5rem;
-  height: 3.5rem;
-  background-color: rgb(243, 63, 63);
-  border-radius: 1rem;
-  padding-top: 1rem;
-} */
+        position: absolute;
+        left: 4rem;
+        top: 16rem;
+        width: 3.5rem;
+        height: 3.5rem;
+        background-color: rgb(243, 63, 63);
+        border-radius: 1rem;
+        padding-top: 1rem;
+      } */
 
 .alarm {
   width: 12rem;

@@ -4,7 +4,7 @@ import "../style/aboutucliq.css";
 const AboutUcliq = () => {
   return (
     <div>
-      <div className="row">
+      <div className="row" data-aos="zoom-in-right">
         <div className="second">
           <div className="secondInfo">
             <p>What we Serve</p>

@@ -1,9 +1,9 @@
 .container-fluid {
   background-color: #2d3436;
-  position:relative;
+  position: relative;
   bottom: 0;
   left: 0;
-} 
+}
 
 .footer {
   display: flex;
@@ -26,6 +26,8 @@
 }
 .footer a:hover {
   color: yellow;
+  height: 14rem;
+  width: 4rem;
 }
 
 .resource {
@@ -72,25 +74,25 @@
     margin-left: -12rem;
     font-size: 8rem;
   }
-  .company h4{
+  .company h4 {
     font-size: 1.2rem;
   }
-  .company a{
-    font-size: .8rem;
+  .company a {
+    font-size: 0.8rem;
   }
   .resource {
     margin-left: -171px;
   }
-  .resource h4{
+  .resource h4 {
     font-size: 1.2rem;
   }
-  .resource li{
-    font-size: .8rem;
+  .resource li {
+    font-size: 0.8rem;
   }
   .connect-with {
     margin-left: -179px;
   }
-  .connect-with h4{
+  .connect-with h4 {
     font-size: 1.2rem;
   }
 
@@ -107,7 +109,7 @@
     margin: -5px 0px 0px 1px !important;
     color: rgb(89, 207, 89) !important;
   }
-  .footer-bottom p{
-    font-size: .8rem;
+  .footer-bottom p {
+    font-size: 0.8rem;
   }
 }
