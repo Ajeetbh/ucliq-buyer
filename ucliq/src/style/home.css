@@ -1,5 +1,5 @@
 .container1 {
-  background-image: url("https://res.cloudinary.com/antrix/image/upload/v1664473846/48bd89_47c6044f0bdb4b18ad6bd67f7aee1a44_mv2_d2rjkn.webp");
+  /* background-image: url("https://res.cloudinary.com/antrix/image/upload/c_fill,h_480,w_1536/v1667443247/varias-carnes-crudas-listas-parrilla-barbacoa_136595-1095_l5vhqw.png"); */
   width: 103rem !important;
   margin-left: 0px !important;
   height: 49rem;
@@ -29,7 +29,7 @@
 }
 
 .headerInfo span {
-  color: #ff7675;
+  color: #de1122;
 }
 
 .headerInfo p {
@@ -44,7 +44,7 @@
 .headerInfo .span a {
   width: 35rem;
   height: 5.7rem;
-  background-color: #ff7675;
+  background-color: #de1122;
   color: white;
   padding: 1rem 2.5rem 1rem 2.5rem;
   font-weight: bold;
