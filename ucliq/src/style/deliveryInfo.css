@@ -4,11 +4,14 @@ body {
 .forth {
   display: flex;
   flex-direction: row;
-  padding: 0rem 23rem;
-  margin-top: 4rem;
+  padding: 0rem 19rem;
+  margin-top: 20rem;
   margin-bottom: -15rem;
 }
 
+.container1 {
+  margin-top: -18rem;
+}
 .forthInfo {
   width: 50%;
   text-align: left;
@@ -42,6 +45,7 @@ body {
 
 .forthImage {
   width: 51%;
+  margin-top: 5rem;
 }
 
 .forthImage .man {

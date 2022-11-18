@@ -1,10 +1,9 @@
 .second {
   display: flex;
   flex-direction: column;
-  background-color: #ff7675;
   padding-top: 5rem;
   width: 100% !important;
-  background-color: #2c3a47;
+  background-color: #ebf1f7;
 }
 
 .secondInfo p {
@@ -76,10 +75,12 @@
 .col1 h5 {
   font-weight: bold;
   font-family: Georgia, "Times New Roman", Times, serif;
+  color: white;
 }
 .col2 h5 {
   font-weight: bold;
   font-family: Georgia, "Times New Roman", Times, serif;
+  color: white;
 }
 
 .secondProp .secondSec {

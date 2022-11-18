@@ -43,6 +43,8 @@
 .info p {
   color: grey;
   font-size: 20px;
+  width: 38rem;
+  margin-left: 25rem;
 }
 .info span {
   font-weight: 600;

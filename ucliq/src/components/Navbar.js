@@ -48,7 +48,7 @@ function Navbar() {
               </Link>
             </ul>
           </div>
-          <div></div>
+          {/* <div></div> */}
         </div>
       </nav>
     </>
